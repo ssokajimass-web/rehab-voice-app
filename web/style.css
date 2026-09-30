@@ -1,0 +1,618 @@
+:root {
+  --primary-color: #0284c7;
+  --primary-dark: #0369a1;
+  --primary-light: #e0f2fe;
+  --accent-orange: #f59e0b;
+  --accent-orange-dark: #d97706;
+  --success-color: #10b981;
+  --text-dark: #0f172a;
+  --text-muted: #475569;
+  --bg-color: #f1f5f9;
+  --card-bg: #ffffff;
+  --border-color: #cbd5e1;
+  --font-family: 'BIZ UDPGothic', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  line-height: 1.6;
+  min-height: 100vh;
+  padding: 16px;
+  padding-bottom: 40px;
+}
+
+.app-container {
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* ヘッダー */
+.app-header {
+  text-align: center;
+  padding: 6px 0;
+}
+
+.header-badge {
+  display: inline-block;
+  background-color: #dbeafe;
+  color: #1e40af;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 6px;
+}
+
+.app-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #0f2d4a;
+  letter-spacing: 0.02em;
+}
+
+.app-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* 本日の曜日おすすめカード */
+.today-recommend-card {
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+  color: white;
+  border-radius: 22px;
+  padding: 22px;
+  box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recommend-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge-calendar {
+  background: #fef08a;
+  color: #854d0e;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 3px 12px;
+  border-radius: 12px;
+}
+
+.badge-time {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 3px 12px;
+  border-radius: 12px;
+}
+
+.recommend-course-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.recommend-course-desc {
+  font-size: 0.9rem;
+  opacity: 0.95;
+  line-height: 1.5;
+}
+
+.btn-start-today {
+  margin-top: 6px;
+  background: var(--accent-orange);
+  color: #ffffff;
+  border: 2px solid var(--accent-orange-dark);
+  border-radius: 16px;
+  padding: 16px 20px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 4px 15px rgba(217, 119, 6, 0.35);
+  transition: transform 0.1s, background-color 0.2s;
+}
+
+.btn-start-today:active {
+  transform: scale(0.97);
+  background: var(--accent-orange-dark);
+}
+
+.btn-start-today .btn-icon {
+  font-size: 1.3rem;
+}
+
+/* メインプレイヤーカード */
+.player-card {
+  background: var(--card-bg);
+  border-radius: 24px;
+  padding: 22px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  border: 2px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.player-top-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.status-badge {
+  display: inline-block;
+  background: #e2e8f0;
+  color: #475569;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 5px 14px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.status-badge.active {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.status-badge.pause {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.course-step-badge {
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.current-track-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 2px;
+}
+
+.current-phase-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+  min-height: 1.5em;
+  margin-bottom: 12px;
+}
+
+/* ガイドサークル */
+.visual-guide-wrapper {
+  margin: 10px 0;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guide-circle {
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  border: 4px solid #38bdf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.35);
+  transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s, border-color 0.4s;
+}
+
+.guide-circle.inhale {
+  transform: scale(1.15);
+  border-color: #3b82f6;
+  background: linear-gradient(135deg, #bfdbfe 0%, #93c5fd 100%);
+  box-shadow: 0 0 35px rgba(59, 130, 246, 0.5);
+}
+
+.guide-circle.hold {
+  transform: scale(1.15);
+  border-color: #eab308;
+  background: linear-gradient(135deg, #fef08a 0%, #fde047 100%);
+  box-shadow: 0 0 35px rgba(234, 179, 8, 0.5);
+}
+
+.guide-circle.exhale {
+  transform: scale(0.9);
+  border-color: #10b981;
+  background: linear-gradient(135deg, #a7f3d0 0%, #6ee7b7 100%);
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.4);
+}
+
+.guide-circle.rest {
+  transform: scale(1.0);
+  border-color: #94a3b8;
+  background: #f1f5f9;
+  box-shadow: none;
+}
+
+.guide-circle-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.guide-action-text {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f2d4a;
+}
+
+.guide-countdown {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #0369a1;
+  margin-top: 1px;
+}
+
+/* 字幕ボックス */
+.speech-caption-box {
+  width: 100%;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 12px 16px;
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.speech-caption {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #1e293b;
+  line-height: 1.45;
+}
+
+/* プログレスバー */
+.progress-section {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.time-display {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 14px;
+  background: #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.progress-bar-fill {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #38bdf8 0%, #0284c7 100%);
+  border-radius: 10px;
+  transition: width 0.2s linear;
+}
+
+/* 操作ボタン */
+.controls-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.control-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.1s, background-color 0.2s;
+  user-select: none;
+}
+
+.control-btn:active {
+  transform: scale(0.96);
+}
+
+.btn-secondary {
+  width: 76px;
+  height: 76px;
+  background: #f1f5f9;
+  color: #334155;
+  border: 2px solid #cbd5e1;
+}
+
+.btn-secondary .icon {
+  font-size: 1.7rem;
+}
+
+.btn-secondary .btn-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-top: 3px;
+}
+
+.btn-primary-action {
+  width: 126px;
+  height: 84px;
+  background: var(--primary-color);
+  color: #ffffff;
+  border: 3px solid var(--primary-dark);
+  box-shadow: 0 6px 18px rgba(2, 132, 199, 0.35);
+}
+
+.btn-primary-action .icon {
+  font-size: 2.1rem;
+}
+
+.btn-primary-action .btn-label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.safety-note {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+/* セクション共通 */
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #334155;
+}
+
+/* コース選択グリッド（所要時間で選ぶ） */
+.course-list-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.course-card {
+  background: var(--card-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.course-card:hover, .course-card:active {
+  border-color: var(--primary-color);
+  background: #f8fbff;
+}
+
+.course-card.active {
+  border-color: var(--primary-color);
+  background: #e0f2fe;
+}
+
+.course-card-icon {
+  font-size: 1.8rem;
+  width: 48px;
+  height: 48px;
+  background: #f1f5f9;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.course-card-body {
+  flex: 1;
+}
+
+.course-card-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.course-card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.course-card-time {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0369a1;
+  background: #e0f2fe;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.course-card-desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* 個別メニュー一覧 */
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.menu-card {
+  background: var(--card-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 16px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.menu-card:hover, .menu-card:active {
+  border-color: var(--primary-color);
+  background-color: #f8fbff;
+}
+
+.menu-card.active {
+  border-color: var(--primary-color);
+  background-color: #e0f2fe;
+}
+
+.menu-icon {
+  font-size: 1.8rem;
+  width: 48px;
+  height: 48px;
+  background: #f1f5f9;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.menu-details {
+  flex: 1;
+}
+
+.menu-details h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 2px;
+}
+
+.menu-details p {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+  margin-bottom: 4px;
+}
+
+.menu-duration {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0284c7;
+  background: #e0f2fe;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+/* PWAインストール案内 */
+.pwa-install-tip {
+  background: #ffffff;
+  border: 1px dashed #94a3b8;
+  border-radius: 14px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.82rem;
+  color: #475569;
+}
+
+.tip-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.pwa-install-tip strong {
+  color: #0f172a;
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* フッター */
+.app-footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #94a3b8;
+  padding: 10px 0;
+}
+
+/* スマホ最適化 */
+@media (max-width: 480px) {
+  body {
+    padding: 12px;
+  }
+  .app-title {
+    font-size: 1.7rem;
+  }
+  .btn-start-today {
+    font-size: 1.05rem;
+    padding: 14px 18px;
+  }
+  .btn-primary-action {
+    width: 112px;
+    height: 78px;
+  }
+  .btn-secondary {
+    width: 68px;
+    height: 68px;
+  }
+}

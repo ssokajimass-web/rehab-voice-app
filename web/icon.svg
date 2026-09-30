@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- 背景角丸スクエア -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)" />
+  
+  <!-- 内側円形モチーフ（呼吸・循環） -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#38bdf8" stroke-width="12" opacity="0.4" stroke-dasharray="24 16" />
+  
+  <!-- 肺・リハビリのアイコンシンボル -->
+  <g filter="url(#shadow)" fill="#ffffff">
+    <!-- 気道 -->
+    <path d="M256 120 L256 220 M236 120 L276 120 M240 145 L272 145 M240 170 L272 170" 
+          stroke="#ffffff" stroke-width="16" stroke-linecap="round" fill="none" />
+    <path d="M256 220 Q230 250 200 270 M256 220 Q282 250 312 270" 
+          stroke="#ffffff" stroke-width="16" stroke-linecap="round" fill="none" />
+    
+    <!-- 左肺 -->
+    <path d="M195 240 C140 240 120 280 120 340 C120 400 160 420 210 410 C240 405 245 370 240 330 C235 290 225 240 195 240 Z" 
+          fill="#e0f2fe" opacity="0.95" />
+    <!-- 右肺 -->
+    <path d="M317 240 C372 240 392 280 392 340 C392 400 352 420 302 410 C272 405 267 370 272 330 C277 290 287 240 317 240 Z" 
+          fill="#e0f2fe" opacity="0.95" />
+    
+    <!-- 元気ハート・アシストマーク -->
+    <circle cx="256" cy="320" r="28" fill="#f59e0b" />
+  </g>
+</svg>

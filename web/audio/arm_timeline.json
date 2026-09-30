@@ -1,0 +1,415 @@
+{
+  "title": "arm_rehab.xml",
+  "total_duration": 218.81,
+  "voice": "ja-JP-NanamiNeural",
+  "timeline": [
+    {
+      "type": "section",
+      "title": "導入・準備フェーズ",
+      "start": 0.0
+    },
+    {
+      "type": "speech",
+      "text": "腕と肩のリハビリ体操を始めます。",
+      "section": "導入・準備フェーズ",
+      "start": 0.0,
+      "duration": 4.27,
+      "end": 4.27
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 4.27,
+      "duration": 2.0,
+      "end": 6.27
+    },
+    {
+      "type": "speech",
+      "text": "椅子に深く腰掛けるか、ベッドの背もたれを楽な角度にしてリラックスしてください。",
+      "section": "導入・準備フェーズ",
+      "start": 6.27,
+      "duration": 7.8,
+      "end": 14.07
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 14.07,
+      "duration": 2.0,
+      "end": 16.07
+    },
+    {
+      "type": "speech",
+      "text": "痛みや違和感がある場合は、決して無理をせず、動かせる範囲でゆったり行いましょう。",
+      "section": "導入・準備フェーズ",
+      "start": 16.07,
+      "duration": 8.54,
+      "end": 24.62
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 24.62,
+      "duration": 3.0,
+      "end": 27.62
+    },
+    {
+      "type": "speech",
+      "text": "それでは、軽く息を吸って、吐き出します。",
+      "section": "導入・準備フェーズ",
+      "start": 27.62,
+      "duration": 5.21,
+      "end": 32.82
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 32.82,
+      "duration": 4.0,
+      "end": 36.82
+    },
+    {
+      "type": "section",
+      "title": "運動1: 肩の上げ下げ運動",
+      "start": 36.824
+    },
+    {
+      "type": "speech",
+      "text": "1つ目は、肩の上げ下げ運動です。首や背中のこわばりをほぐしていきます。",
+      "section": "運動1: 肩の上げ下げ運動",
+      "start": 36.82,
+      "duration": 8.78,
+      "end": 45.61
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 肩の上げ下げ運動",
+      "start": 45.61,
+      "duration": 2.0,
+      "end": 47.61
+    },
+    {
+      "type": "speech",
+      "text": "息を吸いながら、両肩を耳に近づけるように、ぐーっとすくめます。",
+      "section": "運動1: 肩の上げ下げ運動",
+      "start": 47.61,
+      "duration": 7.03,
+      "end": 54.64
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 肩の上げ下げ運動",
+      "start": 54.64,
+      "duration": 3.0,
+      "end": 57.64
+    },
+    {
+      "type": "speech",
+      "text": "息を吐きながら、ストンと脱力して下ろします。",
+      "section": "運動1: 肩の上げ下げ運動",
+      "start": 57.64,
+      "duration": 5.16,
+      "end": 62.8
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 肩の上げ下げ運動",
+      "start": 62.8,
+      "duration": 4.0,
+      "end": 66.8
+    },
+    {
+      "type": "speech",
+      "text": "もう一度行います。息を吸って、肩を持ち上げて。",
+      "section": "運動1: 肩の上げ下げ運動",
+      "start": 66.8,
+      "duration": 6.77,
+      "end": 73.57
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 肩の上げ下げ運動",
+      "start": 73.57,
+      "duration": 3.0,
+      "end": 76.57
+    },
+    {
+      "type": "speech",
+      "text": "吐いて、力を抜いて下ろします。",
+      "section": "運動1: 肩の上げ下げ運動",
+      "start": 76.57,
+      "duration": 3.89,
+      "end": 80.46
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 肩の上げ下げ運動",
+      "start": 80.46,
+      "duration": 5.0,
+      "end": 85.46
+    },
+    {
+      "type": "section",
+      "title": "運動2: 肘の曲げ伸ばし",
+      "start": 85.456
+    },
+    {
+      "type": "speech",
+      "text": "2つ目は、肘の曲げ伸ばし運動です。",
+      "section": "運動2: 肘の曲げ伸ばし",
+      "start": 85.46,
+      "duration": 4.63,
+      "end": 90.09
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 肘の曲げ伸ばし",
+      "start": 90.09,
+      "duration": 2.0,
+      "end": 92.09
+    },
+    {
+      "type": "speech",
+      "text": "手首や指の力を抜いて、息を吐きながら、ゆっくりと手を胸の方へ引き寄せます。",
+      "section": "運動2: 肘の曲げ伸ばし",
+      "start": 92.09,
+      "duration": 8.62,
+      "end": 100.7
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 肘の曲げ伸ばし",
+      "start": 100.7,
+      "duration": 3.0,
+      "end": 103.7
+    },
+    {
+      "type": "speech",
+      "text": "息を吸いながら、力を抜いて、もとの位置へ戻します。",
+      "section": "運動2: 肘の曲げ伸ばし",
+      "start": 103.7,
+      "duration": 6.12,
+      "end": 109.82
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 肘の曲げ伸ばし",
+      "start": 109.82,
+      "duration": 4.0,
+      "end": 113.82
+    },
+    {
+      "type": "speech",
+      "text": "もう一度、息を吐きながら、ゆっくり肘を曲げて。",
+      "section": "運動2: 肘の曲げ伸ばし",
+      "start": 113.82,
+      "duration": 5.5,
+      "end": 119.32
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 肘の曲げ伸ばし",
+      "start": 119.32,
+      "duration": 3.0,
+      "end": 122.32
+    },
+    {
+      "type": "speech",
+      "text": "吸いながら、優しく戻します。",
+      "section": "運動2: 肘の曲げ伸ばし",
+      "start": 122.32,
+      "duration": 3.86,
+      "end": 126.18
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 肘の曲げ伸ばし",
+      "start": 126.18,
+      "duration": 5.0,
+      "end": 131.18
+    },
+    {
+      "type": "section",
+      "title": "運動3: 手首と指の開閉運動",
+      "start": 131.18400000000003
+    },
+    {
+      "type": "speech",
+      "text": "3つ目は、手首と指の運動です。",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 131.18,
+      "duration": 4.51,
+      "end": 135.7
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 135.7,
+      "duration": 2.0,
+      "end": 137.7
+    },
+    {
+      "type": "speech",
+      "text": "両手を胸の前か、お腹の上に楽に置きます。",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 137.7,
+      "duration": 5.35,
+      "end": 143.05
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 143.05,
+      "duration": 2.0,
+      "end": 145.05
+    },
+    {
+      "type": "speech",
+      "text": "軽く手を握り、グーを作ります。",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 145.05,
+      "duration": 4.15,
+      "end": 149.2
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 149.2,
+      "duration": 2.0,
+      "end": 151.2
+    },
+    {
+      "type": "speech",
+      "text": "次に、優しく手のひらを開いて、パーにします。",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 151.2,
+      "duration": 5.52,
+      "end": 156.72
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 156.72,
+      "duration": 3.0,
+      "end": 159.72
+    },
+    {
+      "type": "speech",
+      "text": "もう一度、優しくグー。",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 159.72,
+      "duration": 3.14,
+      "end": 162.86
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 162.86,
+      "duration": 2.0,
+      "end": 164.86
+    },
+    {
+      "type": "speech",
+      "text": "ふわっと開いて、パー。",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 164.86,
+      "duration": 3.22,
+      "end": 168.08
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 168.08,
+      "duration": 3.0,
+      "end": 171.08
+    },
+    {
+      "type": "speech",
+      "text": "最後に手首を軽く、ぶらぶらと揺らしてリラックスさせます。",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 171.08,
+      "duration": 6.19,
+      "end": 177.27
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 手首と指の開閉運動",
+      "start": 177.27,
+      "duration": 5.0,
+      "end": 182.27
+    },
+    {
+      "type": "section",
+      "title": "終了フェーズ",
+      "start": 182.27200000000005
+    },
+    {
+      "type": "speech",
+      "text": "お疲れさまでした。腕と肩の運動はこれで終了です。",
+      "section": "終了フェーズ",
+      "start": 182.27,
+      "duration": 6.89,
+      "end": 189.16
+    },
+    {
+      "type": "silence",
+      "section": "終了フェーズ",
+      "start": 189.16,
+      "duration": 2.0,
+      "end": 191.16
+    },
+    {
+      "type": "speech",
+      "text": "肩の力を抜いて、大きく深呼吸を1回行いましょう。",
+      "section": "終了フェーズ",
+      "start": 191.16,
+      "duration": 6.26,
+      "end": 197.42
+    },
+    {
+      "type": "silence",
+      "section": "終了フェーズ",
+      "start": 197.42,
+      "duration": 1.0,
+      "end": 198.42
+    },
+    {
+      "type": "speech",
+      "text": "吸って。",
+      "section": "終了フェーズ",
+      "start": 198.42,
+      "duration": 1.87,
+      "end": 200.3
+    },
+    {
+      "type": "silence",
+      "section": "終了フェーズ",
+      "start": 200.3,
+      "duration": 3.0,
+      "end": 203.3
+    },
+    {
+      "type": "speech",
+      "text": "吐いて。",
+      "section": "終了フェーズ",
+      "start": 203.3,
+      "duration": 1.87,
+      "end": 205.17
+    },
+    {
+      "type": "silence",
+      "section": "終了フェーズ",
+      "start": 205.17,
+      "duration": 5.0,
+      "end": 210.17
+    },
+    {
+      "type": "speech",
+      "text": "腕や肩が少し温かくなっていれば十分です。ゆっくりとお休みください。",
+      "section": "終了フェーズ",
+      "start": 210.17,
+      "duration": 8.64,
+      "end": 218.81
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "tracks": {
+    "breathing": {
+      "id": "breathing",
+      "title": "呼吸・息溜め練習",
+      "subtitle": "肺を心地よく広げるブレススタッキング",
+      "icon": "🫁",
+      "audioSrc": "audio/breathing.mp3",
+      "timelineSrc": "audio/breathing_timeline.json",
+      "duration": 485,
+      "durationLabel": "約8分"
+    },
+    "arm": {
+      "id": "arm",
+      "title": "腕と肩のリハビリ",
+      "subtitle": "肩のすくめ運動・肘の曲げ伸ばし・手首体操",
+      "icon": "💪",
+      "audioSrc": "audio/arm.mp3",
+      "timelineSrc": "audio/arm_timeline.json",
+      "duration": 218,
+      "durationLabel": "約3分半"
+    },
+    "leg": {
+      "id": "leg",
+      "title": "足のリハビリ",
+      "subtitle": "足首パタパタ・かかと上げ・膝の運動",
+      "icon": "🦵",
+      "audioSrc": "audio/leg.mp3",
+      "timelineSrc": "audio/leg_timeline.json",
+      "duration": 213,
+      "durationLabel": "約3分半"
+    }
+  },
+  "courses": [
+    {
+      "id": "quick",
+      "name": "さくっとコース",
+      "timeLabel": "約7分",
+      "description": "体調が優れない日や、手軽に手足を動かしたいときの軽めメニュー",
+      "icon": "⚡",
+      "tracks": ["arm", "leg"]
+    },
+    {
+      "id": "standard",
+      "name": "呼吸＋上半身コース",
+      "timeLabel": "約11分",
+      "description": "肺をしっかり広げたあと、肩や腕のこわばりをほぐす基本メニュー",
+      "icon": "🌿",
+      "tracks": ["breathing", "arm"]
+    },
+    {
+      "id": "full",
+      "name": "しっかり全身コース",
+      "timeLabel": "約15分",
+      "description": "呼吸・腕・足をすべて行い、全身の血流と機能を整える充実コース",
+      "icon": "🌟",
+      "tracks": ["breathing", "arm", "leg"]
+    }
+  ],
+  "weekdaySchedule": {
+    "0": {
+      "dayName": "日曜日",
+      "courseId": "quick",
+      "theme": "ゆったりリラックス",
+      "message": "休日は無理をせず、手足を軽くほぐす程度で十分です。"
+    },
+    "1": {
+      "dayName": "月曜日",
+      "courseId": "full",
+      "theme": "週の始まり・全身リフレッシュ",
+      "message": "新しい一週間です。呼吸を整えて全身をゆっくり動かしましょう。"
+    },
+    "2": {
+      "dayName": "火曜日",
+      "courseId": "standard",
+      "theme": "呼吸と上半身のケア",
+      "message": "胸と腕を重点的に広げ、呼吸を楽に保ちましょう。"
+    },
+    "3": {
+      "dayName": "水曜日",
+      "courseId": "full",
+      "theme": "週の折り返し・全身メンテナンス",
+      "message": "疲れを溜めないよう、全身をゆったり丁寧に動かしましょう。"
+    },
+    "4": {
+      "dayName": "木曜日",
+      "courseId": "standard",
+      "theme": "呼吸と腕のストレッチ",
+      "message": "ご自身のペースで心地よく呼吸を深めましょう。"
+    },
+    "5": {
+      "dayName": "金曜日",
+      "courseId": "full",
+      "theme": "週末前の全身コンディショニング",
+      "message": "今週もお疲れさまでした。全身をすっきり整えましょう。"
+    },
+    "6": {
+      "dayName": "土曜日",
+      "courseId": "quick",
+      "theme": "軽めのリフレッシュ",
+      "message": "心地よい範囲で、手足を無理なく動かしましょう。"
+    }
+  }
+}
