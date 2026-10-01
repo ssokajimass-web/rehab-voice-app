@@ -13,12 +13,12 @@
     "arm": {
       "id": "arm",
       "title": "腕と手のリハビリ",
-      "subtitle": "肩の脱力・肘の曲げ伸ばし・手指の開きストレッチ",
+      "subtitle": "手腕ストレッチ・指のグーパーにぎにぎ・軽い筋トレ",
       "icon": "💪",
       "audioSrc": "audio/arm.mp3",
       "timelineSrc": "audio/arm_timeline.json",
-      "duration": 235,
-      "durationLabel": "約4分"
+      "duration": 516,
+      "durationLabel": "約8分半"
     },
     "leg": {
       "id": "leg",
@@ -45,7 +45,7 @@
     {
       "id": "daily_main",
       "name": "まいにち基本コース（声・腕・足）",
-      "timeLabel": "約15分",
+      "timeLabel": "約20分",
       "description": "【毎日おすすめ】寝たきりのALS患者様に最も安全で効果の高い、声・腕・足の厳選メニューを順番に行います。",
       "icon": "🌟",
       "tracks": ["voice", "arm", "leg"]
@@ -53,7 +53,7 @@
     {
       "id": "upper_care",
       "name": "声＋腕コース",
-      "timeLabel": "約8分",
+      "timeLabel": "約13分",
       "description": "喉のリラックスと手・腕のこわばりをほぐす上半身ケア",
       "icon": "🌿",
       "tracks": ["voice", "arm"]
@@ -61,7 +61,7 @@
     {
       "id": "limbs_care",
       "name": "手足ストレッチコース",
-      "timeLabel": "約11分",
+      "timeLabel": "約16分",
       "description": "手指の拘縮と足の尖足を徹底予防する手足の愛護運動",
       "icon": "⚡",
       "tracks": ["arm", "leg"]
@@ -69,7 +69,7 @@
     {
       "id": "full_care",
       "name": "じっくり全身ケアコース",
-      "timeLabel": "約23分",
+      "timeLabel": "約28分",
       "description": "深呼吸・エアスタッキング＋声＋腕＋足をすべて丁寧に行う充実コース",
       "icon": "✨",
       "tracks": ["breathing", "voice", "arm", "leg"]
