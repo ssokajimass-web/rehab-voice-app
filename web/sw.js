@@ -1,5 +1,5 @@
 // Service Worker for リハ・アシスト
-const CACHE_NAME = 'rehab-voice-app-v4';
+const CACHE_NAME = 'rehab-voice-app-v5';
 
 const STATIC_ASSETS = [
   './',

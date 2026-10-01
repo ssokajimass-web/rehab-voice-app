@@ -184,10 +184,67 @@ async function loadQueueItem(index, autoPlay = false) {
   // タイムライン読み込み
   await loadTimeline(track);
 
+  // ロック画面・バックグラウンドメディア情報更新
+  updateMediaSession(track);
+
   if (autoPlay) {
     playAudio();
   } else {
     updatePlayButton(false);
+  }
+}
+
+let wakeLock = null;
+
+// 画面スリープ防止（Wake Lock）
+async function requestWakeLock() {
+  if ('wakeLock' in navigator) {
+    try {
+      wakeLock = await navigator.wakeLock.request('screen');
+      wakeLock.addEventListener('release', () => {
+        wakeLock = null;
+      });
+    } catch (err) {
+      console.log('Wake Lock request:', err);
+    }
+  }
+}
+
+function releaseWakeLock() {
+  if (wakeLock) {
+    wakeLock.release().catch(() => {});
+    wakeLock = null;
+  }
+}
+
+// 画面復帰時のスリープ防止再設定
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && !audio.paused) {
+    requestWakeLock();
+  }
+});
+
+// スマホのロック画面・バックグラウンド再生メタデータ
+function updateMediaSession(track) {
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: track.title,
+      artist: "リハ・アシスト（声・腕・足）",
+      album: "まいにちリハビリ",
+      artwork: [
+        { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
+        { src: 'icon-512.png', sizes: '512x512', type: 'image/png' }
+      ]
+    });
+
+    navigator.mediaSession.setActionHandler('play', () => playAudio());
+    navigator.mediaSession.setActionHandler('pause', () => pauseAudio());
+    navigator.mediaSession.setActionHandler('previoustrack', () => {
+      if (currentQueueIndex > 0) loadQueueItem(currentQueueIndex - 1, true);
+    });
+    navigator.mediaSession.setActionHandler('nexttrack', () => {
+      if (currentQueueIndex + 1 < currentQueue.length) loadQueueItem(currentQueueIndex + 1, true);
+    });
   }
 }
 
@@ -216,6 +273,7 @@ function togglePlayPause() {
 }
 
 function playAudio() {
+  requestWakeLock();
   audio.play().then(() => {
     updatePlayButton(true);
     statusBadge.textContent = currentQueue.length > 1 ? "コース進行中" : "再生中";
@@ -227,6 +285,7 @@ function playAudio() {
 
 function pauseAudio() {
   audio.pause();
+  releaseWakeLock();
   updatePlayButton(false);
   statusBadge.textContent = "一時停止中";
   statusBadge.className = "status-badge pause";
@@ -327,15 +386,18 @@ audio.addEventListener("timeupdate", () => {
 audio.addEventListener("ended", () => {
   if (currentQueueIndex + 1 < currentQueue.length) {
     // 次のトラックへ
-    speechCaption.textContent = "次のメニューへ進みます（5秒後）...";
+    speechCaption.textContent = "次のメニューへ進みます...";
     guideActionText.textContent = "次へ";
-    guideCountdown.textContent = "5";
+    guideCountdown.textContent = "▶";
     guideCircle.className = "guide-circle rest";
+    
+    // モバイルの自動再生ポリシーを維持し、途切れることなく次のトラックへ移行
     setTimeout(() => {
       loadQueueItem(currentQueueIndex + 1, true);
-    }, 5000);
+    }, 600);
   } else {
     // 全て完了
+    releaseWakeLock();
     statusBadge.textContent = "リハビリ完了！";
     statusBadge.className = "status-badge active";
     guideCircle.className = "guide-circle rest";
