@@ -1,6 +1,7 @@
 import asyncio
 import os
 import re
+import sys
 import json
 import subprocess
 import tempfile
@@ -255,6 +256,9 @@ async def main():
     WEB_AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 
     files = sorted(list(SSML_DIR.glob("*.xml")))
+    if len(sys.argv) > 1:
+        target = sys.argv[1].lower()
+        files = [f for f in files if target in f.stem.lower()]
     print(f"Found {len(files)} SSML files to generate.")
 
     results = []

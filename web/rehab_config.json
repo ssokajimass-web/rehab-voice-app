@@ -23,12 +23,12 @@
     "leg": {
       "id": "leg",
       "title": "足と足首のリハビリ",
-      "subtitle": "尖足予防の足首パタパタ・アキレス腱・かかとスライド",
+      "subtitle": "足首パタパタ＆かかと滑らせ（痛みのない安全な自動運動）",
       "icon": "🦵",
       "audioSrc": "audio/leg.mp3",
       "timelineSrc": "audio/leg_timeline.json",
-      "duration": 234,
-      "durationLabel": "約4分"
+      "duration": 436,
+      "durationLabel": "約7分"
     },
     "breathing": {
       "id": "breathing",
@@ -45,7 +45,7 @@
     {
       "id": "daily_main",
       "name": "まいにち基本コース（声・腕・足）",
-      "timeLabel": "約12分",
+      "timeLabel": "約15分",
       "description": "【毎日おすすめ】寝たきりのALS患者様に最も安全で効果の高い、声・腕・足の厳選メニューを順番に行います。",
       "icon": "🌟",
       "tracks": ["voice", "arm", "leg"]
@@ -61,7 +61,7 @@
     {
       "id": "limbs_care",
       "name": "手足ストレッチコース",
-      "timeLabel": "約8分",
+      "timeLabel": "約11分",
       "description": "手指の拘縮と足の尖足を徹底予防する手足の愛護運動",
       "icon": "⚡",
       "tracks": ["arm", "leg"]
@@ -69,7 +69,7 @@
     {
       "id": "full_care",
       "name": "じっくり全身ケアコース",
-      "timeLabel": "約20分",
+      "timeLabel": "約23分",
       "description": "深呼吸・エアスタッキング＋声＋腕＋足をすべて丁寧に行う充実コース",
       "icon": "✨",
       "tracks": ["breathing", "voice", "arm", "leg"]
