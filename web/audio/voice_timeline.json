@@ -1,0 +1,490 @@
+{
+  "title": "voice_rehab.xml",
+  "total_duration": 248.46,
+  "voice": "ja-JP-NanamiNeural",
+  "timeline": [
+    {
+      "type": "section",
+      "title": "導入・準備フェーズ",
+      "start": 0.0
+    },
+    {
+      "type": "speech",
+      "text": "お声と呼吸のリハビリを始めます。",
+      "section": "導入・準備フェーズ",
+      "start": 0.0,
+      "duration": 4.08,
+      "end": 4.08
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 4.08,
+      "duration": 2.0,
+      "end": 6.08
+    },
+    {
+      "type": "speech",
+      "text": "ベッドで楽な姿勢のまま、全身の力を抜いてリラックスしてください。",
+      "section": "導入・準備フェーズ",
+      "start": 6.08,
+      "duration": 7.01,
+      "end": 13.09
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 13.09,
+      "duration": 2.0,
+      "end": 15.09
+    },
+    {
+      "type": "speech",
+      "text": "大きな声を出す必要はありません。喉を痛めないよう、やさしく息を吐く練習です。",
+      "section": "導入・準備フェーズ",
+      "start": 15.09,
+      "duration": 9.36,
+      "end": 24.45
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 24.45,
+      "duration": 3.0,
+      "end": 27.45
+    },
+    {
+      "type": "speech",
+      "text": "それでは、準備の深呼吸をゆったり行いましょう。",
+      "section": "導入・準備フェーズ",
+      "start": 27.45,
+      "duration": 5.54,
+      "end": 32.99
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 32.99,
+      "duration": 1.0,
+      "end": 33.99
+    },
+    {
+      "type": "speech",
+      "text": "鼻から、ゆっくり吸って。",
+      "section": "導入・準備フェーズ",
+      "start": 33.99,
+      "duration": 3.24,
+      "end": 37.23
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 37.23,
+      "duration": 3.0,
+      "end": 40.23
+    },
+    {
+      "type": "speech",
+      "text": "口から、細く長ーく吐いていきます。",
+      "section": "導入・準備フェーズ",
+      "start": 40.23,
+      "duration": 4.25,
+      "end": 44.48
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 44.48,
+      "duration": 5.0,
+      "end": 49.48
+    },
+    {
+      "type": "section",
+      "title": "運動1: ため息発声法",
+      "start": 49.48
+    },
+    {
+      "type": "speech",
+      "text": "1つ目は、ため息発声です。喉の緊張をふんわりほぐしていきます。",
+      "section": "運動1: ため息発声法",
+      "start": 49.48,
+      "duration": 8.35,
+      "end": 57.83
+    },
+    {
+      "type": "silence",
+      "section": "運動1: ため息発声法",
+      "start": 57.83,
+      "duration": 2.0,
+      "end": 59.83
+    },
+    {
+      "type": "speech",
+      "text": "息を吸ってから、リラックスしたため息と一緒に、優しく「はぁー」と声を出してみましょう。",
+      "section": "運動1: ため息発声法",
+      "start": 59.83,
+      "duration": 9.07,
+      "end": 68.9
+    },
+    {
+      "type": "silence",
+      "section": "運動1: ため息発声法",
+      "start": 68.9,
+      "duration": 2.0,
+      "end": 70.9
+    },
+    {
+      "type": "speech",
+      "text": "息を吸って。",
+      "section": "運動1: ため息発声法",
+      "start": 70.9,
+      "duration": 2.28,
+      "end": 73.18
+    },
+    {
+      "type": "silence",
+      "section": "運動1: ため息発声法",
+      "start": 73.18,
+      "duration": 2.0,
+      "end": 75.18
+    },
+    {
+      "type": "speech",
+      "text": "ため息で、「はぁーー」。",
+      "section": "運動1: ため息発声法",
+      "start": 75.18,
+      "duration": 2.74,
+      "end": 77.92
+    },
+    {
+      "type": "silence",
+      "section": "運動1: ため息発声法",
+      "start": 77.92,
+      "duration": 4.0,
+      "end": 81.92
+    },
+    {
+      "type": "speech",
+      "text": "とても上手です。もう一度いきましょう。",
+      "section": "運動1: ため息発声法",
+      "start": 81.92,
+      "duration": 5.18,
+      "end": 87.1
+    },
+    {
+      "type": "silence",
+      "section": "運動1: ため息発声法",
+      "start": 87.1,
+      "duration": 2.0,
+      "end": 89.1
+    },
+    {
+      "type": "speech",
+      "text": "息を吸って。",
+      "section": "運動1: ため息発声法",
+      "start": 89.1,
+      "duration": 2.28,
+      "end": 91.38
+    },
+    {
+      "type": "silence",
+      "section": "運動1: ため息発声法",
+      "start": 91.38,
+      "duration": 2.0,
+      "end": 93.38
+    },
+    {
+      "type": "speech",
+      "text": "優しくため息で、「はぁーー」。",
+      "section": "運動1: ため息発声法",
+      "start": 93.38,
+      "duration": 3.5,
+      "end": 96.89
+    },
+    {
+      "type": "silence",
+      "section": "運動1: ため息発声法",
+      "start": 96.89,
+      "duration": 5.0,
+      "end": 101.89
+    },
+    {
+      "type": "section",
+      "title": "運動2: 母音のやさしい発声",
+      "start": 101.888
+    },
+    {
+      "type": "speech",
+      "text": "2つ目は、母音をゆっくり伸ばす練習です。ささやき声や、小さな声で十分ですよ。",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 101.89,
+      "duration": 10.03,
+      "end": 111.92
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 111.92,
+      "duration": 2.0,
+      "end": 113.92
+    },
+    {
+      "type": "speech",
+      "text": "まずは「あ」の音です。息を吸って、",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 113.92,
+      "duration": 5.45,
+      "end": 119.37
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 119.37,
+      "duration": 2.0,
+      "end": 121.37
+    },
+    {
+      "type": "speech",
+      "text": "やさしく、「あーーー」。",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 121.37,
+      "duration": 2.66,
+      "end": 124.03
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 124.03,
+      "duration": 4.0,
+      "end": 128.03
+    },
+    {
+      "type": "speech",
+      "text": "次は「い」の音です。口角を少し緩めて、息を吸って、",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 128.03,
+      "duration": 7.54,
+      "end": 135.57
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 135.57,
+      "duration": 2.0,
+      "end": 137.57
+    },
+    {
+      "type": "speech",
+      "text": "やさしく、「いーーー」。",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 137.57,
+      "duration": 2.64,
+      "end": 140.21
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 140.21,
+      "duration": 4.0,
+      "end": 144.21
+    },
+    {
+      "type": "speech",
+      "text": "次は「う」の音です。唇を軽く丸めて、息を吸って、",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 144.21,
+      "duration": 7.58,
+      "end": 151.79
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 151.79,
+      "duration": 2.0,
+      "end": 153.79
+    },
+    {
+      "type": "speech",
+      "text": "やさしく、「うーーー」。",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 153.79,
+      "duration": 2.66,
+      "end": 156.46
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 母音のやさしい発声",
+      "start": 156.46,
+      "duration": 5.0,
+      "end": 161.46
+    },
+    {
+      "type": "section",
+      "title": "運動3: 唇と頬のやさしいリラックス",
+      "start": 161.45599999999996
+    },
+    {
+      "type": "speech",
+      "text": "3つ目は、お口と唇のリラックス体操です。",
+      "section": "運動3: 唇と頬のやさしいリラックス",
+      "start": 161.46,
+      "duration": 5.5,
+      "end": 166.95
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 唇と頬のやさしいリラックス",
+      "start": 166.95,
+      "duration": 2.0,
+      "end": 168.95
+    },
+    {
+      "type": "speech",
+      "text": "唇を軽く前へとがらせて、「う」の形にします。",
+      "section": "運動3: 唇と頬のやさしいリラックス",
+      "start": 168.95,
+      "duration": 5.35,
+      "end": 174.3
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 唇と頬のやさしいリラックス",
+      "start": 174.3,
+      "duration": 3.0,
+      "end": 177.3
+    },
+    {
+      "type": "speech",
+      "text": "ふわっと力を抜いて、緩めます。",
+      "section": "運動3: 唇と頬のやさしいリラックス",
+      "start": 177.3,
+      "duration": 4.01,
+      "end": 181.31
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 唇と頬のやさしいリラックス",
+      "start": 181.31,
+      "duration": 3.0,
+      "end": 184.31
+    },
+    {
+      "type": "speech",
+      "text": "今度は、やさしく微笑むように、口角を横へ広げます。",
+      "section": "運動3: 唇と頬のやさしいリラックス",
+      "start": 184.31,
+      "duration": 6.53,
+      "end": 190.84
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 唇と頬のやさしいリラックス",
+      "start": 190.84,
+      "duration": 3.0,
+      "end": 193.84
+    },
+    {
+      "type": "speech",
+      "text": "ふわっと力を抜いて、お口をリラックスさせます。",
+      "section": "運動3: 唇と頬のやさしいリラックス",
+      "start": 193.84,
+      "duration": 5.28,
+      "end": 199.12
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 唇と頬のやさしいリラックス",
+      "start": 199.12,
+      "duration": 5.0,
+      "end": 204.12
+    },
+    {
+      "type": "section",
+      "title": "終了フェーズ",
+      "start": 204.11999999999998
+    },
+    {
+      "type": "speech",
+      "text": "お疲れさまでした。お声と呼吸のリハビリはこれで終了です。",
+      "section": "終了フェーズ",
+      "start": 204.12,
+      "duration": 7.15,
+      "end": 211.27
+    },
+    {
+      "type": "silence",
+      "section": "終了フェーズ",
+      "start": 211.27,
+      "duration": 2.0,
+      "end": 213.27
+    },
+    {
+      "type": "speech",
+      "text": "喉の渇きを感じたら、無理せず水分補給をしてくださいね。",
+      "section": "終了フェーズ",
+      "start": 213.27,
+      "duration": 6.5,
+      "end": 219.78
+    },
+    {
+      "type": "silence",
+      "section": "終了フェーズ",
+      "start": 219.78,
+      "duration": 2.0,
+      "end": 221.78
+    },
+    {
+      "type": "speech",
+      "text": "最後に、ゆったりと深呼吸を1回行いましょう。",
+      "section": "終了フェーズ",
+      "start": 221.78,
+      "duration": 5.62,
+      "end": 227.39
+    },
+    {
+      "type": "silence",
+      "section": "終了フェーズ",
+      "start": 227.39,
+      "duration": 1.0,
+      "end": 228.39
+    },
+    {
+      "type": "speech",
+      "text": "息を吸って。",
+      "section": "終了フェーズ",
+      "start": 228.39,
+      "duration": 2.28,
+      "end": 230.67
+    },
+    {
+      "type": "silence",
+      "section": "終了フェーズ",
+      "start": 230.67,
+      "duration": 3.0,
+      "end": 233.67
+    },
+    {
+      "type": "speech",
+      "text": "全部吐き出します。",
+      "section": "終了フェーズ",
+      "start": 233.67,
+      "duration": 2.74,
+      "end": 236.41
+    },
+    {
+      "type": "silence",
+      "section": "終了フェーズ",
+      "start": 236.41,
+      "duration": 5.0,
+      "end": 241.41
+    },
+    {
+      "type": "speech",
+      "text": "今日もすばらしい練習ができましたね。ゆっくりお休みください。",
+      "section": "終了フェーズ",
+      "start": 241.41,
+      "duration": 7.06,
+      "end": 248.46
+    }
+  ]
+}

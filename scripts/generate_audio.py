@@ -164,6 +164,8 @@ async def process_ssml(xml_file: Path):
         out_name = "arm"
     elif stem.startswith("leg_"):
         out_name = "leg"
+    elif stem.startswith("voice_"):
+        out_name = "voice"
     else:
         out_name = stem
 

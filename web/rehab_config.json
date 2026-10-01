@@ -1,104 +1,122 @@
 {
   "tracks": {
-    "breathing": {
-      "id": "breathing",
-      "title": "呼吸・息溜め練習",
-      "subtitle": "肺を心地よく広げるブレススタッキング",
-      "icon": "🫁",
-      "audioSrc": "audio/breathing.mp3",
-      "timelineSrc": "audio/breathing_timeline.json",
-      "duration": 485,
-      "durationLabel": "約8分"
+    "voice": {
+      "id": "voice",
+      "title": "声と呼吸のリハビリ",
+      "subtitle": "ため息発声法・母音のやさしい発声・口腔リラックス",
+      "icon": "🗣️",
+      "audioSrc": "audio/voice.mp3",
+      "timelineSrc": "audio/voice_timeline.json",
+      "duration": 249,
+      "durationLabel": "約4分"
     },
     "arm": {
       "id": "arm",
-      "title": "腕と肩のリハビリ",
-      "subtitle": "肩のすくめ運動・肘の曲げ伸ばし・手首体操",
+      "title": "腕と手のリハビリ",
+      "subtitle": "肩の脱力・肘の曲げ伸ばし・手指の開きストレッチ",
       "icon": "💪",
       "audioSrc": "audio/arm.mp3",
       "timelineSrc": "audio/arm_timeline.json",
-      "duration": 218,
-      "durationLabel": "約3分半"
+      "duration": 235,
+      "durationLabel": "約4分"
     },
     "leg": {
       "id": "leg",
-      "title": "足のリハビリ",
-      "subtitle": "足首パタパタ・かかと上げ・膝の運動",
+      "title": "足と足首のリハビリ",
+      "subtitle": "尖足予防の足首パタパタ・アキレス腱・かかとスライド",
       "icon": "🦵",
       "audioSrc": "audio/leg.mp3",
       "timelineSrc": "audio/leg_timeline.json",
-      "duration": 213,
-      "durationLabel": "約3分半"
+      "duration": 234,
+      "durationLabel": "約4分"
+    },
+    "breathing": {
+      "id": "breathing",
+      "title": "深呼吸・息溜め練習",
+      "subtitle": "肺を心地よく広げるエアスタッキング",
+      "icon": "🫁",
+      "audioSrc": "audio/breathing.mp3",
+      "timelineSrc": "audio/breathing_timeline.json",
+      "duration": 486,
+      "durationLabel": "約8分"
     }
   },
   "courses": [
     {
-      "id": "quick",
-      "name": "さくっとコース",
-      "timeLabel": "約7分",
-      "description": "体調が優れない日や、手軽に手足を動かしたいときの軽めメニュー",
+      "id": "daily_main",
+      "name": "まいにち基本コース（声・腕・足）",
+      "timeLabel": "約12分",
+      "description": "【毎日おすすめ】寝たきりのALS患者様に最も安全で効果の高い、声・腕・足の厳選メニューを順番に行います。",
+      "icon": "🌟",
+      "tracks": ["voice", "arm", "leg"]
+    },
+    {
+      "id": "upper_care",
+      "name": "声＋腕コース",
+      "timeLabel": "約8分",
+      "description": "喉のリラックスと手・腕のこわばりをほぐす上半身ケア",
+      "icon": "🌿",
+      "tracks": ["voice", "arm"]
+    },
+    {
+      "id": "limbs_care",
+      "name": "手足ストレッチコース",
+      "timeLabel": "約8分",
+      "description": "手指の拘縮と足の尖足を徹底予防する手足の愛護運動",
       "icon": "⚡",
       "tracks": ["arm", "leg"]
     },
     {
-      "id": "standard",
-      "name": "呼吸＋上半身コース",
-      "timeLabel": "約11分",
-      "description": "肺をしっかり広げたあと、肩や腕のこわばりをほぐす基本メニュー",
-      "icon": "🌿",
-      "tracks": ["breathing", "arm"]
-    },
-    {
-      "id": "full",
-      "name": "しっかり全身コース",
-      "timeLabel": "約15分",
-      "description": "呼吸・腕・足をすべて行い、全身の血流と機能を整える充実コース",
-      "icon": "🌟",
-      "tracks": ["breathing", "arm", "leg"]
+      "id": "full_care",
+      "name": "じっくり全身ケアコース",
+      "timeLabel": "約20分",
+      "description": "深呼吸・エアスタッキング＋声＋腕＋足をすべて丁寧に行う充実コース",
+      "icon": "✨",
+      "tracks": ["breathing", "voice", "arm", "leg"]
     }
   ],
   "weekdaySchedule": {
     "0": {
       "dayName": "日曜日",
-      "courseId": "quick",
-      "theme": "ゆったりリラックス",
-      "message": "休日は無理をせず、手足を軽くほぐす程度で十分です。"
+      "courseId": "daily_main",
+      "theme": "まいにちリハビリ・日曜日",
+      "message": "休日は無理をせず、ゆったり心地よいペースで続けましょう。"
     },
     "1": {
       "dayName": "月曜日",
-      "courseId": "full",
-      "theme": "週の始まり・全身リフレッシュ",
-      "message": "新しい一週間です。呼吸を整えて全身をゆっくり動かしましょう。"
+      "courseId": "daily_main",
+      "theme": "まいにちリハビリ・月曜日",
+      "message": "新しい一週間です。声と手足をゆっくり愛護的に動かしましょう。"
     },
     "2": {
       "dayName": "火曜日",
-      "courseId": "standard",
-      "theme": "呼吸と上半身のケア",
-      "message": "胸と腕を重点的に広げ、呼吸を楽に保ちましょう。"
+      "courseId": "daily_main",
+      "theme": "まいにちリハビリ・火曜日",
+      "message": "今日も同じリズムで。リラックスして深呼吸から始めましょう。"
     },
     "3": {
       "dayName": "水曜日",
-      "courseId": "full",
-      "theme": "週の折り返し・全身メンテナンス",
-      "message": "疲れを溜めないよう、全身をゆったり丁寧に動かしましょう。"
+      "courseId": "daily_main",
+      "theme": "まいにちリハビリ・水曜日",
+      "message": "週の折り返しです。疲れを残さないよう優しくほぐしていきましょう。"
     },
     "4": {
       "dayName": "木曜日",
-      "courseId": "standard",
-      "theme": "呼吸と腕のストレッチ",
-      "message": "ご自身のペースで心地よく呼吸を深めましょう。"
+      "courseId": "daily_main",
+      "theme": "まいにちリハビリ・木曜日",
+      "message": "ご自身の体調に合わせて、できる範囲でゆったり行いましょう。"
     },
     "5": {
       "dayName": "金曜日",
-      "courseId": "full",
-      "theme": "週末前の全身コンディショニング",
-      "message": "今週もお疲れさまでした。全身をすっきり整えましょう。"
+      "courseId": "daily_main",
+      "theme": "まいにちリハビリ・金曜日",
+      "message": "今週もよく頑張りましたね。気持ちよく関節を伸ばしましょう。"
     },
     "6": {
       "dayName": "土曜日",
-      "courseId": "quick",
-      "theme": "軽めのリフレッシュ",
-      "message": "心地よい範囲で、手足を無理なく動かしましょう。"
+      "courseId": "daily_main",
+      "theme": "まいにちリハビリ・土曜日",
+      "message": "心地よい温もりを感じながら、手足と声を整えましょう。"
     }
   }
 }

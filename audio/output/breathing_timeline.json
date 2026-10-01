@@ -1,6 +1,6 @@
 {
   "title": "breathing_air_stacking.xml",
-  "total_duration": 485.47,
+  "total_duration": 485.52,
   "voice": "ja-JP-NanamiNeural",
   "timeline": [
     {
@@ -288,618 +288,618 @@
       "text": "5秒。",
       "section": "サイクル1",
       "start": 133.54,
-      "duration": 1.82,
-      "end": 135.36
+      "duration": 1.87,
+      "end": 135.41
     },
     {
       "type": "silence",
       "section": "サイクル1",
-      "start": 135.36,
+      "start": 135.41,
       "duration": 1.0,
-      "end": 136.36
+      "end": 136.41
     },
     {
       "type": "speech",
       "text": "口をすぼめて、全身の力を完全に抜いて吐き出します。",
       "section": "サイクル1",
-      "start": 136.36,
+      "start": 136.41,
       "duration": 6.24,
-      "end": 142.6
+      "end": 142.65
     },
     {
       "type": "silence",
       "section": "サイクル1",
-      "start": 142.6,
+      "start": 142.65,
       "duration": 1.0,
-      "end": 143.6
+      "end": 143.65
     },
     {
       "type": "speech",
       "text": "ふうーーーっと、時間をかけて、静かに最後まで吐き切ります。",
       "section": "サイクル1",
-      "start": 143.6,
+      "start": 143.65,
       "duration": 6.43,
-      "end": 150.03
+      "end": 150.08
     },
     {
       "type": "silence",
       "section": "サイクル1",
-      "start": 150.03,
+      "start": 150.08,
       "duration": 8.0,
-      "end": 158.03
+      "end": 158.08
     },
     {
       "type": "section",
       "title": "インターバル1（45秒の完全休息）",
-      "start": 158.032
+      "start": 158.08
     },
     {
       "type": "speech",
       "text": "お疲れさまでした。楽にしてください。",
       "section": "インターバル1（45秒の完全休息）",
-      "start": 158.03,
+      "start": 158.08,
       "duration": 5.09,
-      "end": 163.12
+      "end": 163.17
     },
     {
       "type": "silence",
       "section": "インターバル1（45秒の完全休息）",
-      "start": 163.12,
+      "start": 163.17,
       "duration": 2.0,
-      "end": 165.12
+      "end": 165.17
     },
     {
       "type": "speech",
       "text": "普段通りの自然な呼吸に戻して、45秒間、しっかりとお休みします。",
       "section": "インターバル1（45秒の完全休息）",
-      "start": 165.12,
+      "start": 165.17,
       "duration": 7.8,
-      "end": 172.92
+      "end": 172.97
     },
     {
       "type": "silence",
       "section": "インターバル1（45秒の完全休息）",
-      "start": 172.92,
+      "start": 172.97,
       "duration": 20.0,
-      "end": 192.92
+      "end": 192.97
     },
     {
       "type": "speech",
       "text": "肩の力を抜いて、ゆったりと息を繰り返します。頭のふらつきはありませんか。",
       "section": "インターバル1（45秒の完全休息）",
-      "start": 192.92,
+      "start": 192.97,
       "duration": 8.81,
-      "end": 201.73
+      "end": 201.78
     },
     {
       "type": "silence",
       "section": "インターバル1（45秒の完全休息）",
-      "start": 201.73,
+      "start": 201.78,
       "duration": 20.0,
-      "end": 221.73
+      "end": 221.78
     },
     {
       "type": "section",
       "title": "サイクル2",
-      "start": 221.728
+      "start": 221.776
     },
     {
       "type": "speech",
       "text": "2回目の練習です。胸のストレッチを感じながら行いましょう。",
       "section": "サイクル2",
-      "start": 221.73,
+      "start": 221.78,
       "duration": 7.32,
-      "end": 229.05
+      "end": 229.1
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 229.05,
+      "start": 229.1,
       "duration": 2.0,
-      "end": 231.05
+      "end": 231.1
     },
     {
       "type": "speech",
       "text": "自然に息を吸い込みます。……吸って。",
       "section": "サイクル2",
-      "start": 231.05,
+      "start": 231.1,
       "duration": 5.18,
-      "end": 236.23
+      "end": 236.28
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 236.23,
+      "start": 236.28,
       "duration": 3.0,
-      "end": 239.23
+      "end": 239.28
     },
     {
       "type": "speech",
       "text": "喉を閉じてキープ。",
       "section": "サイクル2",
-      "start": 239.23,
+      "start": 239.28,
       "duration": 2.78,
-      "end": 242.02
+      "end": 242.06
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 242.02,
+      "start": 242.06,
       "duration": 2.0,
-      "end": 244.02
+      "end": 244.06
     },
     {
       "type": "speech",
       "text": "重ねて吸い込みます。……吸って。",
       "section": "サイクル2",
-      "start": 244.02,
+      "start": 244.06,
       "duration": 4.73,
-      "end": 248.74
+      "end": 248.79
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 248.74,
+      "start": 248.79,
       "duration": 3.0,
-      "end": 251.74
+      "end": 251.79
     },
     {
       "type": "speech",
       "text": "喉を閉じてキープ。",
       "section": "サイクル2",
-      "start": 251.74,
+      "start": 251.79,
       "duration": 2.78,
-      "end": 254.53
+      "end": 254.58
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 254.53,
+      "start": 254.58,
       "duration": 2.0,
-      "end": 256.53
+      "end": 256.58
     },
     {
       "type": "speech",
       "text": "最後にもうひと吸い、胸いっぱいに広げます。……吸って。",
       "section": "サイクル2",
-      "start": 256.53,
+      "start": 256.58,
       "duration": 6.77,
-      "end": 263.3
+      "end": 263.34
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 263.3,
+      "start": 263.34,
       "duration": 3.0,
-      "end": 266.3
+      "end": 266.34
     },
     {
       "type": "speech",
       "text": "心地よい胸の広がりを感じながら、保ちます。苦しければ途中で吐いても大丈夫です。",
       "section": "サイクル2",
-      "start": 266.3,
+      "start": 266.34,
       "duration": 9.48,
-      "end": 275.78
+      "end": 275.82
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 275.78,
+      "start": 275.82,
       "duration": 1.0,
-      "end": 276.78
+      "end": 276.82
     },
     {
       "type": "speech",
       "text": "1秒、",
       "section": "サイクル2",
-      "start": 276.78,
+      "start": 276.82,
       "duration": 1.97,
-      "end": 278.74
+      "end": 278.79
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 278.74,
+      "start": 278.79,
       "duration": 1.0,
-      "end": 279.74
+      "end": 279.79
     },
     {
       "type": "speech",
       "text": "2秒、",
       "section": "サイクル2",
-      "start": 279.74,
+      "start": 279.79,
       "duration": 1.87,
-      "end": 281.62
+      "end": 281.66
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 281.62,
+      "start": 281.66,
       "duration": 1.0,
-      "end": 282.62
+      "end": 282.66
     },
     {
       "type": "speech",
       "text": "3秒、",
       "section": "サイクル2",
-      "start": 282.62,
+      "start": 282.66,
       "duration": 1.99,
-      "end": 284.61
+      "end": 284.66
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 284.61,
+      "start": 284.66,
       "duration": 1.0,
-      "end": 285.61
+      "end": 285.66
     },
     {
       "type": "speech",
       "text": "4秒、",
       "section": "サイクル2",
-      "start": 285.61,
+      "start": 285.66,
       "duration": 1.97,
-      "end": 287.58
+      "end": 287.62
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 287.58,
+      "start": 287.62,
       "duration": 1.0,
-      "end": 288.58
+      "end": 288.62
     },
     {
       "type": "speech",
       "text": "5秒。",
       "section": "サイクル2",
-      "start": 288.58,
+      "start": 288.62,
       "duration": 1.87,
-      "end": 290.45
+      "end": 290.5
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 290.45,
+      "start": 290.5,
       "duration": 1.0,
-      "end": 291.45
+      "end": 291.5
     },
     {
       "type": "speech",
       "text": "口をすぼめて、脱力しながらゆっくりと息を吐き出します。",
       "section": "サイクル2",
-      "start": 291.45,
+      "start": 291.5,
       "duration": 6.26,
-      "end": 297.71
+      "end": 297.76
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 297.71,
+      "start": 297.76,
       "duration": 1.0,
-      "end": 298.71
+      "end": 298.76
     },
     {
       "type": "speech",
       "text": "ふうーーーっと、遠くへ息を逃がすように、静かに吐き切ります。",
       "section": "サイクル2",
-      "start": 298.71,
+      "start": 298.76,
       "duration": 6.53,
-      "end": 305.24
+      "end": 305.29
     },
     {
       "type": "silence",
       "section": "サイクル2",
-      "start": 305.24,
+      "start": 305.29,
       "duration": 8.0,
-      "end": 313.24
+      "end": 313.29
     },
     {
       "type": "section",
       "title": "インターバル2（45秒の完全休息）",
-      "start": 313.2400000000001
+      "start": 313.2880000000001
     },
     {
       "type": "speech",
       "text": "楽にしてください。自然な呼吸に戻します。",
       "section": "インターバル2（45秒の完全休息）",
-      "start": 313.24,
+      "start": 313.29,
       "duration": 5.86,
-      "end": 319.1
+      "end": 319.14
     },
     {
       "type": "silence",
       "section": "インターバル2（45秒の完全休息）",
-      "start": 319.1,
+      "start": 319.14,
       "duration": 20.0,
-      "end": 339.1
+      "end": 339.14
     },
     {
       "type": "speech",
       "text": "決して力まず、肺が心地よく伸びる感覚を大切にしてください。息苦しさはありませんか。",
       "section": "インターバル2（45秒の完全休息）",
-      "start": 339.1,
+      "start": 339.14,
       "duration": 10.03,
-      "end": 349.13
+      "end": 349.18
     },
     {
       "type": "silence",
       "section": "インターバル2（45秒の完全休息）",
-      "start": 349.13,
+      "start": 349.18,
       "duration": 20.0,
-      "end": 369.13
+      "end": 369.18
     },
     {
       "type": "section",
       "title": "サイクル3",
-      "start": 369.1280000000001
+      "start": 369.1760000000001
     },
     {
       "type": "speech",
       "text": "本日最後の回です。ゆったりと丁寧に行いましょう。",
       "section": "サイクル3",
-      "start": 369.13,
+      "start": 369.18,
       "duration": 6.79,
-      "end": 375.92
+      "end": 375.97
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 375.92,
+      "start": 375.97,
       "duration": 2.0,
-      "end": 377.92
+      "end": 377.97
     },
     {
       "type": "speech",
       "text": "自然に息を吸い込みます。……吸って。",
       "section": "サイクル3",
-      "start": 377.92,
+      "start": 377.97,
       "duration": 5.18,
-      "end": 383.1
+      "end": 383.15
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 383.1,
+      "start": 383.15,
       "duration": 3.0,
-      "end": 386.1
+      "end": 386.15
     },
     {
       "type": "speech",
       "text": "喉を閉じてキープ。",
       "section": "サイクル3",
-      "start": 386.1,
+      "start": 386.15,
       "duration": 2.78,
-      "end": 388.89
+      "end": 388.94
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 388.89,
+      "start": 388.94,
       "duration": 2.0,
-      "end": 390.89
+      "end": 390.94
     },
     {
       "type": "speech",
       "text": "重ねて吸い込みます。……吸って。",
       "section": "サイクル3",
-      "start": 390.89,
+      "start": 390.94,
       "duration": 4.73,
-      "end": 395.62
+      "end": 395.66
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 395.62,
+      "start": 395.66,
       "duration": 3.0,
-      "end": 398.62
+      "end": 398.66
     },
     {
       "type": "speech",
       "text": "喉を閉じてキープ。",
       "section": "サイクル3",
-      "start": 398.62,
+      "start": 398.66,
       "duration": 2.78,
-      "end": 401.4
+      "end": 401.45
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 401.4,
+      "start": 401.45,
       "duration": 2.0,
-      "end": 403.4
+      "end": 403.45
     },
     {
       "type": "speech",
       "text": "最後の一吸いです。胸を気持ちよく伸ばします。……吸って。",
       "section": "サイクル3",
-      "start": 403.4,
+      "start": 403.45,
       "duration": 7.8,
-      "end": 411.2
+      "end": 411.25
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 411.2,
+      "start": 411.25,
       "duration": 3.0,
-      "end": 414.2
+      "end": 414.25
     },
     {
       "type": "speech",
       "text": "しっかり広げたまま、保ちます。",
       "section": "サイクル3",
-      "start": 414.2,
+      "start": 414.25,
       "duration": 3.74,
-      "end": 417.94
+      "end": 417.99
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 417.94,
+      "start": 417.99,
       "duration": 1.0,
-      "end": 418.94
+      "end": 418.99
     },
     {
       "type": "speech",
       "text": "1秒、",
       "section": "サイクル3",
-      "start": 418.94,
+      "start": 418.99,
       "duration": 1.97,
-      "end": 420.91
+      "end": 420.96
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 420.91,
+      "start": 420.96,
       "duration": 1.0,
-      "end": 421.91
+      "end": 421.96
     },
     {
       "type": "speech",
       "text": "2秒、",
       "section": "サイクル3",
-      "start": 421.91,
+      "start": 421.96,
       "duration": 1.87,
-      "end": 423.78
+      "end": 423.83
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 423.78,
+      "start": 423.83,
       "duration": 1.0,
-      "end": 424.78
+      "end": 424.83
     },
     {
       "type": "speech",
       "text": "3秒、",
       "section": "サイクル3",
-      "start": 424.78,
+      "start": 424.83,
       "duration": 1.99,
-      "end": 426.78
+      "end": 426.82
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 426.78,
+      "start": 426.82,
       "duration": 1.0,
-      "end": 427.78
+      "end": 427.82
     },
     {
       "type": "speech",
       "text": "4秒、",
       "section": "サイクル3",
-      "start": 427.78,
+      "start": 427.82,
       "duration": 1.97,
-      "end": 429.74
+      "end": 429.79
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 429.74,
+      "start": 429.79,
       "duration": 1.0,
-      "end": 430.74
+      "end": 430.79
     },
     {
       "type": "speech",
       "text": "5秒。",
       "section": "サイクル3",
-      "start": 430.74,
+      "start": 430.79,
       "duration": 1.87,
-      "end": 432.62
+      "end": 432.66
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 432.62,
+      "start": 432.66,
       "duration": 1.0,
-      "end": 433.62
+      "end": 433.66
     },
     {
       "type": "speech",
       "text": "口をすぼめて、全身の力を完全に抜いて吐き出します。",
       "section": "サイクル3",
-      "start": 433.62,
+      "start": 433.66,
       "duration": 6.24,
-      "end": 439.86
+      "end": 439.9
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 439.86,
+      "start": 439.9,
       "duration": 1.0,
-      "end": 440.86
+      "end": 440.9
     },
     {
       "type": "speech",
       "text": "ふうーーーっと、最後まで息を送り出します。",
       "section": "サイクル3",
-      "start": 440.86,
+      "start": 440.9,
       "duration": 4.66,
-      "end": 445.51
+      "end": 445.56
     },
     {
       "type": "silence",
       "section": "サイクル3",
-      "start": 445.51,
+      "start": 445.56,
       "duration": 8.0,
-      "end": 453.51
+      "end": 453.56
     },
     {
       "type": "section",
       "title": "終了フェーズ",
-      "start": 453.5120000000002
+      "start": 453.56000000000023
     },
     {
       "type": "speech",
       "text": "これで本日の練習は終了です。",
       "section": "終了フェーズ",
-      "start": 453.51,
+      "start": 453.56,
       "duration": 4.13,
-      "end": 457.64
+      "end": 457.69
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 457.64,
+      "start": 457.69,
       "duration": 2.0,
-      "end": 459.64
+      "end": 459.69
     },
     {
       "type": "speech",
       "text": "手足を楽にして、普段通りの自然な呼吸を続けてください。",
       "section": "終了フェーズ",
-      "start": 459.64,
+      "start": 459.69,
       "duration": 6.31,
-      "end": 465.95
+      "end": 466.0
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 465.95,
+      "start": 466.0,
       "duration": 3.0,
-      "end": 468.95
+      "end": 469.0
     },
     {
       "type": "speech",
       "text": "胸や背中のこわばりが少しでも和らいでいれば十分です。",
       "section": "終了フェーズ",
-      "start": 468.95,
+      "start": 469.0,
       "duration": 5.93,
-      "end": 474.88
+      "end": 474.93
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 474.88,
+      "start": 474.93,
       "duration": 2.0,
-      "end": 476.88
+      "end": 476.93
     },
     {
       "type": "speech",
       "text": "無理をせず、そのままゆっくりと安静を保ってくださいね。お疲れさまでした。",
       "section": "終了フェーズ",
-      "start": 476.88,
+      "start": 476.93,
       "duration": 8.59,
-      "end": 485.47
+      "end": 485.52
     }
   ]
 }

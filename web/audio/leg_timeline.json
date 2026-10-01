@@ -1,6 +1,6 @@
 {
   "title": "leg_rehab.xml",
-  "total_duration": 213.21,
+  "total_duration": 233.56,
   "voice": "ja-JP-NanamiNeural",
   "timeline": [
     {
@@ -10,436 +10,436 @@
     },
     {
       "type": "speech",
-      "text": "足のリハビリ体操を始めます。",
+      "text": "足と足首のリハビリ体操を始めます。",
       "section": "導入・準備フェーズ",
       "start": 0.0,
-      "duration": 3.82,
-      "end": 3.82
+      "duration": 4.78,
+      "end": 4.78
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 3.82,
+      "start": 4.78,
       "duration": 2.0,
-      "end": 5.82
+      "end": 6.78
     },
     {
       "type": "speech",
-      "text": "椅子に座るか、ベッドで横になった状態で、リラックスして姿勢を整えてください。",
+      "text": "ベッドで仰向けのまま、ゆったりと足を伸ばしてリラックスしてください。",
       "section": "導入・準備フェーズ",
-      "start": 5.82,
-      "duration": 8.26,
-      "end": 14.07
+      "start": 6.78,
+      "duration": 6.79,
+      "end": 13.57
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 14.07,
+      "start": 13.57,
       "duration": 2.0,
-      "end": 16.07
+      "end": 15.57
     },
     {
       "type": "speech",
-      "text": "足の血流を促し、関節をやわらかく保つ練習です。",
+      "text": "足先が下を向いて固まるのを防ぎ、血液の流れをよくする最も大切な運動です。",
       "section": "導入・準備フェーズ",
-      "start": 16.07,
-      "duration": 6.48,
-      "end": 22.55
+      "start": 15.57,
+      "duration": 8.9,
+      "end": 24.47
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 22.55,
-      "duration": 2.0,
-      "end": 24.55
-    },
-    {
-      "type": "speech",
-      "text": "痛みがある場合は、無理をせず小さな動きで行ってくださいね。",
-      "section": "導入・準備フェーズ",
-      "start": 24.55,
-      "duration": 6.38,
-      "end": 30.94
-    },
-    {
-      "type": "silence",
-      "section": "導入・準備フェーズ",
-      "start": 30.94,
+      "start": 24.47,
       "duration": 3.0,
-      "end": 33.94
+      "end": 27.47
     },
     {
       "type": "speech",
-      "text": "それでは、準備の深呼吸をゆったり行います。",
+      "text": "無理に力を入れず、動かせる範囲でゆったり行いましょう。",
       "section": "導入・準備フェーズ",
-      "start": 33.94,
-      "duration": 5.45,
-      "end": 39.38
+      "start": 27.47,
+      "duration": 6.1,
+      "end": 33.57
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 39.38,
+      "start": 33.57,
+      "duration": 3.0,
+      "end": 36.57
+    },
+    {
+      "type": "speech",
+      "text": "それでは、準備の深呼吸を行います。",
+      "section": "導入・準備フェーズ",
+      "start": 36.57,
+      "duration": 4.8,
+      "end": 41.37
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 41.37,
       "duration": 1.0,
-      "end": 40.38
+      "end": 42.37
     },
     {
       "type": "speech",
       "text": "吸って。",
       "section": "導入・準備フェーズ",
-      "start": 40.38,
+      "start": 42.37,
       "duration": 1.87,
-      "end": 42.26
+      "end": 44.24
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 42.26,
+      "start": 44.24,
       "duration": 3.0,
-      "end": 45.26
+      "end": 47.24
     },
     {
       "type": "speech",
       "text": "吐いて。",
       "section": "導入・準備フェーズ",
-      "start": 45.26,
+      "start": 47.24,
       "duration": 1.87,
-      "end": 47.13
+      "end": 49.11
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 47.13,
+      "start": 49.11,
       "duration": 4.0,
-      "end": 51.13
+      "end": 53.11
     },
     {
       "type": "section",
-      "title": "運動1: 足首のパタパタ運動（底背屈）",
-      "start": 51.128
+      "title": "運動1: 足首パタパタ運動（尖足予防・血流促進）",
+      "start": 53.111999999999995
     },
     {
       "type": "speech",
-      "text": "1つ目は、足首の曲げ伸ばし運動です。",
-      "section": "運動1: 足首のパタパタ運動（底背屈）",
-      "start": 51.13,
-      "duration": 4.99,
-      "end": 56.12
+      "text": "1つ目は、足首のパタパタ運動です。",
+      "section": "運動1: 足首パタパタ運動（尖足予防・血流促進）",
+      "start": 53.11,
+      "duration": 4.8,
+      "end": 57.91
     },
     {
       "type": "silence",
-      "section": "運動1: 足首のパタパタ運動（底背屈）",
-      "start": 56.12,
+      "section": "運動1: 足首パタパタ運動（尖足予防・血流促進）",
+      "start": 57.91,
       "duration": 2.0,
-      "end": 58.12
+      "end": 59.91
     },
     {
       "type": "speech",
       "text": "つま先を、手前にぐーっと引き寄せて、ふくらはぎを伸ばします。",
-      "section": "運動1: 足首のパタパタ運動（底背屈）",
-      "start": 58.12,
+      "section": "運動1: 足首パタパタ運動（尖足予防・血流促進）",
+      "start": 59.91,
       "duration": 6.48,
-      "end": 64.6
+      "end": 66.39
     },
     {
       "type": "silence",
-      "section": "運動1: 足首のパタパタ運動（底背屈）",
-      "start": 64.6,
+      "section": "運動1: 足首パタパタ運動（尖足予防・血流促進）",
+      "start": 66.39,
       "duration": 3.0,
-      "end": 67.6
+      "end": 69.39
     },
     {
       "type": "speech",
-      "text": "次に、つま先を遠くへ伸ばして、すねの筋肉を伸ばします。",
-      "section": "運動1: 足首のパタパタ運動（底背屈）",
-      "start": 67.6,
-      "duration": 6.84,
-      "end": 74.44
+      "text": "今度は、つま先を遠くへ向けて、すねを伸ばします。",
+      "section": "運動1: 足首パタパタ運動（尖足予防・血流促進）",
+      "start": 69.39,
+      "duration": 5.88,
+      "end": 75.27
     },
     {
       "type": "silence",
-      "section": "運動1: 足首のパタパタ運動（底背屈）",
-      "start": 74.44,
+      "section": "運動1: 足首パタパタ運動（尖足予防・血流促進）",
+      "start": 75.27,
       "duration": 3.0,
-      "end": 77.44
+      "end": 78.27
     },
     {
       "type": "speech",
-      "text": "もう一度、つま先を手前に引き寄せて。",
-      "section": "運動1: 足首のパタパタ運動（底背屈）",
-      "start": 77.44,
-      "duration": 4.66,
-      "end": 82.1
+      "text": "もう一度、つま先を手前に引き寄せて、アキレス腱を気持ちよく伸ばします。",
+      "section": "運動1: 足首パタパタ運動（尖足予防・血流促進）",
+      "start": 78.27,
+      "duration": 7.56,
+      "end": 85.83
     },
     {
       "type": "silence",
-      "section": "運動1: 足首のパタパタ運動（底背屈）",
-      "start": 82.1,
-      "duration": 3.0,
-      "end": 85.1
-    },
-    {
-      "type": "speech",
-      "text": "遠くへ伸ばします。",
-      "section": "運動1: 足首のパタパタ運動（底背屈）",
-      "start": 85.1,
-      "duration": 2.64,
-      "end": 87.74
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首のパタパタ運動（底背屈）",
-      "start": 87.74,
+      "section": "運動1: 足首パタパタ運動（尖足予防・血流促進）",
+      "start": 85.83,
       "duration": 4.0,
-      "end": 91.74
+      "end": 89.83
+    },
+    {
+      "type": "speech",
+      "text": "遠くへ倒して、伸ばします。",
+      "section": "運動1: 足首パタパタ運動（尖足予防・血流促進）",
+      "start": 89.83,
+      "duration": 3.62,
+      "end": 93.46
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首パタパタ運動（尖足予防・血流促進）",
+      "start": 93.46,
+      "duration": 4.0,
+      "end": 97.46
     },
     {
       "type": "section",
-      "title": "運動2: つま先上げ・かかと上げ",
-      "start": 91.736
+      "title": "運動2: かかとの押し出しと足指運動",
+      "start": 97.45599999999999
     },
     {
       "type": "speech",
-      "text": "2つ目は、つま先上げとかかと上げの運動です。",
-      "section": "運動2: つま先上げ・かかと上げ",
-      "start": 91.74,
-      "duration": 5.38,
-      "end": 97.11
+      "text": "2つ目は、かかとの押し出しと足の指の運動です。",
+      "section": "運動2: かかとの押し出しと足指運動",
+      "start": 97.46,
+      "duration": 5.71,
+      "end": 103.17
     },
     {
       "type": "silence",
-      "section": "運動2: つま先上げ・かかと上げ",
-      "start": 97.11,
+      "section": "運動2: かかとの押し出しと足指運動",
+      "start": 103.17,
       "duration": 2.0,
-      "end": 99.11
+      "end": 105.17
     },
     {
       "type": "speech",
-      "text": "かかとを床につけたまま、両足のつま先を上に持ち上げます。",
-      "section": "運動2: つま先上げ・かかと上げ",
-      "start": 99.11,
-      "duration": 6.5,
-      "end": 105.62
+      "text": "かかとを遠くへぐーっと突き出すように伸ばします。",
+      "section": "運動2: かかとの押し出しと足指運動",
+      "start": 105.17,
+      "duration": 4.97,
+      "end": 110.14
     },
     {
       "type": "silence",
-      "section": "運動2: つま先上げ・かかと上げ",
-      "start": 105.62,
+      "section": "運動2: かかとの押し出しと足指運動",
+      "start": 110.14,
       "duration": 3.0,
-      "end": 108.62
+      "end": 113.14
     },
     {
       "type": "speech",
-      "text": "下ろします。",
-      "section": "運動2: つま先上げ・かかと上げ",
-      "start": 108.62,
-      "duration": 2.06,
-      "end": 110.68
+      "text": "力をふっと抜いて、緩めます。",
+      "section": "運動2: かかとの押し出しと足指運動",
+      "start": 113.14,
+      "duration": 3.89,
+      "end": 117.02
     },
     {
       "type": "silence",
-      "section": "運動2: つま先上げ・かかと上げ",
-      "start": 110.68,
-      "duration": 2.0,
-      "end": 112.68
-    },
-    {
-      "type": "speech",
-      "text": "今度は、つま先を床につけたまま、かかとを上に持ち上げます。",
-      "section": "運動2: つま先上げ・かかと上げ",
-      "start": 112.68,
-      "duration": 6.79,
-      "end": 119.47
-    },
-    {
-      "type": "silence",
-      "section": "運動2: つま先上げ・かかと上げ",
-      "start": 119.47,
+      "section": "運動2: かかとの押し出しと足指運動",
+      "start": 117.02,
       "duration": 3.0,
-      "end": 122.47
+      "end": 120.02
     },
     {
       "type": "speech",
-      "text": "ゆっくり下ろします。",
-      "section": "運動2: つま先上げ・かかと上げ",
-      "start": 122.47,
-      "duration": 2.69,
-      "end": 125.16
+      "text": "次に、足の指を軽く丸めたあと、ふわーっと開くようにパーにします。",
+      "section": "運動2: かかとの押し出しと足指運動",
+      "start": 120.02,
+      "duration": 7.58,
+      "end": 127.61
     },
     {
       "type": "silence",
-      "section": "運動2: つま先上げ・かかと上げ",
-      "start": 125.16,
+      "section": "運動2: かかとの押し出しと足指運動",
+      "start": 127.61,
+      "duration": 3.0,
+      "end": 130.61
+    },
+    {
+      "type": "speech",
+      "text": "力を抜いて、リラックスさせます。",
+      "section": "運動2: かかとの押し出しと足指運動",
+      "start": 130.61,
+      "duration": 4.08,
+      "end": 134.69
+    },
+    {
+      "type": "silence",
+      "section": "運動2: かかとの押し出しと足指運動",
+      "start": 134.69,
       "duration": 4.0,
-      "end": 129.16
+      "end": 138.69
     },
     {
       "type": "section",
-      "title": "運動3: 膝のやさしい伸ばし・太ももの運動",
-      "start": 129.16000000000003
+      "title": "運動3: ベッド上でのやさしい膝スライド",
+      "start": 138.68800000000002
     },
     {
       "type": "speech",
-      "text": "3つ目は、太ももと膝のやさしい運動です。",
-      "section": "運動3: 膝のやさしい伸ばし・太ももの運動",
-      "start": 129.16,
-      "duration": 5.23,
-      "end": 134.39
+      "text": "3つ目は、かかとを滑らせるやさしい運動です。足を持ち上げる必要はありません。",
+      "section": "運動3: ベッド上でのやさしい膝スライド",
+      "start": 138.69,
+      "duration": 9.07,
+      "end": 147.76
     },
     {
       "type": "silence",
-      "section": "運動3: 膝のやさしい伸ばし・太ももの運動",
-      "start": 134.39,
+      "section": "運動3: ベッド上でのやさしい膝スライド",
+      "start": 147.76,
       "duration": 2.0,
-      "end": 136.39
+      "end": 149.76
     },
     {
       "type": "speech",
-      "text": "右足を無理のない高さまで、ゆっくりと少しだけ持ち上げます。",
-      "section": "運動3: 膝のやさしい伸ばし・太ももの運動",
-      "start": 136.39,
-      "duration": 6.41,
-      "end": 142.8
+      "text": "ベッドのシーツの上で、右足のかかとを手前に少しだけ滑らせます。",
+      "section": "運動3: ベッド上でのやさしい膝スライド",
+      "start": 149.76,
+      "duration": 7.01,
+      "end": 156.77
     },
     {
       "type": "silence",
-      "section": "運動3: 膝のやさしい伸ばし・太ももの運動",
-      "start": 142.8,
+      "section": "運動3: ベッド上でのやさしい膝スライド",
+      "start": 156.77,
       "duration": 3.0,
-      "end": 145.8
+      "end": 159.77
     },
     {
       "type": "speech",
-      "text": "静かに下ろします。",
-      "section": "運動3: 膝のやさしい伸ばし・太ももの運動",
-      "start": 145.8,
-      "duration": 2.76,
-      "end": 148.56
+      "text": "ゆっくりとかかとを滑らせて、もとの位置へ伸ばします。",
+      "section": "運動3: ベッド上でのやさしい膝スライド",
+      "start": 159.77,
+      "duration": 5.57,
+      "end": 165.34
     },
     {
       "type": "silence",
-      "section": "運動3: 膝のやさしい伸ばし・太ももの運動",
-      "start": 148.56,
+      "section": "運動3: ベッド上でのやさしい膝スライド",
+      "start": 165.34,
       "duration": 3.0,
-      "end": 151.56
+      "end": 168.34
     },
     {
       "type": "speech",
-      "text": "今度は左足です。ゆっくりと少しだけ持ち上げます。",
-      "section": "運動3: 膝のやさしい伸ばし・太ももの運動",
-      "start": 151.56,
-      "duration": 6.62,
-      "end": 158.18
+      "text": "今度は左足です。かかとを手前に少しだけ滑らせます。",
+      "section": "運動3: ベッド上でのやさしい膝スライド",
+      "start": 168.34,
+      "duration": 7.13,
+      "end": 175.46
     },
     {
       "type": "silence",
-      "section": "運動3: 膝のやさしい伸ばし・太ももの運動",
-      "start": 158.18,
+      "section": "運動3: ベッド上でのやさしい膝スライド",
+      "start": 175.46,
       "duration": 3.0,
-      "end": 161.18
+      "end": 178.46
     },
     {
       "type": "speech",
-      "text": "静かに下ろします。",
-      "section": "運動3: 膝のやさしい伸ばし・太ももの運動",
-      "start": 161.18,
-      "duration": 2.76,
-      "end": 163.94
+      "text": "ゆっくりと、もとの位置へ戻します。",
+      "section": "運動3: ベッド上でのやさしい膝スライド",
+      "start": 178.46,
+      "duration": 4.27,
+      "end": 182.74
     },
     {
       "type": "silence",
-      "section": "運動3: 膝のやさしい伸ばし・太ももの運動",
-      "start": 163.94,
+      "section": "運動3: ベッド上でのやさしい膝スライド",
+      "start": 182.74,
       "duration": 5.0,
-      "end": 168.94
+      "end": 187.74
     },
     {
       "type": "section",
       "title": "終了フェーズ",
-      "start": 168.944
+      "start": 187.73600000000005
     },
     {
       "type": "speech",
-      "text": "お疲れさまでした。本日の足の運動はこれで終了です。",
+      "text": "お疲れさまでした。足のリハビリはこれで終了です。",
       "section": "終了フェーズ",
-      "start": 168.94,
-      "duration": 7.15,
-      "end": 176.1
+      "start": 187.74,
+      "duration": 6.41,
+      "end": 194.14
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 176.1,
+      "start": 194.14,
       "duration": 2.0,
-      "end": 178.1
+      "end": 196.14
     },
     {
       "type": "speech",
-      "text": "足全体の力を完全に抜いて、楽にしてください。",
+      "text": "足の先まで血液が巡り、温かくなってくるのを感じてください。",
       "section": "終了フェーズ",
-      "start": 178.1,
-      "duration": 5.64,
-      "end": 183.74
+      "start": 196.14,
+      "duration": 6.77,
+      "end": 202.91
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 183.74,
+      "start": 202.91,
       "duration": 3.0,
-      "end": 186.74
+      "end": 205.91
     },
     {
       "type": "speech",
-      "text": "最後に、深呼吸を1回行いましょう。",
+      "text": "最後に、大きく深呼吸を1回行いましょう。",
       "section": "終了フェーズ",
-      "start": 186.74,
-      "duration": 4.85,
-      "end": 191.58
+      "start": 205.91,
+      "duration": 5.54,
+      "end": 211.46
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 191.58,
+      "start": 211.46,
       "duration": 1.0,
-      "end": 192.58
+      "end": 212.46
     },
     {
       "type": "speech",
       "text": "息を吸って。",
       "section": "終了フェーズ",
-      "start": 192.58,
+      "start": 212.46,
       "duration": 2.28,
-      "end": 194.86
+      "end": 214.74
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 194.86,
+      "start": 214.74,
       "duration": 3.0,
-      "end": 197.86
+      "end": 217.74
     },
     {
       "type": "speech",
       "text": "ゆったりと吐き切ります。",
       "section": "終了フェーズ",
-      "start": 197.86,
+      "start": 217.74,
       "duration": 3.05,
-      "end": 200.91
+      "end": 220.78
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 200.91,
+      "start": 220.78,
       "duration": 5.0,
-      "end": 205.91
+      "end": 225.78
     },
     {
       "type": "speech",
-      "text": "よく頑張りましたね。このまま心地よく安静にお過ごしください。",
+      "text": "今日も本当によく頑張りましたね。このまま心地よくお休みください。",
       "section": "終了フェーズ",
-      "start": 205.91,
-      "duration": 7.3,
-      "end": 213.21
+      "start": 225.78,
+      "duration": 7.78,
+      "end": 233.56
     }
   ]
 }

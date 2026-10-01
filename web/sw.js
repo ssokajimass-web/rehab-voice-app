@@ -1,5 +1,5 @@
 // Service Worker for リハ・アシスト
-const CACHE_NAME = 'rehab-voice-app-v1';
+const CACHE_NAME = 'rehab-voice-app-v2';
 
 const STATIC_ASSETS = [
   './',
@@ -11,9 +11,10 @@ const STATIC_ASSETS = [
   './icon-192.png',
   './icon-512.png',
   './icon.svg',
-  './audio/breathing_timeline.json',
+  './audio/voice_timeline.json',
   './audio/arm_timeline.json',
-  './audio/leg_timeline.json'
+  './audio/leg_timeline.json',
+  './audio/breathing_timeline.json'
 ];
 
 // インストール時に静的アセットをキャッシュ
