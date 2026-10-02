@@ -27,8 +27,8 @@
       "icon": "🦵",
       "audioSrc": "audio/leg.mp3",
       "timelineSrc": "audio/leg_timeline.json",
-      "duration": 551,
-      "durationLabel": "約9分"
+      "duration": 849,
+      "durationLabel": "約14分"
     },
     "breathing": {
       "id": "breathing",
@@ -45,7 +45,7 @@
     {
       "id": "daily_main",
       "name": "まいにち基本コース（声・腕・足）",
-      "timeLabel": "約31分半",
+      "timeLabel": "約36分半",
       "description": "【毎日おすすめ】お母様が余裕を持って動けるよう、待機時間と動作時間を大幅に拡大した超ゆったり安心コースです。",
       "icon": "🌟",
       "tracks": [
@@ -68,7 +68,7 @@
     {
       "id": "limbs_care",
       "name": "手足ストレッチコース",
-      "timeLabel": "約27分",
+      "timeLabel": "約32分",
       "description": "手指の拘縮と足の尖足を予防する手足の超ゆったり運動",
       "icon": "⚡",
       "tracks": [
@@ -79,7 +79,7 @@
     {
       "id": "full_care",
       "name": "じっくり全身ケアコース",
-      "timeLabel": "約40分",
+      "timeLabel": "約45分",
       "description": "深呼吸・エアスタッキング＋声＋腕＋足をすべて丁寧に行う充実コース",
       "icon": "✨",
       "tracks": [
