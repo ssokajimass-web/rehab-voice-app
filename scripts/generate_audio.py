@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-リハ・アシスト 音声生成エンジン (Gemini TTS ＋ Edge TTS ハイブリッド版)
-- 日本語誤読（漢字・ひらがな・長音・数字）を完全に根絶したSSMLテキストを処理
-- Gemini TTS (Aoede) と Edge TTS (NanamiNeural) のスマート自動ハイブリッド
-- MD5キャッシュによる高速化・重複セグメント即座スキップ
-- ffmpeg結合・ラウドネス正規化・タイムラインミリ秒精度同期
+リハ・アシスト 音声生成エンジン (VOICEPEAK 最高品質版 ＋ フォールバック対応)
+- 最高峰AI音声エンジン VOICEPEAK (Japanese Female 1 / 2) による完全自然な日本語音声生成
+- SSMLからミリ秒精度のタイムライン再構築
+- ffmpeg結合・ラウドネス正規化 (-16 LUFS)
+- Webアプリ (rehab_config.json / sw.js) への自動同期
 """
 import asyncio
 import os
@@ -48,11 +48,19 @@ TEMP_DIR = BASE_DIR / "temp"
 CACHE_DIR = TEMP_DIR / "cache"
 SILENCE_DIR = TEMP_DIR / "silence"
 
-GEMINI_VOICE = "Aoede"
-EDGE_VOICE = "ja-JP-NanamiNeural"
-EDGE_RATE = "-25%"
-EDGE_PITCH = "-2Hz"
+# VOICEPEAK 設定
+VOICEPEAK_PATH = Path(r"C:\Program Files\VOICEPEAK\voicepeak.exe")
+DEFAULT_VP_VOICE = "Japanese Female 1"
+DEFAULT_VP_SPEED = 95
+DEFAULT_VP_EMOTION = "happy=25"
 
+# Edge TTS 設定 (フォールバック用)
+EDGE_VOICE = "ja-JP-NanamiNeural"
+EDGE_RATE = "-10%"
+EDGE_PITCH = "0Hz"
+
+# Gemini TTS 設定 (フォールバック用)
+GEMINI_VOICE = "Aoede"
 CANDIDATE_MODELS = [
     "gemini-3.1-flash-tts-preview",
     "gemini-3.8-flash-lite-tts"
@@ -60,7 +68,7 @@ CANDIDATE_MODELS = [
 
 _current_key_idx = 0
 _current_model_idx = 0
-_gemini_quota_exhausted = False  # クォータ枯渇フラグ
+_gemini_quota_exhausted = False
 
 def ensure_dirs():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -94,13 +102,52 @@ def get_silence_wav(seconds: float) -> Path:
         cmd = [
             "ffmpeg", "-y", "-loglevel", "error",
             "-f", "lavfi",
-            "-i", "anullsrc=r=24000:cl=mono",
+            "-i", "anullsrc=r=48000:cl=mono",
             "-t", str(seconds),
             "-c:a", "pcm_s16le",
             str(silence_file)
         ]
         subprocess.run(cmd, check=True)
     return silence_file
+
+def synthesize_voicepeak(clean_text: str, voice_name: str = DEFAULT_VP_VOICE, speed: int = DEFAULT_VP_SPEED, emotion: str = DEFAULT_VP_EMOTION) -> Path:
+    """VOICEPEAK による超高品質・自然な日本語音声合成"""
+    hash_key = hashlib.md5(f"vp_{clean_text}_{voice_name}_{speed}_{emotion}".encode("utf-8")).hexdigest()
+    cache_wav = CACHE_DIR / f"vp_{hash_key}.wav"
+    if cache_wav.exists() and cache_wav.stat().st_size > 1000:
+        return cache_wav
+
+    if not VOICEPEAK_PATH.exists():
+        raise FileNotFoundError(f"VOICEPEAKが見つかりません: {VOICEPEAK_PATH}")
+
+    temp_wav = CACHE_DIR / f"temp_vp_{hash_key}.wav"
+    cmd = [
+        str(VOICEPEAK_PATH),
+        "-s", clean_text,
+        "-n", voice_name,
+        "--speed", str(speed),
+        "-o", str(temp_wav)
+    ]
+    if emotion:
+        cmd.extend(["-e", emotion])
+
+    res = subprocess.run(cmd, stdin=subprocess.DEVNULL, capture_output=True, text=True)
+    if res.returncode != 0 or not temp_wav.exists() or temp_wav.stat().st_size == 0:
+        raise RuntimeError(f"VOICEPEAK合成失敗: code={res.returncode}, err={res.stderr}")
+
+    # 48000Hz mono PCM に揃えて保存
+    cmd_fmt = [
+        "ffmpeg", "-y", "-loglevel", "error",
+        "-i", str(temp_wav),
+        "-ar", "48000", "-ac", "1",
+        "-c:a", "pcm_s16le",
+        str(cache_wav)
+    ]
+    subprocess.run(cmd_fmt, check=True)
+    if temp_wav.exists():
+        temp_wav.unlink()
+
+    return cache_wav
 
 async def _synthesize_edge_tts_async(text: str, out_wav: Path):
     with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as tmp_mp3:
@@ -111,7 +158,7 @@ async def _synthesize_edge_tts_async(text: str, out_wav: Path):
         subprocess.run([
             "ffmpeg", "-y", "-loglevel", "error",
             "-i", mp3_name,
-            "-ar", "24000", "-ac", "1", "-c:a", "pcm_s16le",
+            "-ar", "48000", "-ac", "1", "-c:a", "pcm_s16le",
             str(out_wav)
         ], check=True)
     finally:
@@ -119,92 +166,29 @@ async def _synthesize_edge_tts_async(text: str, out_wav: Path):
             os.remove(mp3_name)
 
 def synthesize_edge_tts(clean_text: str, hash_key: str) -> Path:
-    """Edge TTS (NanamiNeural) による高品質・高速合成"""
+    """Edge TTS によるフォールバック合成"""
     cache_wav = CACHE_DIR / f"edge_{hash_key}.wav"
     if cache_wav.exists() and cache_wav.stat().st_size > 1000:
         return cache_wav
     asyncio.run(_synthesize_edge_tts_async(clean_text, cache_wav))
     return cache_wav
 
-def synthesize_text(clean_text: str, force_engine: str = "auto") -> Path:
-    """テキスト音声合成（キャッシュ優先 ➔ Gemini TTS ➔ Edge TTSフォールバック）"""
-    global _current_key_idx, _current_model_idx, _gemini_quota_exhausted
+def synthesize_text(clean_text: str, force_engine: str = "voicepeak", voice_name: str = DEFAULT_VP_VOICE) -> Path:
+    """テキスト音声合成（VOICEPEAK最優先 ➔ Edge TTSフォールバック）"""
     ensure_dirs()
 
     if not clean_text:
         return get_silence_wav(0.1)
 
-    hash_key = hashlib.md5(f"{clean_text}_{GEMINI_VOICE}".encode("utf-8")).hexdigest()
-    gemini_cache = CACHE_DIR / f"{hash_key}.wav"
-    edge_cache = CACHE_DIR / f"edge_{hash_key}.wav"
+    # 1. VOICEPEAK モード (デフォルト)
+    if force_engine in ["voicepeak", "auto"] and VOICEPEAK_PATH.exists():
+        try:
+            return synthesize_voicepeak(clean_text, voice_name=voice_name)
+        except Exception as e:
+            print(f"    [VOICEPEAKエラー ➔ Edge TTSへフォールバック: {e}]", flush=True)
 
-    # 1. 既存キャッシュの確認（Geminiキャッシュ最優先、次にEdgeキャッシュ）
-    if gemini_cache.exists() and gemini_cache.stat().st_size > 1000:
-        return gemini_cache
-    if force_engine == "edge" and edge_cache.exists() and edge_cache.stat().st_size > 1000:
-        return edge_cache
-
-    # 2. 強制 Edge モードの場合
-    if force_engine == "edge":
-        return synthesize_edge_tts(clean_text, hash_key)
-
-    # 3. Gemini TTS の試行（クォータが残っている場合）
-    if not _gemini_quota_exhausted and API_KEYS and force_engine != "edge":
-        payload = {
-            "contents": [{"parts": [{"text": clean_text}]}],
-            "generationConfig": {
-                "responseModalities": ["AUDIO"],
-                "speechConfig": {
-                    "voiceConfig": {
-                        "prebuiltVoiceConfig": {
-                            "voiceName": GEMINI_VOICE
-                        }
-                    }
-                }
-            }
-        }
-
-        # 3回の試行（全キー巡回）で429なら当日クォータ上限と判定してEdgeにフォールバック
-        for attempt in range(len(API_KEYS)):
-            api_key = API_KEYS[_current_key_idx % len(API_KEYS)]
-            model_name = CANDIDATE_MODELS[_current_model_idx % len(CANDIDATE_MODELS)]
-            _current_key_idx = (_current_key_idx + 1) % len(API_KEYS)
-
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
-            try:
-                res = requests.post(url, headers={"Content-Type": "application/json"}, json=payload, timeout=25)
-                if res.status_code == 200:
-                    part = res.json()["candidates"][0]["content"]["parts"][0]["inlineData"]
-                    mime_type = part.get("mimeType", "")
-                    raw_bytes = base64.b64decode(part["data"])
-
-                    temp_bin = CACHE_DIR / f"temp_{hash_key}.bin"
-                    with open(temp_bin, "wb") as f:
-                        f.write(raw_bytes)
-
-                    cmd = [
-                        "ffmpeg", "-y", "-loglevel", "error",
-                        "-i", str(temp_bin),
-                        "-ar", "24000", "-ac", "1",
-                        "-c:a", "pcm_s16le",
-                        str(gemini_cache)
-                    ]
-                    subprocess.run(cmd, check=True)
-                    if temp_bin.exists():
-                        temp_bin.unlink()
-                    time.sleep(1.5)
-                    return gemini_cache
-                elif res.status_code == 429:
-                    # レート制限または日次クォータ超過
-                    continue
-            except Exception:
-                continue
-
-        # 全キーで429の場合は本日クォータ枯渇と判定し、以降はEdge TTSに即時フォールバック
-        _gemini_quota_exhausted = True
-        print(f"    [Geminiクォータ上限検知 ➔ 高品質Edge TTS (NanamiNeural) に自動切替]", flush=True)
-
-    # 4. Edge TTS へのフォールバック
+    # 2. Edge TTS フォールバック
+    hash_key = hashlib.md5(f"{clean_text}_{EDGE_VOICE}_{EDGE_RATE}".encode("utf-8")).hexdigest()
     return synthesize_edge_tts(clean_text, hash_key)
 
 def concat_wavs_to_mp3(wav_list, out_mp3: Path):
@@ -267,9 +251,9 @@ def parse_ssml_file(xml_path: Path):
 
     return tokens
 
-def process_ssml(xml_file: Path, force_engine: str = "auto"):
+def process_ssml(xml_file: Path, force_engine: str = "voicepeak", voice_name: str = DEFAULT_VP_VOICE):
     print(f"\n==========================================")
-    print(f"ビルド開始: {xml_file.name}")
+    print(f"ビルド開始: {xml_file.name} (エンジン: {force_engine}, 声: {voice_name})")
     print(f"==========================================")
 
     tokens = parse_ssml_file(xml_file)
@@ -302,12 +286,12 @@ def process_ssml(xml_file: Path, force_engine: str = "auto"):
             timeline.append({
                 "type": "section",
                 "title": item["section"],
-                "start": current_time
+                "start": round(current_time, 2)
             })
             print(f"  [フェーズ] {item['section']}", flush=True)
         elif itype == "text":
             txt = item["text"]
-            wav_path = synthesize_text(txt, force_engine=force_engine)
+            wav_path = synthesize_text(txt, force_engine=force_engine, voice_name=voice_name)
             dur = get_audio_duration(str(wav_path))
             wav_files.append(wav_path)
 
@@ -346,10 +330,11 @@ def process_ssml(xml_file: Path, force_engine: str = "auto"):
     web_mp3 = WEB_AUDIO_DIR / f"{out_name}.mp3"
     web_timeline = WEB_AUDIO_DIR / f"{out_name}_timeline.json"
 
+    engine_display = f"VOICEPEAK ({voice_name})" if force_engine == "voicepeak" else "Edge Neural TTS"
     timeline_data = {
         "title": xml_file.name,
         "total_duration": round(total_dur, 2),
-        "voice": "Gemini TTS (Aoede) / Edge Neural (Nanami)",
+        "voice": engine_display,
         "timeline": timeline
     }
     with open(timeline_file, "w", encoding="utf-8") as f:
@@ -422,18 +407,19 @@ def main():
     ensure_dirs()
     parser = argparse.ArgumentParser()
     parser.add_argument("target", nargs="?", default="", help="対象トラック名 (voice, leg, arm, breathing)")
-    parser.add_argument("--engine", default="auto", choices=["auto", "gemini", "edge"], help="使用エンジン")
+    parser.add_argument("--engine", default="voicepeak", choices=["voicepeak", "edge", "auto"], help="使用エンジン")
+    parser.add_argument("--voice", default=DEFAULT_VP_VOICE, help="VOICEPEAKナレーター名")
     args = parser.parse_args()
 
     files = sorted(list(SSML_DIR.glob("*.xml")))
     if args.target:
         files = [f for f in files if args.target.lower() in f.stem.lower()]
 
-    print(f"対象SSMLファイル: {len(files)} 件 (エンジン: {args.engine})", flush=True)
+    print(f"対象SSMLファイル: {len(files)} 件 (エンジン: {args.engine}, 声: {args.voice})", flush=True)
 
     results = []
     for f in files:
-        mp3_path, dur = process_ssml(f, force_engine=args.engine)
+        mp3_path, dur = process_ssml(f, force_engine=args.engine, voice_name=args.voice)
         results.append((f.name, mp3_path.name, dur))
 
     print("\n==========================================", flush=True)

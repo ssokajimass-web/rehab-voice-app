@@ -7,8 +7,8 @@
       "icon": "🗣️",
       "audioSrc": "audio/voice.mp3",
       "timelineSrc": "audio/voice_timeline.json",
-      "duration": 256,
-      "durationLabel": "約4分半"
+      "duration": 190,
+      "durationLabel": "約3分"
     },
     "arm": {
       "id": "arm",
@@ -45,7 +45,7 @@
     {
       "id": "daily_main",
       "name": "まいにち基本コース（声・腕・足）",
-      "timeLabel": "約36分半",
+      "timeLabel": "約35分半",
       "description": "【毎日おすすめ】お母様が余裕を持って動けるよう、待機時間と動作時間を大幅に拡大した超ゆったり安心コースです。",
       "icon": "🌟",
       "tracks": [
@@ -57,7 +57,7 @@
     {
       "id": "upper_care",
       "name": "声＋腕コース",
-      "timeLabel": "約22分半",
+      "timeLabel": "約21分",
       "description": "喉のリラックスと手・腕のこわばりをほぐす上半身ケア",
       "icon": "🌿",
       "tracks": [
@@ -79,7 +79,7 @@
     {
       "id": "full_care",
       "name": "じっくり全身ケアコース",
-      "timeLabel": "約45分",
+      "timeLabel": "約44分",
       "description": "深呼吸・エアスタッキング＋声＋腕＋足をすべて丁寧に行う充実コース",
       "icon": "✨",
       "tracks": [
