@@ -7,18 +7,18 @@
       "icon": "🗣️",
       "audioSrc": "audio/voice.mp3",
       "timelineSrc": "audio/voice_timeline.json",
-      "duration": 190,
-      "durationLabel": "約3分"
+      "duration": 205,
+      "durationLabel": "約3分半"
     },
     "arm": {
       "id": "arm",
       "title": "腕と手のリハビリ",
-      "subtitle": "お母様ペースの超ゆったり設計・手腕ストレッチ・指グーパー・筋トレ",
+      "subtitle": "お母様ペースの超ゆったり設計・手指グーパー・手首・肘の愛護的ストレッチ",
       "icon": "💪",
       "audioSrc": "audio/arm.mp3",
       "timelineSrc": "audio/arm_timeline.json",
-      "duration": 1080,
-      "durationLabel": "約18分"
+      "duration": 348,
+      "durationLabel": "約6分"
     },
     "leg": {
       "id": "leg",
@@ -27,8 +27,8 @@
       "icon": "🦵",
       "audioSrc": "audio/leg.mp3",
       "timelineSrc": "audio/leg_timeline.json",
-      "duration": 849,
-      "durationLabel": "約14分"
+      "duration": 308,
+      "durationLabel": "約5分"
     },
     "breathing": {
       "id": "breathing",
@@ -37,15 +37,15 @@
       "icon": "🫁",
       "audioSrc": "audio/breathing.mp3",
       "timelineSrc": "audio/breathing_timeline.json",
-      "duration": 524,
-      "durationLabel": "約8分半"
+      "duration": 289,
+      "durationLabel": "約5分"
     }
   },
   "courses": [
     {
       "id": "daily_main",
       "name": "まいにち基本コース（声・腕・足）",
-      "timeLabel": "約35分半",
+      "timeLabel": "約14分半",
       "description": "【毎日おすすめ】お母様が余裕を持って動けるよう、待機時間と動作時間を大幅に拡大した超ゆったり安心コースです。",
       "icon": "🌟",
       "tracks": [
@@ -57,7 +57,7 @@
     {
       "id": "upper_care",
       "name": "声＋腕コース",
-      "timeLabel": "約21分",
+      "timeLabel": "約9分",
       "description": "喉のリラックスと手・腕のこわばりをほぐす上半身ケア",
       "icon": "🌿",
       "tracks": [
@@ -68,7 +68,7 @@
     {
       "id": "limbs_care",
       "name": "手足ストレッチコース",
-      "timeLabel": "約32分",
+      "timeLabel": "約11分",
       "description": "手指の拘縮と足の尖足を予防する手足の超ゆったり運動",
       "icon": "⚡",
       "tracks": [
@@ -79,7 +79,7 @@
     {
       "id": "full_care",
       "name": "じっくり全身ケアコース",
-      "timeLabel": "約44分",
+      "timeLabel": "約19分",
       "description": "深呼吸・エアスタッキング＋声＋腕＋足をすべて丁寧に行う充実コース",
       "icon": "✨",
       "tracks": [

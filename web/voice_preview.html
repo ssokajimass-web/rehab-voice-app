@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>リハビリ音声 声質・トーン比較試聴</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      padding: 24px;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #0369a1;
+      margin-bottom: 8px;
+    }
+    p.desc {
+      font-size: 0.95rem;
+      color: #64748b;
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+    }
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #0f172a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .badge {
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 9999px;
+      font-weight: normal;
+    }
+    .badge-curr {
+      background: #fee2e2;
+      color: #dc2626;
+    }
+    .badge-rec {
+      background: #dcfce7;
+      color: #16a34a;
+      font-weight: bold;
+    }
+    .card-desc {
+      font-size: 0.85rem;
+      color: #64748b;
+      margin-bottom: 12px;
+    }
+    audio {
+      width: 100%;
+      height: 40px;
+      outline: none;
+    }
+    .sample-text {
+      font-size: 0.85rem;
+      background: #f1f5f9;
+      padding: 8px 12px;
+      border-radius: 6px;
+      margin-top: 8px;
+      color: #334155;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎙️ リハビリ音声 声質・トーン聴き比べ</h1>
+  <p class="desc">
+    お母様の耳に一番聞き取りやすく、安心できる優しい声をお選びください。<br>
+    テストセリフ：「お母さん、今日も一緒にリハビリを始めましょう。無理をせず、ゆったりいきましょうね。」
+  </p>
+
+  <!-- 1: 現在の設定 -->
+  <div class="card">
+    <div class="card-title">
+      <span>1. 現行設定 (Female 1 アナウンサー調)</span>
+      <span class="badge badge-curr">現在の設定</span>
+    </div>
+    <div class="card-desc">Japanese Female 1 (速度95, happy=25) - 明瞭だがやや硬く事務的</div>
+    <audio controls src="audio/sample_f1_default.mp3"></audio>
+  </div>
+
+  <!-- 2: Female 2 おすすめ -->
+  <div class="card" style="border: 2px solid #22c55e;">
+    <div class="card-title">
+      <span>2. Female 2 柔らか・寄り添いトーン</span>
+      <span class="badge badge-rec">おすすめ①</span>
+    </div>
+    <div class="card-desc">Japanese Female 2 (速度90, happy=25) - 優しく親しみがあり、角が取れて耳に心地よい</div>
+    <audio controls src="audio/sample_f2_soft.mp3"></audio>
+  </div>
+
+  <!-- 3: Female 2 温もり -->
+  <div class="card" style="border: 2px solid #0ea5e9;">
+    <div class="card-title">
+      <span>3. Female 2 ゆったり温もりトーン</span>
+      <span class="badge badge-rec">おすすめ②</span>
+    </div>
+    <div class="card-desc">Japanese Female 2 (速度88, happy=30, fun=10) - よりゆったりと、微笑みながら語りかけるトーン</div>
+    <audio controls src="audio/sample_f2_warm.mp3"></audio>
+  </div>
+
+  <!-- 4: Female 3 落ち着き -->
+  <div class="card">
+    <div class="card-title">
+      <span>4. Female 3 落ち着き・包容力トーン</span>
+    </div>
+    <div class="card-desc">Japanese Female 3 (速度90, happy=20) - 落ち着いた大人の女性の声。看護師のような安心感</div>
+    <audio controls src="audio/sample_f3_calm.mp3"></audio>
+  </div>
+
+  <!-- 5: Female 1 穏やか -->
+  <div class="card">
+    <div class="card-title">
+      <span>5. Female 1 穏やかアナウンサー</span>
+    </div>
+    <div class="card-desc">Japanese Female 1 (速度90, happy=20) - 現行の声を少しゆったり穏やかにした設定</div>
+    <audio controls src="audio/sample_f1_gentle.mp3"></audio>
+  </div>
+
+  <div style="text-align: center; margin-top: 30px;">
+    <a href="index.html" style="color: #0284c7; text-decoration: none; font-weight: bold;">← リハ・アシスト トップへ戻る</a>
+  </div>
+</body>
+</html>

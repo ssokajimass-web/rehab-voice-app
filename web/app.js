@@ -330,7 +330,7 @@ audio.addEventListener("timeupdate", () => {
     if (it.type === "section" && current >= it.start) {
       activeSection = it.title;
     }
-    if ((it.type === "speech" || it.type === "silence") && current >= it.start && current <= it.end) {
+    if ((it.type === "speech" || it.type === "silence" || it.type === "cue") && current >= it.start && current <= it.end) {
       activeItem = it;
     }
   }
@@ -342,7 +342,12 @@ audio.addEventListener("timeupdate", () => {
   if (activeItem) {
     const remaining = Math.max(0, Math.ceil(activeItem.end - current));
 
-    if (activeItem.type === "speech") {
+    if (activeItem.type === "cue") {
+      guideCircle.className = "guide-circle hold";
+      guideActionText.textContent = "合図🔔";
+      guideCountdown.textContent = "";
+      speechCaption.textContent = "🔔（合図音）";
+    } else if (activeItem.type === "speech") {
       speechCaption.textContent = `「${activeItem.text}」`;
       const txt = activeItem.text;
       if (txt.includes("吸って") || txt.includes("吸い")) {

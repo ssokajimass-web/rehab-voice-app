@@ -1,1135 +1,1161 @@
 {
   "title": "leg_rehab.xml",
-  "total_duration": 849.47,
-  "voice": "Gemini TTS (Aoede) / Edge Neural (Nanami)",
+  "total_duration": 307.76,
+  "voice": "VOICEPEAK (Japanese Female 2)",
   "timeline": [
     {
       "type": "section",
-      "title": "導入・掛け布団と姿勢の準備",
+      "title": "導入・準備フェーズ",
       "start": 0.0
     },
     {
       "type": "speech",
-      "text": "足と足首のリハビリ体操を始めます。",
-      "section": "導入・掛け布団と姿勢の準備",
+      "text": "足と足首のリハビリを始めましょう。",
+      "section": "導入・準備フェーズ",
       "start": 0.0,
-      "duration": 3.44,
-      "end": 3.44
+      "duration": 2.9,
+      "end": 2.9
     },
     {
       "type": "silence",
-      "section": "導入・掛け布団と姿勢の準備",
-      "start": 3.44,
-      "duration": 3.0,
-      "end": 6.44
-    },
-    {
-      "type": "speech",
-      "text": "まずは、準備姿勢をととのえましょう。",
-      "section": "導入・掛け布団と姿勢の準備",
-      "start": 6.44,
-      "duration": 4.92,
-      "end": 11.36
-    },
-    {
-      "type": "silence",
-      "section": "導入・掛け布団と姿勢の準備",
-      "start": 11.36,
+      "section": "導入・準備フェーズ",
+      "start": 2.9,
       "duration": 2.5,
-      "end": 13.86
+      "end": 5.4
     },
     {
       "type": "speech",
-      "text": "掛け布団が、足先を上から圧迫していないか確かめてみてください。",
-      "section": "導入・掛け布団と姿勢の準備",
-      "start": 13.86,
-      "duration": 7.97,
-      "end": 21.83
+      "text": "掛け布団が足先を押さえていたら、足先が見えるように、ふわりとめくっておきましょうね。",
+      "section": "導入・準備フェーズ",
+      "start": 5.4,
+      "duration": 7.03,
+      "end": 12.44
     },
     {
       "type": "silence",
-      "section": "導入・掛け布団と姿勢の準備",
-      "start": 21.83,
+      "section": "導入・準備フェーズ",
+      "start": 12.44,
       "duration": 3.5,
-      "end": 25.33
+      "end": 15.94
     },
     {
       "type": "speech",
-      "text": "足先の上に重い掛け布団がかかっていると、足首を動かすときの抵抗になってしまいます。",
-      "section": "導入・掛け布団と姿勢の準備",
-      "start": 25.33,
-      "duration": 10.1,
-      "end": 35.43
+      "text": "ベッドで仰向けのまま、肩の力を抜いて、ゆったりリラックスしてください。",
+      "section": "導入・準備フェーズ",
+      "start": 15.94,
+      "duration": 5.93,
+      "end": 21.87
     },
     {
       "type": "silence",
-      "section": "導入・掛け布団と姿勢の準備",
-      "start": 35.43,
-      "duration": 4.0,
-      "end": 39.43
+      "section": "導入・準備フェーズ",
+      "start": 21.87,
+      "duration": 3.5,
+      "end": 25.37
     },
     {
       "type": "speech",
-      "text": "掛け布団の足元を少し浮かせるか、足先が見えるように、ふわりとめくっておきましょう。",
-      "section": "導入・掛け布団と姿勢の準備",
-      "start": 39.43,
-      "duration": 9.53,
-      "end": 48.96
+      "text": "動かすのは、ほんの少しで大丈夫です。",
+      "section": "導入・準備フェーズ",
+      "start": 25.37,
+      "duration": 3.45,
+      "end": 28.82
     },
     {
       "type": "silence",
-      "section": "導入・掛け布団と姿勢の準備",
-      "start": 48.96,
-      "duration": 4.0,
-      "end": 52.96
+      "section": "導入・準備フェーズ",
+      "start": 28.82,
+      "duration": 2.5,
+      "end": 31.32
     },
     {
       "type": "speech",
-      "text": "ベッドで仰向けになって、肩と全身の力をフッと抜いてリラックスします。",
-      "section": "導入・掛け布団と姿勢の準備",
-      "start": 52.96,
-      "duration": 8.57,
-      "end": 61.53
+      "text": "それでは、準備の深呼吸からいきましょう。",
+      "section": "導入・準備フェーズ",
+      "start": 31.32,
+      "duration": 3.66,
+      "end": 34.98
     },
     {
       "type": "silence",
-      "section": "導入・掛け布団と姿勢の準備",
-      "start": 61.53,
-      "duration": 4.0,
-      "end": 65.53
-    },
-    {
-      "type": "section",
-      "title": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 65.52799999999999
-    },
-    {
-      "type": "speech",
-      "text": "これから行う「足首の曲げ伸ばし」は、ベッドの上で過ごすお母様にとって、最も大切で効果的な運動です。",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 65.53,
-      "duration": 12.58,
-      "end": 78.1
-    },
-    {
-      "type": "silence",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 78.1,
-      "duration": 4.5,
-      "end": 82.6
-    },
-    {
-      "type": "speech",
-      "text": "寝たきりの状態が続くと、重力や掛け布団の重みによって、つま先が下を向いたままアキレス腱が固まる、「せんそく」という状態になりやすくなります。",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 82.6,
-      "duration": 16.49,
-      "end": 99.09
-    },
-    {
-      "type": "silence",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 99.09,
-      "duration": 5.0,
-      "end": 104.09
-    },
-    {
-      "type": "speech",
-      "text": "足首を手前に反らす動きを意識的に行うことで、腱が縮んで固まるのをしっかり防ぎます。",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 104.09,
-      "duration": 10.63,
-      "end": 114.72
-    },
-    {
-      "type": "silence",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 114.72,
-      "duration": 4.5,
-      "end": 119.22
-    },
-    {
-      "type": "speech",
-      "text": "さらに、ふくらはぎの筋肉は「第2の心臓」と呼ばれています。",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 119.22,
-      "duration": 7.87,
-      "end": 127.1
-    },
-    {
-      "type": "silence",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 127.1,
-      "duration": 4.0,
-      "end": 131.1
-    },
-    {
-      "type": "speech",
-      "text": "足首を動かすことで、足に溜まりやすい血液が心臓へと送り返され、むくみや血栓を予防して、全身の血流を良くしてくれます。",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 131.1,
-      "duration": 15.0,
-      "end": 146.1
-    },
-    {
-      "type": "silence",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 146.1,
-      "duration": 5.0,
-      "end": 151.1
-    },
-    {
-      "type": "speech",
-      "text": "脚を持ち上げる運動と違って、とても小さな力で行えるため、神経や筋肉に余計な負担をかけない、安心・安全な運動です。",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 151.1,
-      "duration": 14.9,
-      "end": 166.0
-    },
-    {
-      "type": "silence",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 166.0,
-      "duration": 5.0,
-      "end": 171.0
-    },
-    {
-      "type": "speech",
-      "text": "動く範囲は、ほんの少しで大丈夫です。",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 171.0,
-      "duration": 5.52,
-      "end": 176.52
-    },
-    {
-      "type": "silence",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 176.52,
-      "duration": 3.0,
-      "end": 179.52
-    },
-    {
-      "type": "speech",
-      "text": "「動かそう」とする神経のサインを足先に送ること自体が、何よりも素晴らしいリハビリになります。",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 179.52,
-      "duration": 10.73,
-      "end": 190.25
-    },
-    {
-      "type": "silence",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 190.25,
-      "duration": 4.5,
-      "end": 194.75
-    },
-    {
-      "type": "speech",
-      "text": "それでは、準備の深呼吸から行いましょう。",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 194.75,
-      "duration": 5.81,
-      "end": 200.56
-    },
-    {
-      "type": "silence",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 200.56,
+      "section": "導入・準備フェーズ",
+      "start": 34.98,
       "duration": 1.0,
-      "end": 201.56
+      "end": 35.98
+    },
+    {
+      "type": "cue",
+      "section": "導入・準備フェーズ",
+      "start": 35.98,
+      "duration": 0.7,
+      "end": 36.68
     },
     {
       "type": "speech",
       "text": "鼻から、息を吸って。",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 201.56,
-      "duration": 2.92,
-      "end": 204.48
+      "section": "導入・準備フェーズ",
+      "start": 36.68,
+      "duration": 2.43,
+      "end": 39.11
     },
     {
       "type": "silence",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 204.48,
-      "duration": 4.0,
-      "end": 208.48
+      "section": "導入・準備フェーズ",
+      "start": 39.11,
+      "duration": 3.5,
+      "end": 42.61
     },
     {
       "type": "speech",
-      "text": "口から、ゆったりと吐いていきます。",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 208.48,
-      "duration": 3.68,
-      "end": 212.16
+      "text": "口から、ゆったり吐き出します。",
+      "section": "導入・準備フェーズ",
+      "start": 42.61,
+      "duration": 2.81,
+      "end": 45.43
     },
     {
       "type": "silence",
-      "section": "なぜ足首の曲げ伸ばしが一番効果的なのか",
-      "start": 212.16,
-      "duration": 5.0,
-      "end": 217.16
+      "section": "導入・準備フェーズ",
+      "start": 45.43,
+      "duration": 4.5,
+      "end": 49.93
     },
     {
       "type": "section",
-      "title": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 217.156
+      "title": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 49.93
     },
     {
       "type": "speech",
-      "text": "ひとつ目は、足首の曲げ伸ばし運動です。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 217.16,
-      "duration": 5.66,
-      "end": 222.82
+      "text": "ひとつ目は、足首の曲げ伸ばしです。手前に起こして、遠くへ伸ばします。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 49.93,
+      "duration": 6.62,
+      "end": 56.55
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 222.82,
-      "duration": 3.0,
-      "end": 225.82
-    },
-    {
-      "type": "speech",
-      "text": "息を吐きながら手前に引き上げ、息を吸いながら遠くへ伸ばし、そして1回ごとに力を完全に抜いてお休みします。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 225.82,
-      "duration": 12.79,
-      "end": 238.61
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 238.61,
-      "duration": 5.0,
-      "end": 243.61
-    },
-    {
-      "type": "speech",
-      "text": "無理に大きく動かそうとせず、痛みのない動く範囲で、ゆっくり5回行いましょう。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 243.61,
-      "duration": 9.34,
-      "end": 252.95
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 252.95,
-      "duration": 4.0,
-      "end": 256.95
-    },
-    {
-      "type": "speech",
-      "text": "いっかいめ。息をゆっくり吐きながら、つま先をお顔、すねのほうへ、ゆっくりと引き上げていきます。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 256.95,
-      "duration": 11.9,
-      "end": 268.85
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 268.85,
-      "duration": 2.0,
-      "end": 270.85
-    },
-    {
-      "type": "speech",
-      "text": "ふくらはぎの裏やすねに、心地よい張りを感じたところで、そのまま1、2秒キープします。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 270.85,
-      "duration": 10.25,
-      "end": 281.1
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 281.1,
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 56.55,
       "duration": 3.5,
-      "end": 284.6
+      "end": 60.05
     },
     {
       "type": "speech",
-      "text": "息を吸いながら、今度はバレエのつま先立ちのように、足先を遠くへ、ゆっくりと伸ばしていきます。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 284.6,
-      "duration": 11.21,
-      "end": 295.81
+      "text": "無理をせず、痛みのない範囲で、ゆっくり5回行いましょう。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 60.05,
+      "duration": 5.34,
+      "end": 65.38
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 295.81,
-      "duration": 2.0,
-      "end": 297.81
-    },
-    {
-      "type": "speech",
-      "text": "ふくらはぎが軽く縮むのを感じて、そのまま1、2秒キープします。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 297.81,
-      "duration": 8.18,
-      "end": 305.99
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 305.99,
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 65.38,
       "duration": 3.5,
-      "end": 309.49
+      "end": 68.88
     },
     {
       "type": "speech",
-      "text": "そして、足の力を、フッと完全に抜いてお休みします。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 309.49,
-      "duration": 7.32,
-      "end": 316.81
+      "text": "1回目。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 68.88,
+      "duration": 1.21,
+      "end": 70.09
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 316.81,
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 70.09,
+      "duration": 1.0,
+      "end": 71.09
+    },
+    {
+      "type": "cue",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 71.09,
+      "duration": 0.7,
+      "end": 71.79
+    },
+    {
+      "type": "speech",
+      "text": "息を吐きながら、手前へ、ぐーっ。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 71.79,
+      "duration": 3.23,
+      "end": 75.02
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 75.02,
+      "duration": 2.5,
+      "end": 77.52
+    },
+    {
+      "type": "speech",
+      "text": "そのまま、1、2。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 77.52,
+      "duration": 2.71,
+      "end": 80.24
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 80.24,
       "duration": 2.0,
-      "end": 318.81
+      "end": 82.24
     },
     {
       "type": "speech",
-      "text": "全身をリラックスさせて、ひと息つきましょう。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 318.81,
-      "duration": 5.69,
-      "end": 324.5
+      "text": "息を吸いながら、遠くへ、すーっ。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 82.24,
+      "duration": 3.25,
+      "end": 85.49
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 324.5,
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 85.49,
+      "duration": 2.5,
+      "end": 87.99
+    },
+    {
+      "type": "speech",
+      "text": "そのまま、1、2。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 87.99,
+      "duration": 2.71,
+      "end": 90.7
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 90.7,
+      "duration": 2.0,
+      "end": 92.7
+    },
+    {
+      "type": "speech",
+      "text": "力をストンと抜いて、脱力。ふーっとお休みします。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 92.7,
+      "duration": 4.95,
+      "end": 97.66
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 97.66,
       "duration": 5.0,
-      "end": 329.5
+      "end": 102.66
     },
     {
       "type": "speech",
-      "text": "にかいめ。息をゆっくり吐きながら、つま先をお顔、すねのほうへ、引き上げていきます。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 329.5,
-      "duration": 11.11,
-      "end": 340.61
+      "text": "2回目。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 102.66,
+      "duration": 1.21,
+      "end": 103.87
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 340.61,
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 103.87,
+      "duration": 1.0,
+      "end": 104.87
+    },
+    {
+      "type": "cue",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 104.87,
+      "duration": 0.7,
+      "end": 105.57
+    },
+    {
+      "type": "speech",
+      "text": "手前へ、ぐーっ。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 105.57,
+      "duration": 1.79,
+      "end": 107.36
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 107.36,
+      "duration": 2.5,
+      "end": 109.86
+    },
+    {
+      "type": "speech",
+      "text": "1、2。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 109.86,
+      "duration": 1.04,
+      "end": 110.9
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 110.9,
       "duration": 2.0,
-      "end": 342.61
+      "end": 112.9
     },
     {
       "type": "speech",
-      "text": "軽い張りを感じる位置で、1、2秒キープ。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 342.61,
-      "duration": 5.69,
-      "end": 348.3
+      "text": "遠くへ、すーっ。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 112.9,
+      "duration": 1.81,
+      "end": 114.71
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 348.3,
-      "duration": 3.0,
-      "end": 351.3
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 114.71,
+      "duration": 2.5,
+      "end": 117.21
     },
     {
       "type": "speech",
-      "text": "息を吸いながら、足先を遠くへ、ゆっくり伸ばしていきます。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 351.3,
-      "duration": 7.39,
-      "end": 358.69
+      "text": "1、2。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 117.21,
+      "duration": 1.04,
+      "end": 118.25
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 358.69,
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 118.25,
       "duration": 2.0,
-      "end": 360.69
+      "end": 120.25
     },
     {
       "type": "speech",
-      "text": "ふくらはぎの収縮を感じて、1、2秒キープ。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 360.69,
-      "duration": 6.07,
-      "end": 366.76
+      "text": "力を抜いて、脱力。楽に呼吸をしましょう。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 120.25,
+      "duration": 4.65,
+      "end": 124.91
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 366.76,
-      "duration": 3.0,
-      "end": 369.76
-    },
-    {
-      "type": "speech",
-      "text": "フッと力を完全に抜いて、お休みします。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 369.76,
-      "duration": 5.64,
-      "end": 375.4
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 375.4,
-      "duration": 2.0,
-      "end": 377.4
-    },
-    {
-      "type": "speech",
-      "text": "この脱力の時間が、筋肉のこわばりや疲れを防ぐためにとても重要です。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 377.4,
-      "duration": 9.07,
-      "end": 386.48
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 386.48,
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 124.91,
       "duration": 5.0,
-      "end": 391.48
+      "end": 129.91
     },
     {
       "type": "speech",
-      "text": "さんかいめ。息を吐きながら、つま先をお顔のほうへ、引き寄せます。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 391.48,
-      "duration": 9.22,
-      "end": 400.69
+      "text": "3回目。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 129.91,
+      "duration": 1.35,
+      "end": 131.26
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 400.69,
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 131.26,
+      "duration": 1.0,
+      "end": 132.26
+    },
+    {
+      "type": "cue",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 132.26,
+      "duration": 0.7,
+      "end": 132.96
+    },
+    {
+      "type": "speech",
+      "text": "手前へ、ぐーっ。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 132.96,
+      "duration": 1.79,
+      "end": 134.75
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 134.75,
+      "duration": 2.5,
+      "end": 137.25
+    },
+    {
+      "type": "speech",
+      "text": "1、2。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 137.25,
+      "duration": 1.04,
+      "end": 138.29
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 138.29,
       "duration": 2.0,
-      "end": 402.69
+      "end": 140.29
     },
     {
       "type": "speech",
-      "text": "そのまま、1、2秒キープ。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 402.69,
-      "duration": 4.42,
-      "end": 407.11
+      "text": "遠くへ、すーっ。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 140.29,
+      "duration": 1.81,
+      "end": 142.11
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 407.11,
-      "duration": 3.0,
-      "end": 410.11
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 142.11,
+      "duration": 2.5,
+      "end": 144.61
     },
     {
       "type": "speech",
-      "text": "息を吸いながら、遠くへ、ゆっくり伸ばします。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 410.11,
-      "duration": 5.93,
-      "end": 416.04
+      "text": "1、2。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 144.61,
+      "duration": 1.04,
+      "end": 145.65
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 416.04,
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 145.65,
       "duration": 2.0,
-      "end": 418.04
+      "end": 147.65
     },
     {
       "type": "speech",
-      "text": "心地よく伸ばして、1、2秒キープ。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 418.04,
-      "duration": 5.14,
-      "end": 423.17
+      "text": "力を抜いて、リラックス。とてもお上手です。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 147.65,
+      "duration": 4.35,
+      "end": 152.0
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 423.17,
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 152.0,
+      "duration": 5.0,
+      "end": 157.0
+    },
+    {
+      "type": "speech",
+      "text": "4回目。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 157.0,
+      "duration": 1.28,
+      "end": 158.28
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 158.28,
+      "duration": 1.0,
+      "end": 159.28
+    },
+    {
+      "type": "cue",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 159.28,
+      "duration": 0.7,
+      "end": 159.98
+    },
+    {
+      "type": "speech",
+      "text": "手前へ、ぐーっ。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 159.98,
+      "duration": 1.79,
+      "end": 161.77
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 161.77,
+      "duration": 2.5,
+      "end": 164.27
+    },
+    {
+      "type": "speech",
+      "text": "1、2。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 164.27,
+      "duration": 1.04,
+      "end": 165.31
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 165.31,
+      "duration": 2.0,
+      "end": 167.31
+    },
+    {
+      "type": "speech",
+      "text": "遠くへ、すーっ。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 167.31,
+      "duration": 1.81,
+      "end": 169.13
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 169.13,
+      "duration": 2.5,
+      "end": 171.63
+    },
+    {
+      "type": "speech",
+      "text": "1、2。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 171.63,
+      "duration": 1.04,
+      "end": 172.67
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 172.67,
+      "duration": 2.0,
+      "end": 174.67
+    },
+    {
+      "type": "speech",
+      "text": "ストンと脱力。ふーっとひと息つきましょう。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 174.67,
+      "duration": 3.87,
+      "end": 178.54
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 178.54,
+      "duration": 5.0,
+      "end": 183.54
+    },
+    {
+      "type": "speech",
+      "text": "5回目、最後です。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 183.54,
+      "duration": 2.24,
+      "end": 185.79
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 185.79,
+      "duration": 1.0,
+      "end": 186.79
+    },
+    {
+      "type": "cue",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 186.79,
+      "duration": 0.7,
+      "end": 187.49
+    },
+    {
+      "type": "speech",
+      "text": "手前へ、ぐーっ。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 187.49,
+      "duration": 1.79,
+      "end": 189.27
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 189.27,
+      "duration": 2.5,
+      "end": 191.77
+    },
+    {
+      "type": "speech",
+      "text": "しっかりキープ、1、2。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 191.77,
+      "duration": 3.1,
+      "end": 194.88
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 194.88,
+      "duration": 2.0,
+      "end": 196.88
+    },
+    {
+      "type": "speech",
+      "text": "遠くへ、すーっ。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 196.88,
+      "duration": 1.81,
+      "end": 198.69
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 198.69,
+      "duration": 2.5,
+      "end": 201.19
+    },
+    {
+      "type": "speech",
+      "text": "1、2。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 201.19,
+      "duration": 1.04,
+      "end": 202.23
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 202.23,
+      "duration": 2.0,
+      "end": 204.23
+    },
+    {
+      "type": "speech",
+      "text": "完全に力を抜いて、お休みします。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 204.23,
+      "duration": 3.44,
+      "end": 207.67
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 207.67,
       "duration": 3.0,
-      "end": 426.17
+      "end": 210.67
     },
     {
       "type": "speech",
-      "text": "フッと力を抜いて、リラックス。楽な呼吸でお休みください。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 426.17,
-      "duration": 8.45,
-      "end": 434.62
+      "text": "足先から、じわーっと血流が巡って温かくなってきますね。",
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 210.67,
+      "duration": 4.89,
+      "end": 215.56
     },
     {
       "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 434.62,
+      "section": "運動1: 足首の曲げ伸ばし（5回）",
+      "start": 215.56,
       "duration": 6.0,
-      "end": 440.62
-    },
-    {
-      "type": "speech",
-      "text": "よんかいめ。痛みのない範囲で、息を吐きながら、すねのほうへ。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 440.62,
-      "duration": 8.64,
-      "end": 449.26
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 449.26,
-      "duration": 2.0,
-      "end": 451.26
-    },
-    {
-      "type": "speech",
-      "text": "その位置で、1、2秒キープ。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 451.26,
-      "duration": 4.63,
-      "end": 455.89
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 455.89,
-      "duration": 3.0,
-      "end": 458.89
-    },
-    {
-      "type": "speech",
-      "text": "息を吸いながら、遠くへ、ゆっくりと伸ばします。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 458.89,
-      "duration": 6.07,
-      "end": 464.96
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 464.96,
-      "duration": 2.0,
-      "end": 466.96
-    },
-    {
-      "type": "speech",
-      "text": "やさしく伸ばして、1、2秒キープ。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 466.96,
-      "duration": 5.14,
-      "end": 472.1
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 472.1,
-      "duration": 3.0,
-      "end": 475.1
-    },
-    {
-      "type": "speech",
-      "text": "フッと足の力を完全に抜いて、お休みします。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 475.1,
-      "duration": 6.22,
-      "end": 481.32
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 481.32,
-      "duration": 6.0,
-      "end": 487.32
-    },
-    {
-      "type": "speech",
-      "text": "ごかいめ。息を吐きながら、つま先をお顔のほうへ、ゆっくり引き上げて。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 487.32,
-      "duration": 9.29,
-      "end": 496.6
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 496.6,
-      "duration": 2.0,
-      "end": 498.6
-    },
-    {
-      "type": "speech",
-      "text": "最後にしっかり、1、2秒キープ。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 498.6,
-      "duration": 5.26,
-      "end": 503.86
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 503.86,
-      "duration": 3.0,
-      "end": 506.86
-    },
-    {
-      "type": "speech",
-      "text": "息を吸いながら、足先を遠くへ、ゆっくり伸ばします。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 506.86,
-      "duration": 6.89,
-      "end": 513.75
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 513.75,
-      "duration": 2.0,
-      "end": 515.75
-    },
-    {
-      "type": "speech",
-      "text": "遠くへ伸ばして、1、2秒キープ。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 515.75,
-      "duration": 4.92,
-      "end": 520.67
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 520.67,
-      "duration": 3.0,
-      "end": 523.67
-    },
-    {
-      "type": "speech",
-      "text": "フッと力を完全に抜いて、リラックスさせましょう。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 523.67,
-      "duration": 6.07,
-      "end": 529.74
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 529.74,
-      "duration": 2.0,
-      "end": 531.74
-    },
-    {
-      "type": "speech",
-      "text": "とても素晴らしいです。ふくらはぎの筋ポンプが働いて、足先からポカポカと血流が巡ってきています。",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 531.74,
-      "duration": 12.34,
-      "end": 544.08
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 足首の曲げ伸ばし（背屈・底屈・完全脱力）",
-      "start": 544.08,
-      "duration": 7.0,
-      "end": 551.08
+      "end": 221.56
     },
     {
       "type": "section",
       "title": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 551.076
+      "start": 221.56
     },
     {
       "type": "speech",
-      "text": "ふたつ目は、かかとすべらせ運動です。",
+      "text": "ふたつ目は、かかとすべらせです。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 551.08,
-      "duration": 5.14,
-      "end": 556.21
+      "start": 221.56,
+      "duration": 2.82,
+      "end": 224.39
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 556.21,
+      "start": 224.39,
       "duration": 3.0,
-      "end": 559.21
+      "end": 227.39
     },
     {
       "type": "speech",
-      "text": "脚を持ち上げる運動は負担が大きいため行いません。",
+      "text": "脚を持ち上げず、かかとをシーツにつけたまま、膝を軽く曲げて伸ばします。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 559.21,
-      "duration": 6.46,
-      "end": 565.67
+      "start": 227.39,
+      "duration": 6.17,
+      "end": 233.56
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 565.67,
-      "duration": 3.5,
-      "end": 569.17
-    },
-    {
-      "type": "speech",
-      "text": "かかとをベッドにつけたまま、すりあしのようにして、膝を軽く曲げて伸ばします。",
-      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 569.17,
-      "duration": 8.74,
-      "end": 577.9
-    },
-    {
-      "type": "silence",
-      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 577.9,
+      "start": 233.56,
       "duration": 4.0,
-      "end": 581.9
+      "end": 237.56
     },
     {
       "type": "speech",
-      "text": "まずは右足から行いましょう。ゆっくり3回繰り返します。",
+      "text": "右足から、ゆっくり3回いきましょう。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 581.9,
-      "duration": 7.92,
-      "end": 589.82
+      "start": 237.56,
+      "duration": 3.42,
+      "end": 240.98
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 589.82,
+      "start": 240.98,
       "duration": 3.0,
-      "end": 592.82
+      "end": 243.98
     },
     {
       "type": "speech",
-      "text": "いっかいめ。かかとをベッドにつけたまま、すりあしで、膝をゆっくりと軽く曲げていきます。",
+      "text": "右足の1回目。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 592.82,
-      "duration": 10.94,
-      "end": 603.77
+      "start": 243.98,
+      "duration": 1.87,
+      "end": 245.85
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 603.77,
+      "start": 245.85,
+      "duration": 1.0,
+      "end": 246.85
+    },
+    {
+      "type": "cue",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 246.85,
+      "duration": 0.7,
+      "end": 247.55
+    },
+    {
+      "type": "speech",
+      "text": "かかとをすべらせて、膝をかるーく曲げて。",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 247.55,
+      "duration": 3.73,
+      "end": 251.29
+    },
+    {
+      "type": "silence",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 251.29,
+      "duration": 4.0,
+      "end": 255.29
+    },
+    {
+      "type": "speech",
+      "text": "ゆっくり、元の位置へ伸ばします。",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 255.29,
+      "duration": 2.99,
+      "end": 258.28
+    },
+    {
+      "type": "silence",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 258.28,
       "duration": 4.5,
-      "end": 608.27
+      "end": 262.78
     },
     {
       "type": "speech",
-      "text": "ゆっくりと元の位置へ滑らせながら、伸ばしていきます。",
+      "text": "2回目。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 608.27,
-      "duration": 5.16,
-      "end": 613.43
+      "start": 262.78,
+      "duration": 1.21,
+      "end": 263.98
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 613.43,
-      "duration": 5.0,
-      "end": 618.43
+      "start": 263.98,
+      "duration": 1.0,
+      "end": 264.98
+    },
+    {
+      "type": "cue",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 264.98,
+      "duration": 0.7,
+      "end": 265.68
     },
     {
       "type": "speech",
-      "text": "にかいめ。かかとをすべらせて、膝を軽く曲げていきます。",
+      "text": "すーっと曲げて。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 618.43,
-      "duration": 7.85,
-      "end": 626.28
+      "start": 265.68,
+      "duration": 1.69,
+      "end": 267.38
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 626.28,
+      "start": 267.38,
+      "duration": 4.0,
+      "end": 271.38
+    },
+    {
+      "type": "speech",
+      "text": "ゆっくり伸ばします。",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 271.38,
+      "duration": 1.74,
+      "end": 273.12
+    },
+    {
+      "type": "silence",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 273.12,
       "duration": 4.5,
-      "end": 630.78
+      "end": 277.62
     },
     {
       "type": "speech",
-      "text": "ゆっくりと、伸ばします。",
+      "text": "3回目。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 630.78,
-      "duration": 4.6,
-      "end": 635.38
+      "start": 277.62,
+      "duration": 1.35,
+      "end": 278.98
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 635.38,
-      "duration": 5.0,
-      "end": 640.38
+      "start": 278.98,
+      "duration": 1.0,
+      "end": 279.98
+    },
+    {
+      "type": "cue",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 279.98,
+      "duration": 0.7,
+      "end": 280.68
     },
     {
       "type": "speech",
-      "text": "さんかいめ。無理のない範囲で、軽く曲げて。",
+      "text": "かるーく曲げて。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 640.38,
-      "duration": 6.79,
-      "end": 647.17
+      "start": 280.68,
+      "duration": 1.66,
+      "end": 282.34
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 647.17,
-      "duration": 4.5,
-      "end": 651.67
+      "start": 282.34,
+      "duration": 4.0,
+      "end": 286.34
     },
     {
       "type": "speech",
-      "text": "ゆっくりと、伸ばします。",
+      "text": "ゆっくり伸ばします。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 651.67,
-      "duration": 4.6,
-      "end": 656.27
+      "start": 286.34,
+      "duration": 1.74,
+      "end": 288.08
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 656.27,
-      "duration": 5.0,
-      "end": 661.27
+      "start": 288.08,
+      "duration": 4.0,
+      "end": 292.08
     },
     {
       "type": "speech",
-      "text": "右足を完全に休ませて、フッと力を抜いてリラックスします。",
+      "text": "右足の力を抜いて、お休みします。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 661.27,
-      "duration": 7.66,
-      "end": 668.92
+      "start": 292.08,
+      "duration": 3.42,
+      "end": 295.5
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 668.92,
-      "duration": 7.0,
-      "end": 675.92
+      "start": 295.5,
+      "duration": 6.0,
+      "end": 301.5
     },
     {
       "type": "speech",
-      "text": "続いて左足です。同じようにゆっくり3回行います。",
+      "text": "続いて、左足です。同じように3回行いましょう。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 675.92,
-      "duration": 8.21,
-      "end": 684.13
+      "start": 301.5,
+      "duration": 5.46,
+      "end": 306.97
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 684.13,
+      "start": 306.97,
       "duration": 3.0,
-      "end": 687.13
+      "end": 309.97
     },
     {
       "type": "speech",
-      "text": "いっかいめ。左足のかかとをすべらせて、膝をゆっくりと軽く曲げていきます。",
+      "text": "左足の1回目。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 687.13,
-      "duration": 9.79,
-      "end": 696.92
+      "start": 309.97,
+      "duration": 1.96,
+      "end": 311.93
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 696.92,
+      "start": 311.93,
+      "duration": 1.0,
+      "end": 312.93
+    },
+    {
+      "type": "cue",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 312.93,
+      "duration": 0.7,
+      "end": 313.63
+    },
+    {
+      "type": "speech",
+      "text": "かかとをすべらせて、かるーく曲げて。",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 313.63,
+      "duration": 3.24,
+      "end": 316.87
+    },
+    {
+      "type": "silence",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 316.87,
+      "duration": 4.0,
+      "end": 320.87
+    },
+    {
+      "type": "speech",
+      "text": "ゆっくり、伸ばします。",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 320.87,
+      "duration": 2.14,
+      "end": 323.01
+    },
+    {
+      "type": "silence",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 323.01,
       "duration": 4.5,
-      "end": 701.42
+      "end": 327.51
     },
     {
       "type": "speech",
-      "text": "ゆっくりと、元の位置へ伸ばしていきます。",
+      "text": "2回目。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 701.42,
-      "duration": 3.76,
-      "end": 705.18
+      "start": 327.51,
+      "duration": 1.21,
+      "end": 328.72
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 705.18,
-      "duration": 5.0,
-      "end": 710.18
+      "start": 328.72,
+      "duration": 1.0,
+      "end": 329.72
+    },
+    {
+      "type": "cue",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 329.72,
+      "duration": 0.7,
+      "end": 330.42
     },
     {
       "type": "speech",
-      "text": "にかいめ。すりあしで、膝を軽く曲げていきます。",
+      "text": "すーっと曲げて。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 710.18,
-      "duration": 7.27,
-      "end": 717.46
+      "start": 330.42,
+      "duration": 1.69,
+      "end": 332.11
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 717.46,
+      "start": 332.11,
+      "duration": 4.0,
+      "end": 336.11
+    },
+    {
+      "type": "speech",
+      "text": "ゆっくり伸ばします。",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 336.11,
+      "duration": 1.74,
+      "end": 337.86
+    },
+    {
+      "type": "silence",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 337.86,
       "duration": 4.5,
-      "end": 721.96
+      "end": 342.36
     },
     {
       "type": "speech",
-      "text": "ゆっくりと、伸ばします。",
+      "text": "3回目。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 721.96,
-      "duration": 4.6,
-      "end": 726.56
+      "start": 342.36,
+      "duration": 1.35,
+      "end": 343.71
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 726.56,
-      "duration": 5.0,
-      "end": 731.56
+      "start": 343.71,
+      "duration": 1.0,
+      "end": 344.71
+    },
+    {
+      "type": "cue",
+      "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
+      "start": 344.71,
+      "duration": 0.7,
+      "end": 345.41
     },
     {
       "type": "speech",
-      "text": "さんかいめ。痛みのない範囲で、軽く曲げて。",
+      "text": "かるーく曲げて。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 731.56,
-      "duration": 6.94,
-      "end": 738.49
+      "start": 345.41,
+      "duration": 1.66,
+      "end": 347.08
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 738.49,
-      "duration": 4.5,
-      "end": 742.99
+      "start": 347.08,
+      "duration": 4.0,
+      "end": 351.08
     },
     {
       "type": "speech",
-      "text": "ゆっくりと、伸ばします。",
+      "text": "ゆっくり伸ばします。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 742.99,
-      "duration": 4.6,
-      "end": 747.59
+      "start": 351.08,
+      "duration": 1.74,
+      "end": 352.82
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 747.59,
-      "duration": 5.0,
-      "end": 752.59
+      "start": 352.82,
+      "duration": 4.0,
+      "end": 356.82
     },
     {
       "type": "speech",
-      "text": "とてもよく頑張りました。両足とも力を抜いて、リラックスしてください。",
+      "text": "両足の力を抜いて、楽にしてくださいね。",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 752.59,
-      "duration": 9.29,
-      "end": 761.88
+      "start": 356.82,
+      "duration": 3.8,
+      "end": 360.62
     },
     {
       "type": "silence",
       "section": "運動2: かかとすべらせ（膝の曲げ伸ばし）",
-      "start": 761.88,
-      "duration": 7.0,
-      "end": 768.88
+      "start": 360.62,
+      "duration": 6.0,
+      "end": 366.62
     },
     {
       "type": "section",
       "title": "終了フェーズ",
-      "start": 768.88
+      "start": 366.62
     },
     {
       "type": "speech",
       "text": "お疲れさまでした。足のリハビリはこれで終了です。",
       "section": "終了フェーズ",
-      "start": 768.88,
-      "duration": 7.25,
-      "end": 776.13
+      "start": 366.62,
+      "duration": 4.66,
+      "end": 371.28
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 776.13,
+      "start": 371.28,
       "duration": 3.0,
-      "end": 779.13
+      "end": 374.28
     },
     {
       "type": "speech",
-      "text": "足首を動かしたことで、アキレス腱の固まりが防がれ、ふくらはぎのポンプ作用によって全身の血液循環が整いました。",
+      "text": "足首と膝を動かして、全身のめぐりがとても良くなりました。",
       "section": "終了フェーズ",
-      "start": 779.13,
-      "duration": 13.27,
-      "end": 792.4
+      "start": 374.28,
+      "duration": 5.05,
+      "end": 379.34
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 792.4,
-      "duration": 5.0,
-      "end": 797.4
+      "start": 379.34,
+      "duration": 4.0,
+      "end": 383.34
     },
     {
       "type": "speech",
-      "text": "翌日に疲れが残らないよう、1日に2回から3回程度、心地よい範囲で続けてみてください。",
+      "text": "最後に、ゆったり深呼吸を1回行いましょう。",
       "section": "終了フェーズ",
-      "start": 797.4,
-      "duration": 11.26,
-      "end": 808.66
+      "start": 383.34,
+      "duration": 4.2,
+      "end": 387.54
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 808.66,
-      "duration": 4.5,
-      "end": 813.16
-    },
-    {
-      "type": "speech",
-      "text": "最後に、大きく深呼吸を1回行いましょう。",
-      "section": "終了フェーズ",
-      "start": 813.16,
-      "duration": 6.26,
-      "end": 819.42
-    },
-    {
-      "type": "silence",
-      "section": "終了フェーズ",
-      "start": 819.42,
+      "start": 387.54,
       "duration": 2.0,
-      "end": 821.42
+      "end": 389.54
+    },
+    {
+      "type": "cue",
+      "section": "終了フェーズ",
+      "start": 389.54,
+      "duration": 0.7,
+      "end": 390.24
     },
     {
       "type": "speech",
       "text": "鼻から、息を吸って。",
       "section": "終了フェーズ",
-      "start": 821.42,
-      "duration": 2.92,
-      "end": 824.34
+      "start": 390.24,
+      "duration": 2.43,
+      "end": 392.67
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 824.34,
-      "duration": 4.0,
-      "end": 828.34
+      "start": 392.67,
+      "duration": 3.5,
+      "end": 396.17
     },
     {
       "type": "speech",
-      "text": "口から、ゆったりと吐き切ります。",
+      "text": "口から、ぜんぶ吐き出します。",
       "section": "終了フェーズ",
-      "start": 828.34,
-      "duration": 4.49,
-      "end": 832.83
+      "start": 396.17,
+      "duration": 2.69,
+      "end": 398.86
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 832.83,
+      "start": 398.86,
       "duration": 5.0,
-      "end": 837.83
+      "end": 403.86
     },
     {
       "type": "speech",
-      "text": "今日もご自身の体と向き合って、本当によく頑張りましたね。このまま心地よくお休みください。",
+      "text": "今日もご自身のペースで、よく頑張りましたね。そのまま心地よくお休みください。",
       "section": "終了フェーズ",
-      "start": 837.83,
-      "duration": 11.64,
-      "end": 849.47
+      "start": 403.86,
+      "duration": 6.65,
+      "end": 410.51
     }
   ]
 }

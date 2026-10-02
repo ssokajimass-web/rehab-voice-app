@@ -1,7 +1,7 @@
 {
   "title": "arm_rehab.xml",
-  "total_duration": 1080.06,
-  "voice": "Gemini TTS (Aoede) / Edge Neural (Nanami)",
+  "total_duration": 347.93,
+  "voice": "VOICEPEAK (Japanese Female 2)",
   "timeline": [
     {
       "type": "section",
@@ -10,1846 +10,1342 @@
     },
     {
       "type": "speech",
-      "text": "腕と手のリハビリトレーニングを始めます。",
+      "text": "腕と手のリハビリを始めましょう。",
       "section": "導入・準備フェーズ",
       "start": 0.0,
-      "duration": 4.92,
-      "end": 4.92
+      "duration": 2.57,
+      "end": 2.57
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 4.92,
+      "start": 2.57,
+      "duration": 2.5,
+      "end": 5.07
+    },
+    {
+      "type": "speech",
+      "text": "ベッドで仰向けのまま、またはイスに楽に座って、肩の力を抜いてリラックスしてください。",
+      "section": "導入・準備フェーズ",
+      "start": 5.07,
+      "duration": 7.22,
+      "end": 12.29
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 12.29,
+      "duration": 3.5,
+      "end": 15.79
+    },
+    {
+      "type": "speech",
+      "text": "今日行うのは、指と手首のこわばりをほぐす、優しい3つの運動です。",
+      "section": "導入・準備フェーズ",
+      "start": 15.79,
+      "duration": 6.41,
+      "end": 22.2
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 22.2,
+      "duration": 3.5,
+      "end": 25.7
+    },
+    {
+      "type": "speech",
+      "text": "痛みのある手前で止め、息を止めずに行いましょうね。",
+      "section": "導入・準備フェーズ",
+      "start": 25.7,
+      "duration": 4.49,
+      "end": 30.19
+    },
+    {
+      "type": "silence",
+      "section": "導入・準備フェーズ",
+      "start": 30.19,
       "duration": 3.0,
-      "end": 7.92
+      "end": 33.19
     },
     {
       "type": "speech",
-      "text": "イスに楽な姿勢で座るか、ベッドで仰向けの姿勢になって、全身の力を抜いてリラックスしてください。",
+      "text": "まずは、準備の深呼吸からいきましょう。",
       "section": "導入・準備フェーズ",
-      "start": 7.92,
-      "duration": 11.54,
-      "end": 19.46
+      "start": 33.19,
+      "duration": 3.54,
+      "end": 36.73
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 19.46,
-      "duration": 4.0,
-      "end": 23.46
-    },
-    {
-      "type": "speech",
-      "text": "今日は、ご本人だけで安全にできる、みっつのトレーニングを行います。",
-      "section": "導入・準備フェーズ",
-      "start": 23.46,
-      "duration": 8.38,
-      "end": 31.84
-    },
-    {
-      "type": "silence",
-      "section": "導入・準備フェーズ",
-      "start": 31.84,
-      "duration": 4.0,
-      "end": 35.84
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり、お母様のペースで大丈夫です。急ぐ必要はまったくありません。",
-      "section": "導入・準備フェーズ",
-      "start": 35.84,
-      "duration": 9.5,
-      "end": 45.34
-    },
-    {
-      "type": "silence",
-      "section": "導入・準備フェーズ",
-      "start": 45.34,
-      "duration": 4.0,
-      "end": 49.34
-    },
-    {
-      "type": "speech",
-      "text": "痛みが出る手前で止め、呼吸を止めずに、ふーっと吐きながら行いましょう。",
-      "section": "導入・準備フェーズ",
-      "start": 49.34,
-      "duration": 8.47,
-      "end": 57.82
-    },
-    {
-      "type": "silence",
-      "section": "導入・準備フェーズ",
-      "start": 57.82,
-      "duration": 4.0,
-      "end": 61.82
-    },
-    {
-      "type": "speech",
-      "text": "それでは、準備の深呼吸をゆったり行います。",
-      "section": "導入・準備フェーズ",
-      "start": 61.82,
-      "duration": 6.17,
-      "end": 67.98
-    },
-    {
-      "type": "silence",
-      "section": "導入・準備フェーズ",
-      "start": 67.98,
+      "start": 36.73,
       "duration": 1.0,
-      "end": 68.98
+      "end": 37.73
+    },
+    {
+      "type": "cue",
+      "section": "導入・準備フェーズ",
+      "start": 37.73,
+      "duration": 0.7,
+      "end": 38.43
     },
     {
       "type": "speech",
       "text": "息を吸って。",
       "section": "導入・準備フェーズ",
-      "start": 68.98,
-      "duration": 2.76,
-      "end": 71.74
+      "start": 38.43,
+      "duration": 1.4,
+      "end": 39.83
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 71.74,
-      "duration": 4.0,
-      "end": 75.74
+      "start": 39.83,
+      "duration": 3.5,
+      "end": 43.33
     },
     {
       "type": "speech",
       "text": "ふーっと、ながーく吐いていきます。",
       "section": "導入・準備フェーズ",
-      "start": 75.74,
-      "duration": 4.37,
-      "end": 80.11
+      "start": 43.33,
+      "duration": 2.97,
+      "end": 46.31
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 80.11,
-      "duration": 5.0,
-      "end": 85.11
+      "start": 46.31,
+      "duration": 4.5,
+      "end": 50.81
     },
     {
       "type": "section",
-      "title": "運動1: 手・腕のストレッチ",
-      "start": 85.112
+      "title": "運動1: 指のグーパー運動（5回）",
+      "start": 50.81
     },
     {
       "type": "speech",
-      "text": "ひとつ目は、手と腕のストレッチです。毎日いちばん大切な、関節が固まるのを防ぐ運動です。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 85.11,
-      "duration": 12.07,
-      "end": 97.18
+      "text": "ひとつ目は、指のグーパー運動です。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 50.81,
+      "duration": 3.37,
+      "end": 54.18
     },
     {
       "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 97.18,
-      "duration": 4.0,
-      "end": 101.18
-    },
-    {
-      "type": "speech",
-      "text": "まずは右腕から。前に、ゆっくり、ゆっくり上げていきます。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 101.18,
-      "duration": 8.04,
-      "end": 109.22
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 109.22,
-      "duration": 4.0,
-      "end": 113.22
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり、下ろします。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 113.22,
-      "duration": 3.24,
-      "end": 116.46
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 116.46,
-      "duration": 4.0,
-      "end": 120.46
-    },
-    {
-      "type": "speech",
-      "text": "今度は横に、ゆっくり上げていきます。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 120.46,
-      "duration": 4.7,
-      "end": 125.17
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 125.17,
-      "duration": 4.0,
-      "end": 129.17
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり、下ろします。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 129.17,
-      "duration": 3.24,
-      "end": 132.41
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 132.41,
-      "duration": 4.0,
-      "end": 136.41
-    },
-    {
-      "type": "speech",
-      "text": "続いて左腕です。右手で左の肘と手首を持って、ゆっくり前に上げていきます。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 136.41,
-      "duration": 10.85,
-      "end": 147.26
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 147.26,
-      "duration": 4.0,
-      "end": 151.26
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり、下ろします。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 151.26,
-      "duration": 3.24,
-      "end": 154.5
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 154.5,
-      "duration": 4.0,
-      "end": 158.5
-    },
-    {
-      "type": "speech",
-      "text": "横にも、ゆっくり上げていきます。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 158.5,
-      "duration": 4.15,
-      "end": 162.65
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 162.65,
-      "duration": 4.0,
-      "end": 166.65
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり、下ろします。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 166.65,
-      "duration": 3.24,
-      "end": 169.89
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 169.89,
-      "duration": 5.0,
-      "end": 174.89
-    },
-    {
-      "type": "speech",
-      "text": "次に、肘の曲げ伸ばしを5回行います。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 174.89,
-      "duration": 5.74,
-      "end": 180.62
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 180.62,
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 54.18,
       "duration": 3.0,
-      "end": 183.62
+      "end": 57.18
     },
     {
       "type": "speech",
-      "text": "1回目。ゆっくり曲げて。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 183.62,
-      "duration": 4.87,
-      "end": 188.5
+      "text": "指をふわっと開いて、やさしく握る動きを、5回繰り返します。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 57.18,
+      "duration": 5.55,
+      "end": 62.74
     },
     {
       "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 188.5,
-      "duration": 4.0,
-      "end": 192.5
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 62.74,
+      "duration": 3.5,
+      "end": 66.24
     },
     {
       "type": "speech",
-      "text": "ゆっくり伸ばします。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 192.5,
-      "duration": 3.07,
-      "end": 195.57
+      "text": "動きにくい指があれば、反対の手でそっと手伝ってあげてくださいね。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 66.24,
+      "duration": 5.3,
+      "end": 71.54
     },
     {
       "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 195.57,
-      "duration": 4.0,
-      "end": 199.57
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 71.54,
+      "duration": 3.5,
+      "end": 75.04
     },
     {
       "type": "speech",
-      "text": "2回目。ゆっくり曲げて。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 199.57,
-      "duration": 4.8,
-      "end": 204.37
+      "text": "1回目。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 75.04,
+      "duration": 1.21,
+      "end": 76.25
     },
     {
       "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 204.37,
-      "duration": 4.0,
-      "end": 208.37
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 76.25,
+      "duration": 1.0,
+      "end": 77.25
+    },
+    {
+      "type": "cue",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 77.25,
+      "duration": 0.7,
+      "end": 77.95
     },
     {
       "type": "speech",
-      "text": "ゆっくり伸ばします。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 208.37,
-      "duration": 3.07,
-      "end": 211.44
+      "text": "パーで、ふわっと開いて。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 77.95,
+      "duration": 2.47,
+      "end": 80.42
     },
     {
       "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 211.44,
-      "duration": 4.0,
-      "end": 215.44
-    },
-    {
-      "type": "speech",
-      "text": "3回目。ゆっくり曲げて。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 215.44,
-      "duration": 4.99,
-      "end": 220.43
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 220.43,
-      "duration": 4.0,
-      "end": 224.43
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり伸ばします。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 224.43,
-      "duration": 3.07,
-      "end": 227.5
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 227.5,
-      "duration": 4.0,
-      "end": 231.5
-    },
-    {
-      "type": "speech",
-      "text": "4回目。ゆっくり曲げて。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 231.5,
-      "duration": 4.9,
-      "end": 236.4
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 236.4,
-      "duration": 4.0,
-      "end": 240.4
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり伸ばします。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 240.4,
-      "duration": 3.07,
-      "end": 243.47
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 243.47,
-      "duration": 4.0,
-      "end": 247.47
-    },
-    {
-      "type": "speech",
-      "text": "5回目。ゆっくり曲げて。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 247.47,
-      "duration": 4.73,
-      "end": 252.2
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 252.2,
-      "duration": 4.0,
-      "end": 256.2
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり伸ばします。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 256.2,
-      "duration": 3.07,
-      "end": 259.27
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 259.27,
-      "duration": 5.0,
-      "end": 264.27
-    },
-    {
-      "type": "speech",
-      "text": "手首を上下に5回動かします。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 264.27,
-      "duration": 4.44,
-      "end": 268.71
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 268.71,
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 80.42,
       "duration": 3.0,
-      "end": 271.71
+      "end": 83.42
     },
     {
       "type": "speech",
-      "text": "1回目。ゆっくり、上へ。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 271.71,
-      "duration": 5.09,
-      "end": 276.8
+      "text": "グーで、やさしく握ります。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 83.42,
+      "duration": 2.62,
+      "end": 86.04
     },
     {
       "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 276.8,
-      "duration": 3.5,
-      "end": 280.3
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり、下へ。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 280.3,
-      "duration": 2.88,
-      "end": 283.18
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 283.18,
-      "duration": 3.5,
-      "end": 286.68
-    },
-    {
-      "type": "speech",
-      "text": "2回目。上へ。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 286.68,
-      "duration": 4.06,
-      "end": 290.74
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 290.74,
-      "duration": 3.5,
-      "end": 294.24
-    },
-    {
-      "type": "speech",
-      "text": "下へ。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 294.24,
-      "duration": 2.02,
-      "end": 296.25
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 296.25,
-      "duration": 3.5,
-      "end": 299.75
-    },
-    {
-      "type": "speech",
-      "text": "3回目。上へ。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 299.75,
-      "duration": 4.22,
-      "end": 303.98
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 303.98,
-      "duration": 3.5,
-      "end": 307.48
-    },
-    {
-      "type": "speech",
-      "text": "下へ。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 307.48,
-      "duration": 2.02,
-      "end": 309.49
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 309.49,
-      "duration": 3.5,
-      "end": 312.99
-    },
-    {
-      "type": "speech",
-      "text": "4回目。上へ。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 312.99,
-      "duration": 4.13,
-      "end": 317.12
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 317.12,
-      "duration": 3.5,
-      "end": 320.62
-    },
-    {
-      "type": "speech",
-      "text": "下へ。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 320.62,
-      "duration": 2.02,
-      "end": 322.64
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 322.64,
-      "duration": 3.5,
-      "end": 326.14
-    },
-    {
-      "type": "speech",
-      "text": "5回目。上へ。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 326.14,
-      "duration": 3.96,
-      "end": 330.1
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 330.1,
-      "duration": 3.5,
-      "end": 333.6
-    },
-    {
-      "type": "speech",
-      "text": "下へ。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 333.6,
-      "duration": 2.02,
-      "end": 335.61
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 335.61,
-      "duration": 5.0,
-      "end": 340.61
-    },
-    {
-      "type": "speech",
-      "text": "指のグーパーを5回行います。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 340.61,
-      "duration": 4.39,
-      "end": 345.0
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 345.0,
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 86.04,
       "duration": 3.0,
-      "end": 348.0
+      "end": 89.04
     },
     {
       "type": "speech",
-      "text": "1回目。指をゆっくり、パー。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 348.0,
-      "duration": 5.74,
-      "end": 353.74
+      "text": "力をストンと抜いて、脱力。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 89.04,
+      "duration": 3.07,
+      "end": 92.12
     },
     {
       "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 353.74,
-      "duration": 3.5,
-      "end": 357.24
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり、グー。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 357.24,
-      "duration": 2.83,
-      "end": 360.07
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 360.07,
-      "duration": 3.5,
-      "end": 363.57
-    },
-    {
-      "type": "speech",
-      "text": "2回目。ゆっくり、パー。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 363.57,
-      "duration": 5.09,
-      "end": 368.66
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 368.66,
-      "duration": 3.5,
-      "end": 372.16
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり、グー。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 372.16,
-      "duration": 2.83,
-      "end": 374.99
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 374.99,
-      "duration": 3.5,
-      "end": 378.49
-    },
-    {
-      "type": "speech",
-      "text": "3回目。ゆっくり、パー。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 378.49,
-      "duration": 5.26,
-      "end": 383.75
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 383.75,
-      "duration": 3.5,
-      "end": 387.25
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり、グー。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 387.25,
-      "duration": 2.83,
-      "end": 390.08
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 390.08,
-      "duration": 3.5,
-      "end": 393.58
-    },
-    {
-      "type": "speech",
-      "text": "4回目。ゆっくり、パー。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 393.58,
-      "duration": 5.16,
-      "end": 398.74
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 398.74,
-      "duration": 3.5,
-      "end": 402.24
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり、グー。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 402.24,
-      "duration": 2.83,
-      "end": 405.07
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 405.07,
-      "duration": 3.5,
-      "end": 408.57
-    },
-    {
-      "type": "speech",
-      "text": "5回目。ゆっくり、パー。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 408.57,
-      "duration": 4.99,
-      "end": 413.56
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 413.56,
-      "duration": 3.5,
-      "end": 417.06
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり、グー。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 417.06,
-      "duration": 2.83,
-      "end": 419.9
-    },
-    {
-      "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 419.9,
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 92.12,
       "duration": 4.0,
-      "end": 423.9
+      "end": 96.12
     },
     {
       "type": "speech",
-      "text": "とてもよくできました。力を抜いて、ふーっとひと息つきましょう。楽な呼吸でお休みください。",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 423.9,
-      "duration": 12.55,
-      "end": 436.45
+      "text": "2回目。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 96.12,
+      "duration": 1.21,
+      "end": 97.32
     },
     {
       "type": "silence",
-      "section": "運動1: 手・腕のストレッチ",
-      "start": 436.45,
-      "duration": 8.0,
-      "end": 444.45
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 97.32,
+      "duration": 1.0,
+      "end": 98.32
+    },
+    {
+      "type": "cue",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 98.32,
+      "duration": 0.7,
+      "end": 99.02
+    },
+    {
+      "type": "speech",
+      "text": "パーで開いて。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 99.02,
+      "duration": 1.53,
+      "end": 100.55
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 100.55,
+      "duration": 3.0,
+      "end": 103.55
+    },
+    {
+      "type": "speech",
+      "text": "グーで握ります。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 103.55,
+      "duration": 1.65,
+      "end": 105.2
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 105.2,
+      "duration": 3.0,
+      "end": 108.2
+    },
+    {
+      "type": "speech",
+      "text": "力を抜いて、ふーっと息を吐きます。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 108.2,
+      "duration": 3.29,
+      "end": 111.49
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 111.49,
+      "duration": 4.0,
+      "end": 115.49
+    },
+    {
+      "type": "speech",
+      "text": "3回目。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 115.49,
+      "duration": 1.35,
+      "end": 116.85
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 116.85,
+      "duration": 1.0,
+      "end": 117.85
+    },
+    {
+      "type": "cue",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 117.85,
+      "duration": 0.7,
+      "end": 118.55
+    },
+    {
+      "type": "speech",
+      "text": "パーで開いて。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 118.55,
+      "duration": 1.53,
+      "end": 120.08
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 120.08,
+      "duration": 3.0,
+      "end": 123.08
+    },
+    {
+      "type": "speech",
+      "text": "グーで握ります。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 123.08,
+      "duration": 1.65,
+      "end": 124.72
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 124.72,
+      "duration": 3.0,
+      "end": 127.72
+    },
+    {
+      "type": "speech",
+      "text": "力を抜いて、リラックス。とてもお上手です。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 127.72,
+      "duration": 4.35,
+      "end": 132.07
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 132.07,
+      "duration": 4.0,
+      "end": 136.07
+    },
+    {
+      "type": "speech",
+      "text": "4回目。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 136.07,
+      "duration": 1.28,
+      "end": 137.35
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 137.35,
+      "duration": 1.0,
+      "end": 138.35
+    },
+    {
+      "type": "cue",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 138.35,
+      "duration": 0.7,
+      "end": 139.05
+    },
+    {
+      "type": "speech",
+      "text": "パーで開いて。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 139.05,
+      "duration": 1.53,
+      "end": 140.58
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 140.58,
+      "duration": 3.0,
+      "end": 143.58
+    },
+    {
+      "type": "speech",
+      "text": "グーで握ります。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 143.58,
+      "duration": 1.65,
+      "end": 145.23
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 145.23,
+      "duration": 3.0,
+      "end": 148.23
+    },
+    {
+      "type": "speech",
+      "text": "力を抜いて、お休みします。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 148.23,
+      "duration": 2.8,
+      "end": 151.03
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 151.03,
+      "duration": 4.0,
+      "end": 155.03
+    },
+    {
+      "type": "speech",
+      "text": "5回目、最後です。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 155.03,
+      "duration": 2.24,
+      "end": 157.27
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 157.27,
+      "duration": 1.0,
+      "end": 158.27
+    },
+    {
+      "type": "cue",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 158.27,
+      "duration": 0.7,
+      "end": 158.97
+    },
+    {
+      "type": "speech",
+      "text": "パーで、心地よく開いて。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 158.97,
+      "duration": 2.62,
+      "end": 161.6
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 161.6,
+      "duration": 3.0,
+      "end": 164.6
+    },
+    {
+      "type": "speech",
+      "text": "グーで握ります。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 164.6,
+      "duration": 1.65,
+      "end": 166.24
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 166.24,
+      "duration": 3.0,
+      "end": 169.24
+    },
+    {
+      "type": "speech",
+      "text": "指の力を完全に抜いて、リラックスさせましょう。",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 169.24,
+      "duration": 4.14,
+      "end": 173.38
+    },
+    {
+      "type": "silence",
+      "section": "運動1: 指のグーパー運動（5回）",
+      "start": 173.38,
+      "duration": 5.0,
+      "end": 178.38
     },
     {
       "type": "section",
-      "title": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 444.4480000000001
+      "title": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 178.38
     },
     {
       "type": "speech",
-      "text": "ふたつ目は、指のグーパーとにぎにぎ運動です。スマホの操作やスプーンを持つ力の土台をつくります。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 444.45,
-      "duration": 12.19,
-      "end": 456.64
+      "text": "ふたつ目は、手首の曲げ伸ばしです。上下に5回動かします。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 178.38,
+      "duration": 5.54,
+      "end": 183.93
     },
     {
       "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 456.64,
-      "duration": 4.0,
-      "end": 460.64
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 183.93,
+      "duration": 3.5,
+      "end": 187.43
     },
     {
       "type": "speech",
-      "text": "手をテーブルの上か、ひざの上に、楽に置きます。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 460.64,
-      "duration": 6.24,
-      "end": 466.88
+      "text": "1回目。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 187.43,
+      "duration": 1.21,
+      "end": 188.63
     },
     {
       "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 466.88,
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 188.63,
+      "duration": 1.0,
+      "end": 189.63
+    },
+    {
+      "type": "cue",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 189.63,
+      "duration": 0.7,
+      "end": 190.33
+    },
+    {
+      "type": "speech",
+      "text": "上へ、ゆっくり起こして、1、2。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 190.33,
+      "duration": 3.87,
+      "end": 194.2
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 194.2,
       "duration": 3.0,
-      "end": 469.88
+      "end": 197.2
     },
     {
       "type": "speech",
-      "text": "指を大きくパーに開いて、次にグーと握る動きを、10回繰り返します。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 469.88,
-      "duration": 9.05,
-      "end": 478.93
+      "text": "下へ、ゆっくり倒して、1、2。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 197.2,
+      "duration": 3.87,
+      "end": 201.08
     },
     {
       "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 478.93,
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 201.08,
+      "duration": 3.0,
+      "end": 204.08
+    },
+    {
+      "type": "speech",
+      "text": "力を抜いて、お休みします。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 204.08,
+      "duration": 2.8,
+      "end": 206.88
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 206.88,
       "duration": 4.0,
-      "end": 482.93
+      "end": 210.88
     },
     {
       "type": "speech",
-      "text": "左手は少しでも動けば十分です。動きにくい指があれば、右手でそーっと手伝ってあげてくださいね。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 482.93,
-      "duration": 12.38,
-      "end": 495.31
+      "text": "2回目。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 210.88,
+      "duration": 1.21,
+      "end": 212.09
     },
     {
       "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 495.31,
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 212.09,
+      "duration": 1.0,
+      "end": 213.09
+    },
+    {
+      "type": "cue",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 213.09,
+      "duration": 0.7,
+      "end": 213.79
+    },
+    {
+      "type": "speech",
+      "text": "上へ、1、2。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 213.79,
+      "duration": 2.46,
+      "end": 216.25
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 216.25,
+      "duration": 3.0,
+      "end": 219.25
+    },
+    {
+      "type": "speech",
+      "text": "下へ、1、2。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 219.25,
+      "duration": 2.51,
+      "end": 221.77
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 221.77,
+      "duration": 3.0,
+      "end": 224.77
+    },
+    {
+      "type": "speech",
+      "text": "力を抜いて、リラックス。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 224.77,
+      "duration": 2.62,
+      "end": 227.38
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 227.38,
       "duration": 4.0,
-      "end": 499.31
+      "end": 231.38
     },
     {
       "type": "speech",
-      "text": "それでは、ゆっくり行いましょう。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 499.31,
-      "duration": 4.42,
-      "end": 503.73
+      "text": "3回目。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 231.38,
+      "duration": 1.35,
+      "end": 232.74
     },
     {
       "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 503.73,
-      "duration": 2.0,
-      "end": 505.73
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 232.74,
+      "duration": 1.0,
+      "end": 233.74
+    },
+    {
+      "type": "cue",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 233.74,
+      "duration": 0.7,
+      "end": 234.44
     },
     {
       "type": "speech",
-      "text": "1回目。ゆっくり、パー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 505.73,
-      "duration": 5.14,
-      "end": 510.86
+      "text": "上へ、1、2。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 234.44,
+      "duration": 2.46,
+      "end": 236.9
     },
     {
       "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 510.86,
-      "duration": 3.5,
-      "end": 514.36
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 236.9,
+      "duration": 3.0,
+      "end": 239.9
     },
     {
       "type": "speech",
-      "text": "ゆっくり、グー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 514.36,
-      "duration": 2.83,
-      "end": 517.2
+      "text": "下へ、1、2。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 239.9,
+      "duration": 2.51,
+      "end": 242.42
     },
     {
       "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 517.2,
-      "duration": 3.5,
-      "end": 520.7
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 242.42,
+      "duration": 3.0,
+      "end": 245.42
     },
     {
       "type": "speech",
-      "text": "2回目。パー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 520.7,
-      "duration": 3.89,
-      "end": 524.58
+      "text": "ふーっと力を抜きます。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 245.42,
+      "duration": 2.18,
+      "end": 247.6
     },
     {
       "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 524.58,
-      "duration": 3.5,
-      "end": 528.08
-    },
-    {
-      "type": "speech",
-      "text": "グー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 528.08,
-      "duration": 1.87,
-      "end": 529.96
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 529.96,
-      "duration": 3.5,
-      "end": 533.46
-    },
-    {
-      "type": "speech",
-      "text": "3回目。パー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 533.46,
-      "duration": 4.06,
-      "end": 537.51
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 537.51,
-      "duration": 3.5,
-      "end": 541.01
-    },
-    {
-      "type": "speech",
-      "text": "グー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 541.01,
-      "duration": 1.87,
-      "end": 542.88
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 542.88,
-      "duration": 3.5,
-      "end": 546.38
-    },
-    {
-      "type": "speech",
-      "text": "4回目。パー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 546.38,
-      "duration": 3.96,
-      "end": 550.34
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 550.34,
-      "duration": 3.5,
-      "end": 553.84
-    },
-    {
-      "type": "speech",
-      "text": "グー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 553.84,
-      "duration": 1.87,
-      "end": 555.72
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 555.72,
-      "duration": 3.5,
-      "end": 559.22
-    },
-    {
-      "type": "speech",
-      "text": "5回目。パー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 559.22,
-      "duration": 3.79,
-      "end": 563.01
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 563.01,
-      "duration": 3.5,
-      "end": 566.51
-    },
-    {
-      "type": "speech",
-      "text": "グー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 566.51,
-      "duration": 1.87,
-      "end": 568.38
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 568.38,
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 247.6,
       "duration": 4.0,
-      "end": 572.38
+      "end": 251.6
     },
     {
       "type": "speech",
-      "text": "半分まできました。少し息を整えましょう。このままゆったり続けます。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 572.38,
-      "duration": 10.42,
-      "end": 582.8
+      "text": "4回目。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 251.6,
+      "duration": 1.28,
+      "end": 252.88
     },
     {
       "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 582.8,
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 252.88,
+      "duration": 1.0,
+      "end": 253.88
+    },
+    {
+      "type": "cue",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 253.88,
+      "duration": 0.7,
+      "end": 254.58
+    },
+    {
+      "type": "speech",
+      "text": "上へ、1、2。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 254.58,
+      "duration": 2.46,
+      "end": 257.05
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 257.05,
+      "duration": 3.0,
+      "end": 260.05
+    },
+    {
+      "type": "speech",
+      "text": "下へ、1、2。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 260.05,
+      "duration": 2.51,
+      "end": 262.56
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 262.56,
+      "duration": 3.0,
+      "end": 265.56
+    },
+    {
+      "type": "speech",
+      "text": "力を抜いて、ひと息つきましょう。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 265.56,
+      "duration": 3.11,
+      "end": 268.67
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 268.67,
+      "duration": 4.0,
+      "end": 272.67
+    },
+    {
+      "type": "speech",
+      "text": "5回目、最後です。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 272.67,
+      "duration": 2.24,
+      "end": 274.91
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 274.91,
+      "duration": 1.0,
+      "end": 275.91
+    },
+    {
+      "type": "cue",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 275.91,
+      "duration": 0.7,
+      "end": 276.61
+    },
+    {
+      "type": "speech",
+      "text": "上へ、1、2。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 276.61,
+      "duration": 2.46,
+      "end": 279.08
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 279.08,
+      "duration": 3.0,
+      "end": 282.08
+    },
+    {
+      "type": "speech",
+      "text": "下へ、1、2。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 282.08,
+      "duration": 2.51,
+      "end": 284.59
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 284.59,
+      "duration": 3.0,
+      "end": 287.59
+    },
+    {
+      "type": "speech",
+      "text": "手首を完全に休ませて、脱力します。",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 287.59,
+      "duration": 3.72,
+      "end": 291.31
+    },
+    {
+      "type": "silence",
+      "section": "運動2: 手首の曲げ伸ばし（5回）",
+      "start": 291.31,
       "duration": 5.0,
-      "end": 587.8
-    },
-    {
-      "type": "speech",
-      "text": "6回目。パー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 587.8,
-      "duration": 3.94,
-      "end": 591.73
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 591.73,
-      "duration": 3.5,
-      "end": 595.23
-    },
-    {
-      "type": "speech",
-      "text": "グー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 595.23,
-      "duration": 1.87,
-      "end": 597.1
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 597.1,
-      "duration": 3.5,
-      "end": 600.6
-    },
-    {
-      "type": "speech",
-      "text": "7回目。パー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 600.6,
-      "duration": 4.06,
-      "end": 604.66
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 604.66,
-      "duration": 3.5,
-      "end": 608.16
-    },
-    {
-      "type": "speech",
-      "text": "グー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 608.16,
-      "duration": 1.87,
-      "end": 610.03
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 610.03,
-      "duration": 3.5,
-      "end": 613.53
-    },
-    {
-      "type": "speech",
-      "text": "8回目。パー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 613.53,
-      "duration": 3.98,
-      "end": 617.52
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 617.52,
-      "duration": 3.5,
-      "end": 621.02
-    },
-    {
-      "type": "speech",
-      "text": "グー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 621.02,
-      "duration": 1.87,
-      "end": 622.89
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 622.89,
-      "duration": 3.5,
-      "end": 626.39
-    },
-    {
-      "type": "speech",
-      "text": "9回目。パー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 626.39,
-      "duration": 3.96,
-      "end": 630.35
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 630.35,
-      "duration": 3.5,
-      "end": 633.85
-    },
-    {
-      "type": "speech",
-      "text": "グー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 633.85,
-      "duration": 1.87,
-      "end": 635.72
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 635.72,
-      "duration": 3.5,
-      "end": 639.22
-    },
-    {
-      "type": "speech",
-      "text": "10回目。パー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 639.22,
-      "duration": 3.94,
-      "end": 643.16
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 643.16,
-      "duration": 3.5,
-      "end": 646.66
-    },
-    {
-      "type": "speech",
-      "text": "グー。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 646.66,
-      "duration": 1.87,
-      "end": 648.53
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 648.53,
-      "duration": 4.0,
-      "end": 652.53
-    },
-    {
-      "type": "speech",
-      "text": "できそうな方は、柔らかいボールや丸めたタオルを握って、離す運動も試してみてくださいね。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 652.53,
-      "duration": 10.61,
-      "end": 663.14
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 663.14,
-      "duration": 4.0,
-      "end": 667.14
-    },
-    {
-      "type": "speech",
-      "text": "手がポカポカと温かくなってきたら、血流が巡っている良いサインです。そのまま楽な呼吸で休みましょう。",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 667.14,
-      "duration": 12.29,
-      "end": 679.42
-    },
-    {
-      "type": "silence",
-      "section": "運動2: 指のグーパー＆にぎにぎ運動",
-      "start": 679.42,
-      "duration": 8.0,
-      "end": 687.42
+      "end": 296.31
     },
     {
       "type": "section",
-      "title": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 687.4240000000001
+      "title": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 296.31
     },
     {
       "type": "speech",
-      "text": "みっつ目は、物を持ち上げる力を保つための、軽い筋トレです。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 687.42,
-      "duration": 7.92,
-      "end": 695.34
+      "text": "みっつ目は、肘の曲げ伸ばしです。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 296.31,
+      "duration": 2.96,
+      "end": 299.28
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 695.34,
-      "duration": 4.0,
-      "end": 699.34
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 299.28,
+      "duration": 3.0,
+      "end": 302.28
     },
     {
       "type": "speech",
-      "text": "右腕から行います。水を半分ほど入れたペットボトル、または手ぶらのままで大丈夫です。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 699.34,
-      "duration": 11.3,
-      "end": 710.65
+      "text": "まずは右腕から。曲げて、伸ばす動きを3回行います。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 302.28,
+      "duration": 5.55,
+      "end": 307.83
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 710.65,
-      "duration": 4.0,
-      "end": 714.65
-    },
-    {
-      "type": "speech",
-      "text": "肘を曲げて、手を口のほうへ近づけて、ゆっくり下ろします。10回行います。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 714.65,
-      "duration": 10.2,
-      "end": 724.85
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 724.85,
-      "duration": 4.0,
-      "end": 728.85
-    },
-    {
-      "type": "speech",
-      "text": "1回目。ゆっくり口に近づけて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 728.85,
-      "duration": 5.81,
-      "end": 734.66
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 734.66,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 307.83,
       "duration": 3.5,
-      "end": 738.16
+      "end": 311.33
     },
     {
       "type": "speech",
-      "text": "ゆっくり下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 738.16,
-      "duration": 3.02,
-      "end": 741.18
+      "text": "右の1回目。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 311.33,
+      "duration": 1.63,
+      "end": 312.95
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 741.18,
-      "duration": 4.0,
-      "end": 745.18
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 312.95,
+      "duration": 1.0,
+      "end": 313.95
+    },
+    {
+      "type": "cue",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 313.95,
+      "duration": 0.7,
+      "end": 314.65
     },
     {
       "type": "speech",
-      "text": "2回目。近づけて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 745.18,
-      "duration": 4.46,
-      "end": 749.64
+      "text": "ゆっくり、肘を曲げて。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 314.65,
+      "duration": 2.44,
+      "end": 317.1
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 749.64,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 317.1,
       "duration": 3.5,
-      "end": 753.14
+      "end": 320.6
     },
     {
       "type": "speech",
-      "text": "下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 753.14,
-      "duration": 2.33,
-      "end": 755.47
+      "text": "ゆっくり、伸ばします。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 320.6,
+      "duration": 2.14,
+      "end": 322.74
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 755.47,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 322.74,
       "duration": 4.0,
-      "end": 759.47
+      "end": 326.74
     },
     {
       "type": "speech",
-      "text": "3回目。近づけて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 759.47,
-      "duration": 4.66,
-      "end": 764.13
+      "text": "2回目。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 326.74,
+      "duration": 1.21,
+      "end": 327.95
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 764.13,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 327.95,
+      "duration": 1.0,
+      "end": 328.95
+    },
+    {
+      "type": "cue",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 328.95,
+      "duration": 0.7,
+      "end": 329.65
+    },
+    {
+      "type": "speech",
+      "text": "ゆっくり曲げて。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 329.65,
+      "duration": 1.6,
+      "end": 331.25
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 331.25,
       "duration": 3.5,
-      "end": 767.63
+      "end": 334.75
     },
     {
       "type": "speech",
-      "text": "下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 767.63,
-      "duration": 2.33,
-      "end": 769.96
+      "text": "ゆっくり伸ばします。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 334.75,
+      "duration": 1.74,
+      "end": 336.5
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 769.96,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 336.5,
       "duration": 4.0,
-      "end": 773.96
+      "end": 340.5
     },
     {
       "type": "speech",
-      "text": "4回目。近づけて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 773.96,
-      "duration": 4.54,
-      "end": 778.49
+      "text": "3回目。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 340.5,
+      "duration": 1.35,
+      "end": 341.85
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 778.49,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 341.85,
+      "duration": 1.0,
+      "end": 342.85
+    },
+    {
+      "type": "cue",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 342.85,
+      "duration": 0.7,
+      "end": 343.55
+    },
+    {
+      "type": "speech",
+      "text": "曲げて。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 343.55,
+      "duration": 1.12,
+      "end": 344.67
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 344.67,
       "duration": 3.5,
-      "end": 781.99
+      "end": 348.17
     },
     {
       "type": "speech",
-      "text": "下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 781.99,
-      "duration": 2.33,
-      "end": 784.32
+      "text": "伸ばします。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 348.17,
+      "duration": 1.29,
+      "end": 349.46
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 784.32,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 349.46,
       "duration": 4.0,
-      "end": 788.32
+      "end": 353.46
     },
     {
       "type": "speech",
-      "text": "5回目。近づけて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 788.32,
-      "duration": 4.37,
-      "end": 792.69
+      "text": "右腕の力を抜いて、お休みします。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 353.46,
+      "duration": 3.42,
+      "end": 356.88
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 792.69,
-      "duration": 3.5,
-      "end": 796.19
-    },
-    {
-      "type": "speech",
-      "text": "下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 796.19,
-      "duration": 2.33,
-      "end": 798.52
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 798.52,
-      "duration": 4.0,
-      "end": 802.52
-    },
-    {
-      "type": "speech",
-      "text": "6回目。近づけて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 802.52,
-      "duration": 4.51,
-      "end": 807.03
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 807.03,
-      "duration": 3.5,
-      "end": 810.53
-    },
-    {
-      "type": "speech",
-      "text": "下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 810.53,
-      "duration": 2.33,
-      "end": 812.86
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 812.86,
-      "duration": 4.0,
-      "end": 816.86
-    },
-    {
-      "type": "speech",
-      "text": "7回目。近づけて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 816.86,
-      "duration": 4.66,
-      "end": 821.51
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 821.51,
-      "duration": 3.5,
-      "end": 825.01
-    },
-    {
-      "type": "speech",
-      "text": "下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 825.01,
-      "duration": 2.33,
-      "end": 827.34
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 827.34,
-      "duration": 4.0,
-      "end": 831.34
-    },
-    {
-      "type": "speech",
-      "text": "8回目。近づけて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 831.34,
-      "duration": 4.58,
-      "end": 835.92
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 835.92,
-      "duration": 3.5,
-      "end": 839.42
-    },
-    {
-      "type": "speech",
-      "text": "下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 839.42,
-      "duration": 2.33,
-      "end": 841.75
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 841.75,
-      "duration": 4.0,
-      "end": 845.75
-    },
-    {
-      "type": "speech",
-      "text": "9回目。近づけて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 845.75,
-      "duration": 4.54,
-      "end": 850.29
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 850.29,
-      "duration": 3.5,
-      "end": 853.79
-    },
-    {
-      "type": "speech",
-      "text": "下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 853.79,
-      "duration": 2.33,
-      "end": 856.12
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 856.12,
-      "duration": 4.0,
-      "end": 860.12
-    },
-    {
-      "type": "speech",
-      "text": "10回目。近づけて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 860.12,
-      "duration": 4.54,
-      "end": 864.65
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 864.65,
-      "duration": 3.5,
-      "end": 868.15
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 868.15,
-      "duration": 3.02,
-      "end": 871.18
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 871.18,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 356.88,
       "duration": 5.0,
-      "end": 876.18
+      "end": 361.88
     },
     {
       "type": "speech",
-      "text": "余裕のある方は、腕を前にまっすぐ上げて下ろす動きも行ってみましょう。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 876.18,
-      "duration": 8.14,
-      "end": 884.31
+      "text": "続いて、左腕です。右手でそっと支えながら、ゆっくり3回いきましょう。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 361.88,
+      "duration": 6.99,
+      "end": 368.87
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 884.31,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 368.87,
+      "duration": 3.5,
+      "end": 372.37
+    },
+    {
+      "type": "speech",
+      "text": "左の1回目。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 372.37,
+      "duration": 1.73,
+      "end": 374.1
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 374.1,
+      "duration": 1.0,
+      "end": 375.1
+    },
+    {
+      "type": "cue",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 375.1,
+      "duration": 0.7,
+      "end": 375.8
+    },
+    {
+      "type": "speech",
+      "text": "ゆっくり、曲げて。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 375.8,
+      "duration": 2.03,
+      "end": 377.84
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 377.84,
+      "duration": 3.5,
+      "end": 381.34
+    },
+    {
+      "type": "speech",
+      "text": "ゆっくり、伸ばします。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 381.34,
+      "duration": 2.14,
+      "end": 383.48
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 383.48,
       "duration": 4.0,
-      "end": 888.31
+      "end": 387.48
     },
     {
       "type": "speech",
-      "text": "続いて左腕です。重りは持たずに手ぶらで行います。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 888.31,
-      "duration": 7.87,
-      "end": 896.18
+      "text": "2回目。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 387.48,
+      "duration": 1.21,
+      "end": 388.69
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 896.18,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 388.69,
+      "duration": 1.0,
+      "end": 389.69
+    },
+    {
+      "type": "cue",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 389.69,
+      "duration": 0.7,
+      "end": 390.39
+    },
+    {
+      "type": "speech",
+      "text": "ゆっくり曲げて。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 390.39,
+      "duration": 1.6,
+      "end": 391.99
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 391.99,
+      "duration": 3.5,
+      "end": 395.49
+    },
+    {
+      "type": "speech",
+      "text": "ゆっくり伸ばします。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 395.49,
+      "duration": 1.74,
+      "end": 397.24
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 397.24,
       "duration": 4.0,
-      "end": 900.18
+      "end": 401.24
     },
     {
       "type": "speech",
-      "text": "右手で左の肘と手首を持って、左肩にも「少し力を入れてみよう」と意識しながら、ゆっくり持ち上げて下ろします。5回行います。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 900.18,
-      "duration": 16.37,
-      "end": 916.55
+      "text": "3回目。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 401.24,
+      "duration": 1.35,
+      "end": 402.59
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 916.55,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 402.59,
+      "duration": 1.0,
+      "end": 403.59
+    },
+    {
+      "type": "cue",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 403.59,
+      "duration": 0.7,
+      "end": 404.29
+    },
+    {
+      "type": "speech",
+      "text": "曲げて。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 404.29,
+      "duration": 1.12,
+      "end": 405.41
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 405.41,
+      "duration": 3.5,
+      "end": 408.91
+    },
+    {
+      "type": "speech",
+      "text": "伸ばします。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 408.91,
+      "duration": 1.29,
+      "end": 410.2
+    },
+    {
+      "type": "silence",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 410.2,
       "duration": 4.0,
-      "end": 920.55
+      "end": 414.2
     },
     {
       "type": "speech",
-      "text": "1回目。ゆっくり持ち上げて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 920.55,
-      "duration": 5.26,
-      "end": 925.81
+      "text": "両腕の力を抜いて、リラックスしてくださいね。",
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 414.2,
+      "duration": 3.92,
+      "end": 418.12
     },
     {
       "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 925.81,
-      "duration": 4.0,
-      "end": 929.81
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 929.81,
-      "duration": 3.02,
-      "end": 932.83
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 932.83,
-      "duration": 4.0,
-      "end": 936.83
-    },
-    {
-      "type": "speech",
-      "text": "2回目。持ち上げて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 936.83,
-      "duration": 4.54,
-      "end": 941.37
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 941.37,
-      "duration": 4.0,
-      "end": 945.37
-    },
-    {
-      "type": "speech",
-      "text": "下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 945.37,
-      "duration": 2.33,
-      "end": 947.7
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 947.7,
-      "duration": 4.0,
-      "end": 951.7
-    },
-    {
-      "type": "speech",
-      "text": "3回目。持ち上げて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 951.7,
-      "duration": 4.7,
-      "end": 956.4
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 956.4,
-      "duration": 4.0,
-      "end": 960.4
-    },
-    {
-      "type": "speech",
-      "text": "下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 960.4,
-      "duration": 2.33,
-      "end": 962.73
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 962.73,
-      "duration": 4.0,
-      "end": 966.73
-    },
-    {
-      "type": "speech",
-      "text": "4回目。持ち上げて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 966.73,
-      "duration": 4.61,
-      "end": 971.34
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 971.34,
-      "duration": 4.0,
-      "end": 975.34
-    },
-    {
-      "type": "speech",
-      "text": "下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 975.34,
-      "duration": 2.33,
-      "end": 977.66
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 977.66,
-      "duration": 4.0,
-      "end": 981.66
-    },
-    {
-      "type": "speech",
-      "text": "5回目。持ち上げて。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 981.66,
-      "duration": 4.44,
-      "end": 986.1
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 986.1,
-      "duration": 4.0,
-      "end": 990.1
-    },
-    {
-      "type": "speech",
-      "text": "ゆっくり下ろします。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 990.1,
-      "duration": 3.02,
-      "end": 993.13
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 993.13,
+      "section": "運動3: 肘の曲げ伸ばし（右3回・左3回）",
+      "start": 418.12,
       "duration": 5.0,
-      "end": 998.13
-    },
-    {
-      "type": "speech",
-      "text": "本当によく頑張りました。腕を完全に休ませてリラックスしましょう。",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 998.13,
-      "duration": 8.74,
-      "end": 1006.86
-    },
-    {
-      "type": "silence",
-      "section": "運動3: 軽い筋トレ（右腕メイン＋左腕に刺激）",
-      "start": 1006.86,
-      "duration": 6.0,
-      "end": 1012.86
+      "end": 423.12
     },
     {
       "type": "section",
       "title": "終了フェーズ",
-      "start": 1012.8639999999994
+      "start": 423.12
     },
     {
       "type": "speech",
-      "text": "お疲れさまでした。腕のトレーニングはこれで終了です。",
+      "text": "お疲れさまでした。腕と手のリハビリは終了です。",
       "section": "終了フェーズ",
-      "start": 1012.86,
-      "duration": 7.63,
-      "end": 1020.5
+      "start": 423.12,
+      "duration": 4.6,
+      "end": 427.72
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 1020.5,
+      "start": 427.72,
       "duration": 3.0,
-      "end": 1023.5
+      "end": 430.72
     },
     {
       "type": "speech",
-      "text": "この筋トレは週に3日から5日、疲れない範囲で行ってください。もし次の日に体がぐったりするようでしたら、回数を半分に減らして無理のないペースに調整しましょう。",
+      "text": "手がポカポカと温かくなってきたら、血流が巡っている良いサインです。",
       "section": "終了フェーズ",
-      "start": 1023.5,
-      "duration": 18.67,
-      "end": 1042.17
+      "start": 430.72,
+      "duration": 5.28,
+      "end": 436.01
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 1042.17,
+      "start": 436.01,
       "duration": 4.0,
-      "end": 1046.17
+      "end": 440.01
     },
     {
       "type": "speech",
-      "text": "最後に、ゆったりと深呼吸を1回行いましょう。",
+      "text": "最後に、ゆったりと深呼吸を行いましょう。",
       "section": "終了フェーズ",
-      "start": 1046.17,
-      "duration": 4.44,
-      "end": 1050.61
+      "start": 440.01,
+      "duration": 3.85,
+      "end": 443.86
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 1050.61,
+      "start": 443.86,
       "duration": 2.0,
-      "end": 1052.61
+      "end": 445.86
+    },
+    {
+      "type": "cue",
+      "section": "終了フェーズ",
+      "start": 445.86,
+      "duration": 0.7,
+      "end": 446.56
     },
     {
       "type": "speech",
-      "text": "鼻から、息を吸って。",
+      "text": "息を吸って。",
       "section": "終了フェーズ",
-      "start": 1052.61,
-      "duration": 2.92,
-      "end": 1055.53
+      "start": 446.56,
+      "duration": 1.4,
+      "end": 447.96
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 1055.53,
-      "duration": 4.0,
-      "end": 1059.53
+      "start": 447.96,
+      "duration": 3.5,
+      "end": 451.46
     },
     {
       "type": "speech",
-      "text": "口から、ふーっと、ながーく吐き切ります。",
+      "text": "口から、ゆったり吐き出します。",
       "section": "終了フェーズ",
-      "start": 1059.53,
-      "duration": 5.06,
-      "end": 1064.59
+      "start": 451.46,
+      "duration": 2.81,
+      "end": 454.28
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 1064.59,
+      "start": 454.28,
       "duration": 5.0,
-      "end": 1069.59
+      "end": 459.28
     },
     {
       "type": "speech",
-      "text": "今日もご自身のペースで、しっかり腕と手を動かせましたね。大変お疲れさまでした。",
+      "text": "今日も丁寧によく頑張りましたね。どうぞ、このままゆっくりお休みください。",
       "section": "終了フェーズ",
-      "start": 1069.59,
-      "duration": 10.46,
-      "end": 1080.06
+      "start": 459.28,
+      "duration": 6.4,
+      "end": 465.68
     }
   ]
 }

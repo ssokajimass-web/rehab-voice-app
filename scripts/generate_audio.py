@@ -48,16 +48,16 @@ TEMP_DIR = BASE_DIR / "temp"
 CACHE_DIR = TEMP_DIR / "cache"
 SILENCE_DIR = TEMP_DIR / "silence"
 
-# VOICEPEAK 設定
+# VOICEPEAK 設定（お母様向け：角が取れた温かく優しい寄り添いトーン）
 VOICEPEAK_PATH = Path(r"C:\Program Files\VOICEPEAK\voicepeak.exe")
-DEFAULT_VP_VOICE = "Japanese Female 1"
-DEFAULT_VP_SPEED = 95
+DEFAULT_VP_VOICE = "Japanese Female 2"
+DEFAULT_VP_SPEED = 90
 DEFAULT_VP_EMOTION = "happy=25"
 
 # Edge TTS 設定 (フォールバック用)
 EDGE_VOICE = "ja-JP-NanamiNeural"
 EDGE_RATE = "-10%"
-EDGE_PITCH = "0Hz"
+EDGE_PITCH = "+0Hz"
 
 # Gemini TTS 設定 (フォールバック用)
 GEMINI_VOICE = "Aoede"
@@ -110,8 +110,23 @@ def get_silence_wav(seconds: float) -> Path:
         subprocess.run(cmd, check=True)
     return silence_file
 
+def get_chime_wav() -> Path:
+    """動作開始や合図をやさしく知らせるベル/チャイム音（587Hz D5 減衰音）"""
+    ensure_dirs()
+    chime_file = SILENCE_DIR / "chime_soft.wav"
+    if not chime_file.exists():
+        cmd = [
+            "ffmpeg", "-y", "-loglevel", "error",
+            "-f", "lavfi",
+            "-i", "sine=frequency=587.33:duration=0.7,afade=t=out:st=0.08:d=0.62",
+            "-c:a", "pcm_s16le", "-ar", "48000", "-ac", "1",
+            str(chime_file)
+        ]
+        subprocess.run(cmd, check=True)
+    return chime_file
+
 def synthesize_voicepeak(clean_text: str, voice_name: str = DEFAULT_VP_VOICE, speed: int = DEFAULT_VP_SPEED, emotion: str = DEFAULT_VP_EMOTION) -> Path:
-    """VOICEPEAK による超高品質・自然な日本語音声合成"""
+    """VOICEPEAK による超高品質・自然な日本語音声合成（リトライ対応）"""
     hash_key = hashlib.md5(f"vp_{clean_text}_{voice_name}_{speed}_{emotion}".encode("utf-8")).hexdigest()
     cache_wav = CACHE_DIR / f"vp_{hash_key}.wav"
     if cache_wav.exists() and cache_wav.stat().st_size > 1000:
@@ -131,9 +146,22 @@ def synthesize_voicepeak(clean_text: str, voice_name: str = DEFAULT_VP_VOICE, sp
     if emotion:
         cmd.extend(["-e", emotion])
 
-    res = subprocess.run(cmd, stdin=subprocess.DEVNULL, capture_output=True, text=True)
-    if res.returncode != 0 or not temp_wav.exists() or temp_wav.stat().st_size == 0:
-        raise RuntimeError(f"VOICEPEAK合成失敗: code={res.returncode}, err={res.stderr}")
+    last_err = None
+    for attempt in range(3):
+        try:
+            if temp_wav.exists():
+                temp_wav.unlink()
+            res = subprocess.run(cmd, stdin=subprocess.DEVNULL, capture_output=True, text=True)
+            if res.returncode == 0 and temp_wav.exists() and temp_wav.stat().st_size > 0:
+                break
+            else:
+                last_err = f"code={res.returncode}, err={res.stderr}"
+                time.sleep(0.4)
+        except Exception as e:
+            last_err = str(e)
+            time.sleep(0.4)
+    else:
+        raise RuntimeError(f"VOICEPEAK合成失敗 (3回試行): {last_err}")
 
     # 48000Hz mono PCM に揃えて保存
     cmd_fmt = [
@@ -212,7 +240,7 @@ def concat_wavs_to_mp3(wav_list, out_mp3: Path):
 
 def parse_ssml_file(xml_path: Path):
     raw_text = xml_path.read_text(encoding="utf-8")
-    token_regex = re.compile(r'(<!--.*?-->|<break\s+[^>]*\/?>|<[^>]+>)', re.DOTALL)
+    token_regex = re.compile(r'(<!--.*?-->|<break\s+[^>]*\/?>|<cue\s*\/?>|<chime\s*\/?>|<[^>]+>)', re.DOTALL)
     parts = token_regex.split(raw_text)
 
     tokens = []
@@ -238,6 +266,11 @@ def parse_ssml_file(xml_path: Path):
                     "duration": sec,
                     "section": current_section
                 })
+        elif part_clean.startswith("<cue") or part_clean.startswith("<chime"):
+            tokens.append({
+                "type": "cue",
+                "section": current_section
+            })
         elif part_clean.startswith("<"):
             continue
         else:
@@ -289,6 +322,20 @@ def process_ssml(xml_file: Path, force_engine: str = "voicepeak", voice_name: st
                 "start": round(current_time, 2)
             })
             print(f"  [フェーズ] {item['section']}", flush=True)
+        elif itype == "cue":
+            chime_path = get_chime_wav()
+            dur = get_audio_duration(str(chime_path))
+            wav_files.append(chime_path)
+
+            timeline.append({
+                "type": "cue",
+                "section": section,
+                "start": round(current_time, 2),
+                "duration": round(dur, 2),
+                "end": round(current_time + dur, 2)
+            })
+            current_time += dur
+            print(f"    - 合図チャイム音 ({dur:.1f}s)", flush=True)
         elif itype == "text":
             txt = item["text"]
             wav_path = synthesize_text(txt, force_engine=force_engine, voice_name=voice_name)
