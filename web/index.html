@@ -34,8 +34,8 @@
         <span class="badge-calendar" id="recommendDayText">まいにちリハビリ</span>
         <span class="badge-time" id="recommendTimeText">約12分</span>
       </div>
-      <h2 class="recommend-course-title" id="recommendCourseTitle">まいにち基本コース（声・腕・足）</h2>
-      <p class="recommend-course-desc" id="recommendCourseDesc">寝たきりのお母様に最も効果的で安全な、声・腕・足の厳選メニューを順番に行います。</p>
+      <h2 class="recommend-course-title" id="recommendCourseTitle">まいにち基本コース（呼吸・声・手腕肩・足）</h2>
+      <p class="recommend-course-desc" id="recommendCourseDesc">呼吸と咳、声、手足の関節をひと通り行います。</p>
       
       <button class="btn-start-today" id="btnStartToday">
         <span class="btn-icon">▶</span>
@@ -125,110 +125,144 @@
       </div>
     </section>
 
-    <!-- 足のリハビリ（安全な自動運動）ガイドカード -->
+    <!-- 疲れすぎのサイン（最優先の安全ルール） -->
     <section class="section-container">
       <div class="leg-guide-card">
         <div class="leg-guide-header">
-          <span class="leg-guide-icon">🦵</span>
-          <h3 class="leg-guide-title">足のリハビリ：なぜ「足首の曲げ伸ばし」が最優先なのか</h3>
+          <span class="leg-guide-icon">⚠️</span>
+          <h3 class="leg-guide-title">疲れすぎのサイン（回数を減らす目安）</h3>
         </div>
         <p class="leg-guide-intro">
-          寝たきり期のお母様にとって、「足首の曲げ伸ばし」は小さな力で最大の予防効果を生み出す最も安全で重要なリハビリです。
+          ALS では「頑張るほど良くなる」は当てはまりません。弱っている筋肉は使いすぎると、かえって弱ることがあります。次のどれかがあれば、翌日から回数を減らすか、朝・夕に分けてください。
         </p>
-
-        <!-- 3大効果 -->
         <div class="leg-methods-grid">
-          <div class="method-box">
-            <div class="method-tag" style="background:#e0f2fe; color:#0369a1;">① 尖足（せんそく）・拘縮の予防</div>
-            <div class="method-text">
-              重力や掛け布団の重みでつま先が下を向いたままになると、アキレス腱が固まる「尖足」が起きます。意識的に手前に反らすことで腱の短縮を防ぎます。
-            </div>
-          </div>
-          <div class="method-box">
-            <div class="method-tag" style="background:#dcfce7; color:#15803d;">② 筋ポンプ作用（血流改善・血栓予防）</div>
-            <div class="method-text">
-              ふくらはぎは「第2の心臓」です。足首を動かすことで静脈血を心臓へ送り返し、寝たきりで生じやすいむくみ（浮腫）や深部静脈血栓症を予防します。
-            </div>
-          </div>
-          <div class="method-box">
-            <div class="method-tag" style="background:#fef3c7; color:#b45309;">③ 過用性筋力低下を防ぐ低負荷</div>
-            <div class="method-text">
-              脚全体を持ち上げる運動は疲労が溜まりやすいですが、足首の運動は比較的小さな力で行えるため、神経や筋肉への過剰な負担を回避できます。
-            </div>
-          </div>
-        </div>
-
-        <!-- 実践ステップ -->
-        <div style="margin-top: 14px;">
-          <h4 style="font-size:0.95rem; font-weight:700; color:#0f172a; margin-bottom:8px;">👣 ステップ・バイ・ステップの実践手順</h4>
-          <div class="leg-methods-grid">
-            <div class="method-box">
-              <div class="method-tag" style="background:#f1f5f9; color:#475569;">ステップ1：準備</div>
-              <div class="method-text">
-                <strong>掛け布団のチェック：</strong>足先の上に重い掛け布団がかかっていると抵抗になります。足元を少し浮かせるか、めくっておきます。仰向けで全身リラックス。
-              </div>
-            </div>
-            <div class="method-box">
-              <div class="method-tag" style="background:#e0f2fe; color:#0369a1;">ステップ2：息を吐いて手前（背屈）</div>
-              <div class="method-text">
-                息をゆっくり吐きながら、つま先をお顔・すねへ引き上げます。ふくらはぎ裏やすねに軽い張りを感じたら<strong>1〜2秒キープ</strong>。
-              </div>
-            </div>
-            <div class="method-box">
-              <div class="method-tag" style="background:#e0e7ff; color:#4338ca;">ステップ3：息を吸って遠く（底屈）</div>
-              <div class="method-text">
-                息を吸いながら、バレエのつま先立ちのように足先を遠くへ伸ばします。ふくらはぎが軽く収縮したら<strong>1〜2秒キープ</strong>。
-              </div>
-            </div>
-            <div class="method-box">
-              <div class="method-tag" style="background:#fef2f2; color:#b91c1c;">ステップ4：力を完全に抜いて休息</div>
-              <div class="method-text">
-                連続で行わず、1回ごとに足の力をフッと完全に抜きます。この<strong>「脱力の時間」</strong>が、筋肉の過度な疲労やこわばりを防ぐために重要です。
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="leg-point-box" style="margin-top: 12px;">
-          <strong>💡 大切なポイント</strong>
-          ほんの少ししか動かなくても、「動かそう」とする神経のサインを送ること自体が素晴らしい刺激になります。翌日に疲れを残さないよう、5回程度を1日に2〜3回、心地よい範囲で行いましょう。
+          <div class="method-box"><div class="method-text">① 終わって <strong>30 分以上</strong>、疲れやだるさが残る</div></div>
+          <div class="method-box"><div class="method-text">② <strong>翌日</strong>までだるさや力の入りにくさが残る</div></div>
+          <div class="method-box"><div class="method-text">③ 手足が<strong>つる（こむら返り）</strong>、ピクピクが増えた</div></div>
+          <div class="method-box"><div class="method-text">④ 息苦しさ・ふらつき・痛みが出た → <strong>その場で中止</strong></div></div>
         </div>
       </div>
     </section>
 
-    <!-- 腕のリハビリ（本人だけでやる3つ）ガイドカード -->
+    <!-- 呼吸と咳 -->
+    <section class="section-container">
+      <div class="leg-guide-card">
+        <div class="leg-guide-header">
+          <span class="leg-guide-icon">🫁</span>
+          <h3 class="leg-guide-title">呼吸と咳の練習：成果を最大化するポイント</h3>
+        </div>
+        <p class="leg-guide-intro">
+          息をしっかり吐き切ってから3回吸い重ね、最後に「お腹を手で軽く押しながら」咳をして痰を出しやすくします。
+        </p>
+        <div class="leg-methods-grid">
+          <div class="method-box">
+            <div class="method-tag" style="background:#dcfce7; color:#15803d;">最大の成果を出す工夫：セルフアシスト咳</div>
+            <div class="method-text">ALSでは腹筋が弱り、喉だけで咳をしても痰が上がらず喉を痛めます。息をためたあと、<strong>「お腹に置いた両手で軽くグッと押しながら咳をする」</strong>ことで腹圧が補われ、咳の力（CPF）が劇的に跳ね上がって痰が出しやすくなります。</div>
+          </div>
+          <div class="method-box">
+            <div class="method-tag" style="background:#e0f2fe; color:#0369a1;">吸い重ね（エアスタッキング）</div>
+            <div class="method-text">ストローで吸うように少しずつ胸を広げます。のどから空気が漏れても焦る必要はありません。胸郭の柔軟性を保ち、肺の奥が潰れる（無気肺）のを防ぎます。うまく吸えない時は<strong>息溜め用バッグ</strong>の利用を主治医に相談してください。</div>
+          </div>
+          <div class="method-box">
+            <div class="method-tag" style="background:#fef2f2; color:#b91c1c;">できないこと</div>
+            <div class="method-text">運動によって肺活量の低下そのものを食い止める効果は確認されていません。呼吸器の導入時期などは、定期的な病院の検査と主治医の判断を仰いでください。</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 声 -->
+    <section class="section-container">
+      <div class="leg-guide-card">
+        <div class="leg-guide-header">
+          <span class="leg-guide-icon">🗣️</span>
+          <h3 class="leg-guide-title">声のリハビリ：鍛えるより「脱力」「4大重要語」「声の保存」</h3>
+        </div>
+        <p class="leg-guide-intro">
+          舌や口を力いっぱい動かす筋トレは過用性疲労を招くだけで逆効果です。喉の緊張を抜き、最小の息で最も大事な意思を伝える練習を行います。
+        </p>
+        <div class="leg-methods-grid">
+          <div class="method-box">
+            <div class="method-tag" style="background:#e0f2fe; color:#0369a1;">ため息発声法 ＆ 4大重要フレーズ</div>
+            <div class="method-text">「はぁー」とため息に息を乗せて喉を緩めたあと、<strong>「はい」「いいえ」「痛い」「ありがとう」</strong>を最初の音を意識してひと息でポンと短く伝えます。声が出ない日は<strong>口の形を意識する（運動イメージ）だけ</strong>で神経経路が維持されます。</div>
+          </div>
+          <div class="method-box">
+            <div class="method-tag" style="background:#fef3c7; color:#b45309;">いちばん大切なこと：声の保存</div>
+            <div class="method-text"><strong>話せるうちに、自分の声を録音して保存しておく</strong>こと（ボイスバンキング）が強く推奨されます。保存した声は、将来の意思伝達装置からご自身の声で話すために活用できます。</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 手・腕・肩 -->
     <section class="section-container">
       <div class="leg-guide-card">
         <div class="leg-guide-header">
           <span class="leg-guide-icon">💪</span>
-          <h3 class="leg-guide-title">腕と手のリハビリ：毎日の愛護的ケア（約5分半）</h3>
+          <h3 class="leg-guide-title">手・腕・肩のリハビリ：解剖学に基づく拘縮・疼痛の防止</h3>
         </div>
         <p class="leg-guide-intro">
-          イスに座っても、ベッドで仰向けでも行えます。重い筋トレは行わず、手指のこわばりや関節の固まりを防ぐ安全な運動です。息を止めずにゆったり行いましょう。
+          筋力強化ではなく、<strong>関節が固まるのを防ぎ、肩の激痛（インピンジメント・凍結肩）を絶対に起こさない</strong>ための運動です。
         </p>
         <div class="leg-methods-grid">
           <div class="method-box">
-            <div class="method-tag" style="background:#e0f2fe; color:#0369a1;">① 指のグーパー運動（5回🤲）</div>
-            <div class="method-text">
-              指を「パー✋」でふわっと開き、「グー✊」で優しく握ります。動きにくい指があれば反対の手でそっと手伝いましょう。手指のこわばりをほぐし血流を促します。
-            </div>
+            <div class="method-tag" style="background:#e0f2fe; color:#0369a1;">① 親指の水かきストレッチ ＆ 手のひら上向き</div>
+            <div class="method-text">ALSは親指の付け根が痩せて内側に固まりやすいため、親指と人差し指の間をしっかり開いて保ちます。また手のひらを上に向ける（回外）運動で、操作性や清拭のしやすさを守ります。</div>
           </div>
           <div class="method-box">
-            <div class="method-tag" style="background:#dcfce7; color:#15803d;">② 手首の曲げ伸ばし（5回💫）</div>
-            <div class="method-text">
-              手首をゆっくり上へ「1・2」、下へ「1・2」と動かします。無理に曲げず、動く範囲で優しく行い、1回ごとに力を抜いてお休みします。
-            </div>
+            <div class="method-tag" style="background:#dcfce7; color:#15803d;">② 肩すくめ ＆ 肩甲骨寄せ・胸開き</div>
+            <div class="method-text">肩をすくめるだけでなく、肩を後ろに引いて胸を開く（肩甲骨を寄せる）ことで、ベッド上での巻き肩・猫背を防ぎ、呼吸のしやすさにも直結します。</div>
           </div>
           <div class="method-box">
-            <div class="method-tag" style="background:#fef3c7; color:#b45309;">③ 肘の優しい曲げ伸ばし（各3回🌿）</div>
-            <div class="method-text">
-              【右腕・左腕】反対側の手で優しく肘や手首を支えながら、ゆっくり曲げて伸ばします。関節可動域を保ち、肩や腕の重だるさを和らげます。
-            </div>
+            <div class="method-tag" style="background:#fef2f2; color:#b91c1c;">③ 最重要安全：親指を天井に向けて腕上げ</div>
+            <div class="method-text">手のひらを下に向けて腕を上げると、骨と腱が挟み込まれて肩を痛めます（インピンジメント）。必ず<strong>「親指を天井に向けた状態」でおでこの高さまで</strong>。頭より上には無理に上げません。</div>
           </div>
         </div>
-        <div class="leg-point-box">
-          <strong>💡 頻度と安全のルール</strong>
-          疲労や翌日のだるさを防ぐため、回数は少なく「毎日心地よく続けられる範囲」に設計されています。体調に合わせていつでもお休みしてください。
+      </div>
+    </section>
+
+    <!-- 足 -->
+    <section class="section-container">
+      <div class="leg-guide-card">
+        <div class="leg-guide-header">
+          <span class="leg-guide-icon">🦵</span>
+          <h3 class="leg-guide-title">足と足首のリハビリ：血流促進・こむら返り予防・腰の脱力</h3>
+        </div>
+        <p class="leg-guide-intro">
+          足指のグーパー、足首の曲げ伸ばし、かかとすべらせに加え、膝と腰をゆらして骨盤の緊張をほぐします。
+        </p>
+        <div class="leg-methods-grid">
+          <div class="method-box">
+            <div class="method-tag" style="background:#dcfce7; color:#15803d;">① 足指グーパー ＆ 膝腰ゆらゆら</div>
+            <div class="method-text">足指を丸めてパッと開くことで末梢血流が温まり、足がつる（こむら返り）のを防ぎます。膝を立てて左右に小さくゆらゆら揺らすことで、ベッド上での腰の強張りと仙骨部の圧迫をやわらげます。</div>
+          </div>
+          <div class="method-box">
+            <div class="method-tag" style="background:#e0f2fe; color:#0369a1;">② 足首曲げ伸ばしと「運動イメージ」</div>
+            <div class="method-text">動かなくても<strong>「頭の中で持ち上げるイメージ（運動企図）」を持つだけで、脳から神経への伝達経路が維持</strong>されます。無理に力を入れず、ふくらはぎの伸びを感じる程度で行います。</div>
+          </div>
+          <div class="method-box">
+            <div class="method-tag" style="background:#fef2f2; color:#b91c1c;">介助の方へ：尖足の予防</div>
+            <div class="method-text">足首が下を向いたまま固まる（尖足）のを防ぐには、介助者がかかとを包んで足の裏をゆっくり30秒ほどすね側へ押すストレッチや、掛け布団の重みを取る工夫（フットボードやクッション）が有効です。</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 主治医・リハ職に相談すること -->
+    <section class="section-container">
+      <div class="leg-guide-card">
+        <div class="leg-guide-header">
+          <span class="leg-guide-icon">🩺</span>
+          <h3 class="leg-guide-title">主治医・リハの先生に相談したいこと</h3>
+        </div>
+        <p class="leg-guide-intro">
+          アプリでできることには限りがあります。次の 4 つは、効果が大きいのに家庭だけでは始めにくいものです。
+        </p>
+        <div class="leg-methods-grid">
+          <div class="method-box"><div class="method-text">① <strong>息溜め用のバッグ</strong>や、咳を助ける機械（カフアシスト）が使えるか</div></div>
+          <div class="method-box"><div class="method-text">② <strong>ボイスバンキング</strong>（自分の声の保存）と、意思伝達装置の準備をいつ始めるか</div></div>
+          <div class="method-box"><div class="method-text">③ 足首が固まるのを防ぐ<strong>装具・クッション</strong>と、介助者がゆっくり伸ばす方法</div></div>
+          <div class="method-box"><div class="method-text">④ このアプリの<strong>回数・内容</strong>が今の状態に合っているか（このページを見せてください）</div></div>
         </div>
       </div>
     </section>

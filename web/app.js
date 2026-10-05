@@ -229,7 +229,7 @@ function updateMediaSession(track) {
   if ('mediaSession' in navigator) {
     navigator.mediaSession.metadata = new MediaMetadata({
       title: track.title,
-      artist: "リハ・アシスト（声・腕・足）",
+      artist: "リハ・アシスト（呼吸・声・手足）",
       album: "まいにちリハビリ",
       artwork: [
         { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
@@ -325,10 +325,14 @@ audio.addEventListener("timeupdate", () => {
 
   let activeItem = null;
   let activeSection = null;
+  let lastSpeech = null;   // 現在位置より前で最後に話した案内文
 
   for (const it of tData.timeline) {
     if (it.type === "section" && current >= it.start) {
       activeSection = it.title;
+    }
+    if (it.type === "speech" && current >= it.start) {
+      lastSpeech = it;
     }
     if ((it.type === "speech" || it.type === "silence" || it.type === "cue") && current >= it.start && current <= it.end) {
       activeItem = it;
@@ -349,44 +353,44 @@ audio.addEventListener("timeupdate", () => {
       speechCaption.textContent = "🔔（合図音）";
     } else if (activeItem.type === "speech") {
       speechCaption.textContent = `「${activeItem.text}」`;
-      const txt = activeItem.text;
-      if (txt.includes("吸って") || txt.includes("吸い")) {
-        guideCircle.className = "guide-circle inhale";
-        guideActionText.textContent = "吸う";
-        guideCountdown.textContent = remaining > 0 ? remaining : "";
-      } else if (txt.includes("止め") || txt.includes("保ち") || txt.includes("キープ")) {
-        guideCircle.className = "guide-circle hold";
-        guideActionText.textContent = "保つ";
-        guideCountdown.textContent = remaining > 0 ? remaining : "";
-      } else if (txt.includes("吐") || txt.includes("ふう")) {
-        guideCircle.className = "guide-circle exhale";
-        guideActionText.textContent = "吐く";
-        guideCountdown.textContent = remaining > 0 ? remaining : "";
-      } else {
-        guideCircle.className = "guide-circle";
-        guideActionText.textContent = "案内中";
-        guideCountdown.textContent = "";
-      }
+      const k = classifyInstruction(activeItem.text);
+      guideCircle.className = `guide-circle ${k.cls}`.trim();
+      guideActionText.textContent = k.kind === "info" ? "案内中" : k.label;
+      guideCountdown.textContent = "";
     } else if (activeItem.type === "silence") {
-      const secName = activeItem.section || "";
-      if (secName.includes("インターバル") || secName.includes("休息") || activeItem.duration >= 10) {
+      const k = lastSpeech ? classifyInstruction(lastSpeech.text) : { kind: "info", cls: "", label: "案内中" };
+      if (k.kind === "rest" && activeItem.duration >= 10) {
         guideCircle.className = "guide-circle rest";
         guideActionText.textContent = "休憩中";
         guideCountdown.textContent = `${remaining}秒`;
         speechCaption.textContent = `（楽な呼吸でお休みください… 残り${remaining}秒）`;
-      } else if (secName.includes("サイクル") || activeItem.duration <= 8) {
-        guideCircle.className = "guide-circle hold";
-        guideActionText.textContent = "キープ";
-        guideCountdown.textContent = `${remaining}秒`;
-      } else {
+      } else if (k.kind === "info") {
         guideCircle.className = "guide-circle";
-        guideActionText.textContent = "ゆっくり";
-        guideCountdown.textContent = `${remaining}`;
+        guideActionText.textContent = "案内中";
+        guideCountdown.textContent = "";
+      } else {
+        guideCircle.className = `guide-circle ${k.cls}`.trim();
+        guideActionText.textContent = k.label;
+        guideCountdown.textContent = `${remaining}秒`;
       }
     }
   }
 });
 
+// 案内文から「今なにをする時間か」を判定する（無音中は直前の案内文で判定）
+function classifyInstruction(txt) {
+  const t = txt.replace(/[\s]+$/, "");
+  if (t.includes("ハッ")) return { kind: "exhale", cls: "exhale", label: "咳" };
+  if (t.includes("脱力")) return { kind: "rest", cls: "rest", label: "脱力" };
+  if (/(です|ね|よ)[。！]?$/.test(t)) return { kind: "info", cls: "", label: "案内中" };
+  if (t.includes("「")) return { kind: "move", cls: "exhale", label: "声を出す" };
+  if (t.includes("息を出") || t.includes("吐")) return { kind: "exhale", cls: "exhale", label: "吐く" };
+  if (t.includes("吸って") || t.includes("吸い")) return { kind: "inhale", cls: "inhale", label: "吸う" };
+  if (t.includes("抜") || t.includes("お休み") || t.includes("楽に")) return { kind: "rest", cls: "rest", label: "脱力" };
+  if (t.includes("止め") || t.includes("保ち") || t.includes("キープ") || t.includes("そのまま")) return { kind: "hold", cls: "hold", label: "キープ" };
+  if (/ます[。]?$/.test(t) && !/(握ります|伸ばします|戻します|落とします|開きます|揺らします)[。]?$/.test(t)) return { kind: "info", cls: "", label: "案内中" };
+  return { kind: "move", cls: "", label: "ゆっくり動かす" };
+}
 // 曲終了時のキュー進行処理
 audio.addEventListener("ended", () => {
   if (currentQueueIndex + 1 < currentQueue.length) {
