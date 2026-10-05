@@ -1,6 +1,6 @@
 {
   "title": "breathing_air_stacking.xml",
-  "total_duration": 244.63,
+  "total_duration": 304.36,
   "voice": "VOICEPEAK (Japanese Female 2)",
   "timeline": [
     {
@@ -20,680 +20,860 @@
       "type": "silence",
       "section": "導入・準備フェーズ",
       "start": 3.37,
-      "duration": 2.5,
-      "end": 5.87
+      "duration": 3.0,
+      "end": 6.37
     },
     {
       "type": "speech",
       "text": "背もたれを、少し起こした楽な姿勢にしてくださいね。",
       "section": "導入・準備フェーズ",
-      "start": 5.87,
+      "start": 6.37,
       "duration": 4.34,
-      "end": 10.21
+      "end": 10.71
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 10.21,
-      "duration": 3.5,
-      "end": 13.71
+      "start": 10.71,
+      "duration": 4.0,
+      "end": 14.71
     },
     {
       "type": "speech",
-      "text": "肩の力を抜いて、両手はお腹の上に、そっと重ねて置きます。",
+      "text": "肩の力を抜いて、手はお腹の上や、楽な位置にそっと置いておきます。",
       "section": "導入・準備フェーズ",
-      "start": 13.71,
-      "duration": 5.65,
-      "end": 19.36
+      "start": 14.71,
+      "duration": 6.06,
+      "end": 20.78
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 19.36,
-      "duration": 3.5,
-      "end": 22.86
+      "start": 20.78,
+      "duration": 4.0,
+      "end": 24.78
     },
     {
       "type": "speech",
       "text": "途中でふらっとしたり、息苦しくなったら、いつでも普段の呼吸に戻して、お休みしてくださいね。",
       "section": "導入・準備フェーズ",
-      "start": 22.86,
+      "start": 24.78,
       "duration": 8.08,
-      "end": 30.94
+      "end": 32.86
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 30.94,
-      "duration": 3.5,
-      "end": 34.44
+      "start": 32.86,
+      "duration": 4.0,
+      "end": 36.86
     },
     {
       "type": "speech",
       "text": "まずは、お腹の中の空気を、口からふーっと、やさしく吐き出してみましょう。",
       "section": "導入・準備フェーズ",
-      "start": 34.44,
+      "start": 36.86,
       "duration": 6.57,
-      "end": 41.02
+      "end": 43.43
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 41.02,
-      "duration": 1.0,
-      "end": 42.02
+      "start": 43.43,
+      "duration": 1.5,
+      "end": 44.93
     },
     {
       "type": "cue",
       "section": "導入・準備フェーズ",
-      "start": 42.02,
+      "start": 44.93,
       "duration": 0.7,
-      "end": 42.72
+      "end": 45.63
     },
     {
       "type": "speech",
       "text": "口をすぼめて、息をぜんぶ、吐き出します。",
       "section": "導入・準備フェーズ",
-      "start": 42.72,
+      "start": 45.63,
       "duration": 4.0,
-      "end": 46.72
+      "end": 49.63
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 46.72,
-      "duration": 4.0,
-      "end": 50.72
+      "start": 49.63,
+      "duration": 4.5,
+      "end": 54.13
     },
     {
       "type": "speech",
       "text": "力を抜いて、鼻から自然に息を吸って。",
       "section": "導入・準備フェーズ",
-      "start": 50.72,
+      "start": 54.13,
       "duration": 3.83,
-      "end": 54.55
+      "end": 57.97
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 54.55,
-      "duration": 3.0,
-      "end": 57.55
+      "start": 57.97,
+      "duration": 3.5,
+      "end": 61.47
     },
     {
       "type": "speech",
       "text": "自然に息を出します。",
       "section": "導入・準備フェーズ",
-      "start": 57.55,
+      "start": 61.47,
       "duration": 2.07,
-      "end": 59.63
+      "end": 63.54
     },
     {
       "type": "silence",
       "section": "導入・準備フェーズ",
-      "start": 59.63,
-      "duration": 4.5,
-      "end": 64.13
+      "start": 63.54,
+      "duration": 5.0,
+      "end": 68.54
     },
     {
       "type": "section",
       "title": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 64.13
+      "start": 68.54
     },
     {
       "type": "speech",
       "text": "1回目です。ストローで吸うように、息を少しずつ吸い重ねて、胸をふんわり広げていきます。",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 64.13,
+      "start": 68.54,
       "duration": 8.08,
-      "end": 72.21
+      "end": 76.62
     },
     {
       "type": "silence",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 72.21,
-      "duration": 3.5,
-      "end": 75.71
+      "start": 76.62,
+      "duration": 4.0,
+      "end": 80.62
     },
     {
       "type": "speech",
-      "text": "のどから空気が少し漏れても、まったく問題ありませんよ。",
+      "text": "のどから空気が少し漏れても、まったく問題ありませんよ。ご自身のペースで大丈夫です。",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 75.71,
-      "duration": 4.67,
-      "end": 80.38
+      "start": 80.62,
+      "duration": 7.35,
+      "end": 87.97
     },
     {
       "type": "silence",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 80.38,
-      "duration": 2.5,
-      "end": 82.88
+      "start": 87.97,
+      "duration": 3.0,
+      "end": 90.97
     },
     {
       "type": "cue",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 82.88,
+      "start": 90.97,
       "duration": 0.7,
-      "end": 83.58
+      "end": 91.67
     },
     {
       "type": "speech",
       "text": "まずは、吸って。",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 83.58,
+      "start": 91.67,
       "duration": 1.88,
-      "end": 85.46
+      "end": 93.56
     },
     {
       "type": "silence",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 85.46,
-      "duration": 2.5,
-      "end": 87.96
+      "start": 93.56,
+      "duration": 3.5,
+      "end": 97.06
     },
     {
       "type": "speech",
       "text": "のどを閉じて、止めます。",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 87.96,
+      "start": 97.06,
       "duration": 2.29,
-      "end": 90.25
+      "end": 99.34
     },
     {
       "type": "silence",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 90.25,
-      "duration": 2.0,
-      "end": 92.25
+      "start": 99.34,
+      "duration": 2.5,
+      "end": 101.84
     },
     {
       "type": "speech",
       "text": "もうひと口、吸って。",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 92.25,
+      "start": 101.84,
       "duration": 2.18,
-      "end": 94.43
+      "end": 104.03
     },
     {
       "type": "silence",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 94.43,
-      "duration": 2.5,
-      "end": 96.93
+      "start": 104.03,
+      "duration": 3.5,
+      "end": 107.53
     },
     {
       "type": "speech",
       "text": "止めます。",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 96.93,
+      "start": 107.53,
       "duration": 1.15,
-      "end": 98.09
+      "end": 108.68
     },
     {
       "type": "silence",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 98.09,
-      "duration": 2.0,
-      "end": 100.09
+      "start": 108.68,
+      "duration": 2.5,
+      "end": 111.18
     },
     {
       "type": "speech",
       "text": "最後に、小さくもうひと口、吸って。",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 100.09,
+      "start": 111.18,
       "duration": 3.77,
-      "end": 103.85
+      "end": 114.95
     },
     {
       "type": "silence",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 103.85,
-      "duration": 2.5,
-      "end": 106.35
+      "start": 114.95,
+      "duration": 3.0,
+      "end": 117.95
     },
     {
       "type": "speech",
-      "text": "そのまま胸を保ちます。1、2、3。",
+      "text": "そのまま胸を保ちます。",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 106.35,
-      "duration": 4.3,
-      "end": 110.66
+      "start": 117.95,
+      "duration": 2.28,
+      "end": 120.23
     },
     {
       "type": "silence",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 110.66,
+      "start": 120.23,
       "duration": 1.0,
-      "end": 111.66
+      "end": 121.23
+    },
+    {
+      "type": "speech",
+      "text": "いーち。",
+      "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
+      "start": 121.23,
+      "duration": 1.06,
+      "end": 122.3
+    },
+    {
+      "type": "silence",
+      "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
+      "start": 122.3,
+      "duration": 1.2,
+      "end": 123.5
+    },
+    {
+      "type": "speech",
+      "text": "にー。",
+      "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
+      "start": 123.5,
+      "duration": 0.84,
+      "end": 124.34
+    },
+    {
+      "type": "silence",
+      "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
+      "start": 124.34,
+      "duration": 1.2,
+      "end": 125.54
+    },
+    {
+      "type": "speech",
+      "text": "さーん。",
+      "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
+      "start": 125.54,
+      "duration": 1.12,
+      "end": 126.66
+    },
+    {
+      "type": "silence",
+      "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
+      "start": 126.66,
+      "duration": 1.5,
+      "end": 128.16
     },
     {
       "type": "cue",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 111.66,
+      "start": 128.16,
       "duration": 0.7,
-      "end": 112.36
+      "end": 128.86
     },
     {
       "type": "speech",
       "text": "力をふっと抜いて、自然に息を出します。",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 112.36,
+      "start": 128.86,
       "duration": 3.82,
-      "end": 116.18
+      "end": 132.68
     },
     {
       "type": "silence",
       "section": "サイクル1: 吸い重ね（胸郭の柔軟性・肺胞拡張）",
-      "start": 116.18,
-      "duration": 6.0,
-      "end": 122.18
+      "start": 132.68,
+      "duration": 7.0,
+      "end": 139.68
     },
     {
       "type": "section",
       "title": "インターバル1（休息）",
-      "start": 122.18
+      "start": 139.68
     },
     {
       "type": "speech",
       "text": "楽にしてくださいね。普段通りの静かな呼吸で、お休みします。",
       "section": "インターバル1（休息）",
-      "start": 122.18,
+      "start": 139.68,
       "duration": 5.71,
-      "end": 127.89
+      "end": 145.4
     },
     {
       "type": "silence",
       "section": "インターバル1（休息）",
-      "start": 127.89,
-      "duration": 15.0,
-      "end": 142.89
+      "start": 145.4,
+      "duration": 18.0,
+      "end": 163.4
     },
     {
       "type": "section",
       "title": "サイクル2: 吸い重ね",
-      "start": 142.89
+      "start": 163.4
     },
     {
       "type": "speech",
       "text": "2回目です。同じように、胸を気持ちよく広げていきましょう。",
       "section": "サイクル2: 吸い重ね",
-      "start": 142.89,
+      "start": 163.4,
       "duration": 5.59,
-      "end": 148.49
+      "end": 168.99
     },
     {
       "type": "silence",
       "section": "サイクル2: 吸い重ね",
-      "start": 148.49,
-      "duration": 3.0,
-      "end": 151.49
+      "start": 168.99,
+      "duration": 3.5,
+      "end": 172.49
     },
     {
       "type": "cue",
       "section": "サイクル2: 吸い重ね",
-      "start": 151.49,
+      "start": 172.49,
       "duration": 0.7,
-      "end": 152.19
+      "end": 173.19
     },
     {
       "type": "speech",
       "text": "吸って。",
       "section": "サイクル2: 吸い重ね",
-      "start": 152.19,
+      "start": 173.19,
       "duration": 1.13,
-      "end": 153.32
+      "end": 174.32
     },
     {
       "type": "silence",
       "section": "サイクル2: 吸い重ね",
-      "start": 153.32,
-      "duration": 2.5,
-      "end": 155.82
+      "start": 174.32,
+      "duration": 3.5,
+      "end": 177.82
     },
     {
       "type": "speech",
       "text": "止めます。",
       "section": "サイクル2: 吸い重ね",
-      "start": 155.82,
+      "start": 177.82,
       "duration": 1.15,
-      "end": 156.97
+      "end": 178.98
     },
     {
       "type": "silence",
       "section": "サイクル2: 吸い重ね",
-      "start": 156.97,
-      "duration": 2.0,
-      "end": 158.97
+      "start": 178.98,
+      "duration": 2.5,
+      "end": 181.48
     },
     {
       "type": "speech",
       "text": "もうひと口、吸って。",
       "section": "サイクル2: 吸い重ね",
-      "start": 158.97,
+      "start": 181.48,
       "duration": 2.18,
-      "end": 161.16
+      "end": 183.66
     },
     {
       "type": "silence",
       "section": "サイクル2: 吸い重ね",
-      "start": 161.16,
-      "duration": 2.5,
-      "end": 163.66
+      "start": 183.66,
+      "duration": 3.5,
+      "end": 187.16
     },
     {
       "type": "speech",
       "text": "止めます。",
       "section": "サイクル2: 吸い重ね",
-      "start": 163.66,
+      "start": 187.16,
       "duration": 1.15,
-      "end": 164.81
+      "end": 188.32
     },
     {
       "type": "silence",
       "section": "サイクル2: 吸い重ね",
-      "start": 164.81,
-      "duration": 2.0,
-      "end": 166.81
+      "start": 188.32,
+      "duration": 2.5,
+      "end": 190.82
     },
     {
       "type": "speech",
       "text": "最後に、もうひと口、吸って。",
       "section": "サイクル2: 吸い重ね",
-      "start": 166.81,
+      "start": 190.82,
       "duration": 3.25,
-      "end": 170.07
+      "end": 194.07
     },
     {
       "type": "silence",
       "section": "サイクル2: 吸い重ね",
-      "start": 170.07,
-      "duration": 2.5,
-      "end": 172.57
+      "start": 194.07,
+      "duration": 3.0,
+      "end": 197.07
     },
     {
       "type": "speech",
-      "text": "そのまま保ちます。1、2、3。",
+      "text": "そのまま保ちます。",
       "section": "サイクル2: 吸い重ね",
-      "start": 172.57,
-      "duration": 3.84,
-      "end": 176.41
+      "start": 197.07,
+      "duration": 1.86,
+      "end": 198.93
     },
     {
       "type": "silence",
       "section": "サイクル2: 吸い重ね",
-      "start": 176.41,
+      "start": 198.93,
       "duration": 1.0,
-      "end": 177.41
+      "end": 199.93
+    },
+    {
+      "type": "speech",
+      "text": "いーち。",
+      "section": "サイクル2: 吸い重ね",
+      "start": 199.93,
+      "duration": 1.06,
+      "end": 200.99
+    },
+    {
+      "type": "silence",
+      "section": "サイクル2: 吸い重ね",
+      "start": 200.99,
+      "duration": 1.2,
+      "end": 202.19
+    },
+    {
+      "type": "speech",
+      "text": "にー。",
+      "section": "サイクル2: 吸い重ね",
+      "start": 202.19,
+      "duration": 0.84,
+      "end": 203.04
+    },
+    {
+      "type": "silence",
+      "section": "サイクル2: 吸い重ね",
+      "start": 203.04,
+      "duration": 1.2,
+      "end": 204.24
+    },
+    {
+      "type": "speech",
+      "text": "さーん。",
+      "section": "サイクル2: 吸い重ね",
+      "start": 204.24,
+      "duration": 1.12,
+      "end": 205.36
+    },
+    {
+      "type": "silence",
+      "section": "サイクル2: 吸い重ね",
+      "start": 205.36,
+      "duration": 1.5,
+      "end": 206.86
     },
     {
       "type": "cue",
       "section": "サイクル2: 吸い重ね",
-      "start": 177.41,
+      "start": 206.86,
       "duration": 0.7,
-      "end": 178.11
+      "end": 207.56
     },
     {
       "type": "speech",
       "text": "力を抜いて、自然に息を出します。",
       "section": "サイクル2: 吸い重ね",
-      "start": 178.11,
+      "start": 207.56,
       "duration": 3.41,
-      "end": 181.51
+      "end": 210.97
     },
     {
       "type": "silence",
       "section": "サイクル2: 吸い重ね",
-      "start": 181.51,
-      "duration": 6.0,
-      "end": 187.51
+      "start": 210.97,
+      "duration": 7.0,
+      "end": 217.97
     },
     {
       "type": "section",
       "title": "インターバル2（休息）",
-      "start": 187.51
+      "start": 217.97
     },
     {
       "type": "speech",
       "text": "楽にしてください。肩の力を抜いて、普段の呼吸に戻します。",
       "section": "インターバル2（休息）",
-      "start": 187.51,
+      "start": 217.97,
       "duration": 5.78,
-      "end": 193.29
+      "end": 223.75
     },
     {
       "type": "silence",
       "section": "インターバル2（休息）",
-      "start": 193.29,
-      "duration": 15.0,
-      "end": 208.29
+      "start": 223.75,
+      "duration": 18.0,
+      "end": 241.75
     },
     {
       "type": "section",
-      "title": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 208.29
+      "title": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 241.75
     },
     {
       "type": "speech",
-      "text": "3回目は、最後に咳をします。",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 208.29,
-      "duration": 3.21,
-      "end": 211.5
+      "text": "3回目は、息を吸い重ねたあとに、咳払いをしてみましょう。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 241.75,
+      "duration": 5.36,
+      "end": 247.11
     },
     {
       "type": "silence",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 211.5,
-      "duration": 2.5,
-      "end": 214.0
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 247.11,
+      "duration": 3.5,
+      "end": 250.61
     },
     {
       "type": "speech",
-      "text": "胸に空気をためたら、お腹の上に置いた両手で、お腹を軽くグッと押しながら咳をします。",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 214.0,
-      "duration": 7.68,
-      "end": 221.68
+      "text": "胸に空気をためたら、息を「ハッ」と前に吐き出します。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 250.61,
+      "duration": 4.73,
+      "end": 255.33
     },
     {
       "type": "silence",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 221.68,
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 255.33,
+      "duration": 3.5,
+      "end": 258.83
+    },
+    {
+      "type": "speech",
+      "text": "手でお腹を押す必要はありませんよ。息を「ハッ」と出すだけで、十分な練習になります。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 258.83,
+      "duration": 7.46,
+      "end": 266.29
+    },
+    {
+      "type": "silence",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 266.29,
       "duration": 4.0,
-      "end": 225.68
+      "end": 270.29
     },
     {
       "type": "speech",
-      "text": "手でお腹を支えると、少ない力で強い咳が出て、痰が出しやすくなりますよ。",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 225.68,
-      "duration": 6.79,
-      "end": 232.47
+      "text": "もし介助の方がいらっしゃる場合は、お腹を軽く支えてもらうと、より楽に咳が出せますよ。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 270.29,
+      "duration": 7.6,
+      "end": 277.89
     },
     {
       "type": "silence",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 232.47,
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 277.89,
       "duration": 4.0,
-      "end": 236.47
+      "end": 281.89
     },
     {
       "type": "cue",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 236.47,
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 281.89,
       "duration": 0.7,
-      "end": 237.17
+      "end": 282.59
     },
     {
       "type": "speech",
-      "text": "吸って。",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 237.17,
-      "duration": 1.13,
-      "end": 238.3
+      "text": "まずは、吸って。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 282.59,
+      "duration": 1.88,
+      "end": 284.47
     },
     {
       "type": "silence",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 238.3,
-      "duration": 2.5,
-      "end": 240.8
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 284.47,
+      "duration": 3.5,
+      "end": 287.97
     },
     {
       "type": "speech",
       "text": "止めます。",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 240.8,
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 287.97,
       "duration": 1.15,
-      "end": 241.96
+      "end": 289.13
     },
     {
       "type": "silence",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 241.96,
-      "duration": 2.0,
-      "end": 243.96
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 289.13,
+      "duration": 2.5,
+      "end": 291.63
     },
     {
       "type": "speech",
       "text": "もうひと口、吸って。",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 243.96,
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 291.63,
       "duration": 2.18,
-      "end": 246.14
+      "end": 293.81
     },
     {
       "type": "silence",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 246.14,
-      "duration": 2.5,
-      "end": 248.64
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 293.81,
+      "duration": 3.5,
+      "end": 297.31
     },
     {
       "type": "speech",
       "text": "止めます。",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 248.64,
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 297.31,
       "duration": 1.15,
-      "end": 249.8
+      "end": 298.47
     },
     {
       "type": "silence",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 249.8,
-      "duration": 2.0,
-      "end": 251.8
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 298.47,
+      "duration": 2.5,
+      "end": 300.97
     },
     {
       "type": "speech",
       "text": "最後に、もうひと口、吸って。",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 251.8,
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 300.97,
       "duration": 3.25,
-      "end": 255.05
+      "end": 304.22
     },
     {
       "type": "silence",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 255.05,
-      "duration": 2.5,
-      "end": 257.55
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 304.22,
+      "duration": 3.0,
+      "end": 307.22
     },
     {
       "type": "speech",
-      "text": "そのまま、1、2。",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 257.55,
-      "duration": 2.71,
-      "end": 260.27
+      "text": "そのまま保ちます。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 307.22,
+      "duration": 1.86,
+      "end": 309.08
     },
     {
       "type": "silence",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 260.27,
-      "duration": 0.5,
-      "end": 260.77
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 309.08,
+      "duration": 1.0,
+      "end": 310.08
+    },
+    {
+      "type": "speech",
+      "text": "いーち。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 310.08,
+      "duration": 1.06,
+      "end": 311.14
+    },
+    {
+      "type": "silence",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 311.14,
+      "duration": 1.2,
+      "end": 312.34
+    },
+    {
+      "type": "speech",
+      "text": "にー。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 312.34,
+      "duration": 0.84,
+      "end": 313.19
+    },
+    {
+      "type": "silence",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 313.19,
+      "duration": 1.2,
+      "end": 314.39
+    },
+    {
+      "type": "speech",
+      "text": "さーん。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 314.39,
+      "duration": 1.12,
+      "end": 315.51
+    },
+    {
+      "type": "silence",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 315.51,
+      "duration": 1.5,
+      "end": 317.01
     },
     {
       "type": "cue",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 260.77,
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 317.01,
       "duration": 0.7,
-      "end": 261.47
+      "end": 317.71
     },
     {
       "type": "speech",
-      "text": "はい、お腹を軽く押しながら、ハッ。",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 261.47,
-      "duration": 3.41,
-      "end": 264.88
+      "text": "はい、息を前に、ハッ。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 317.71,
+      "duration": 2.66,
+      "end": 320.37
     },
     {
       "type": "silence",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 264.88,
-      "duration": 4.0,
-      "end": 268.88
-    },
-    {
-      "type": "speech",
-      "text": "とてもお上手です。痰が出てきたら、ティッシュでやさしく拭き取りましょうね。",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 268.88,
-      "duration": 5.83,
-      "end": 274.71
-    },
-    {
-      "type": "silence",
-      "section": "サイクル3: セルフアシスト咳（排痰力最大化）",
-      "start": 274.71,
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 320.37,
       "duration": 5.0,
-      "end": 279.71
+      "end": 325.37
+    },
+    {
+      "type": "speech",
+      "text": "とてもお上手でしたね。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 325.37,
+      "duration": 1.97,
+      "end": 327.34
+    },
+    {
+      "type": "silence",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 327.34,
+      "duration": 3.0,
+      "end": 330.34
+    },
+    {
+      "type": "speech",
+      "text": "痰が出たり、喉に絡んだときは、ご自身で取ろうと無理をなさらないでくださいね。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 330.34,
+      "duration": 6.46,
+      "end": 336.79
+    },
+    {
+      "type": "silence",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 336.79,
+      "duration": 4.0,
+      "end": 340.79
+    },
+    {
+      "type": "speech",
+      "text": "ご家族や介助の方に拭き取ってもらったり、吸引してもらってください。そのまま待っていて大丈夫ですからね。",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 340.79,
+      "duration": 8.15,
+      "end": 348.94
+    },
+    {
+      "type": "silence",
+      "section": "サイクル3: 呼吸と咳の練習（排痰のサポート）",
+      "start": 348.94,
+      "duration": 5.0,
+      "end": 353.94
     },
     {
       "type": "section",
       "title": "終了フェーズ",
-      "start": 279.71
+      "start": 353.94
     },
     {
       "type": "speech",
       "text": "呼吸の練習は、これで終了です。",
       "section": "終了フェーズ",
-      "start": 279.71,
+      "start": 353.94,
       "duration": 3.35,
-      "end": 283.06
+      "end": 357.29
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 283.06,
-      "duration": 2.5,
-      "end": 285.56
+      "start": 357.29,
+      "duration": 3.0,
+      "end": 360.29
     },
     {
       "type": "speech",
       "text": "普段通りの、楽な呼吸を続けてくださいね。",
       "section": "終了フェーズ",
-      "start": 285.56,
+      "start": 360.29,
       "duration": 3.99,
-      "end": 289.55
+      "end": 364.28
     },
     {
       "type": "silence",
       "section": "終了フェーズ",
-      "start": 289.55,
-      "duration": 3.0,
-      "end": 292.55
+      "start": 364.28,
+      "duration": 3.5,
+      "end": 367.78
     },
     {
       "type": "speech",
       "text": "胸とお腹が心地よく動きましたね。どうぞ、ゆっくりお休みください。",
       "section": "終了フェーズ",
-      "start": 292.55,
+      "start": 367.78,
       "duration": 6.07,
-      "end": 298.63
+      "end": 373.86
     }
   ]
 }

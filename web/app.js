@@ -352,14 +352,26 @@ audio.addEventListener("timeupdate", () => {
       guideCountdown.textContent = "";
       speechCaption.textContent = "🔔（合図音）";
     } else if (activeItem.type === "speech") {
-      speechCaption.textContent = `「${activeItem.text}」`;
       const k = classifyInstruction(activeItem.text);
-      guideCircle.className = `guide-circle ${k.cls}`.trim();
-      guideActionText.textContent = k.kind === "info" ? "案内中" : k.label;
-      guideCountdown.textContent = "";
+      if (k.kind === "count") {
+        speechCaption.textContent = `「${activeItem.text}」`;
+        guideCircle.className = `guide-circle ${k.cls}`.trim();
+        guideActionText.textContent = k.label;
+        guideCountdown.textContent = k.count;
+      } else {
+        speechCaption.textContent = `「${activeItem.text}」`;
+        guideCircle.className = `guide-circle ${k.cls}`.trim();
+        guideActionText.textContent = k.kind === "info" ? "案内中" : k.label;
+        guideCountdown.textContent = "";
+      }
     } else if (activeItem.type === "silence") {
       const k = lastSpeech ? classifyInstruction(lastSpeech.text) : { kind: "info", cls: "", label: "案内中" };
-      if (k.kind === "rest" && activeItem.duration >= 10) {
+      if (k.kind === "count") {
+        guideCircle.className = `guide-circle ${k.cls}`.trim();
+        guideActionText.textContent = k.label;
+        guideCountdown.textContent = k.count;
+        speechCaption.textContent = `（キープ… ${k.count}）`;
+      } else if (k.kind === "rest" && activeItem.duration >= 10) {
         guideCircle.className = "guide-circle rest";
         guideActionText.textContent = "休憩中";
         guideCountdown.textContent = `${remaining}秒`;
@@ -379,15 +391,28 @@ audio.addEventListener("timeupdate", () => {
 
 // 案内文から「今なにをする時間か」を判定する（無音中は直前の案内文で判定）
 function classifyInstruction(txt) {
+  if (!txt) return { kind: "info", cls: "", label: "案内中" };
   const t = txt.replace(/[\s]+$/, "");
+
+  // カウント（1、2、3 / いーち、にー、さーん 等）
+  if (/^(いーち|にー|さーん|[1-5１-５])[。！]?$/.test(t)) {
+    const numMap = {
+      "いーち": "1", "にー": "2", "さーん": "3",
+      "1": "1", "2": "2", "3": "3", "4": "4", "5": "5",
+      "１": "1", "２": "2", "３": "3", "４": "4", "５": "5"
+    };
+    const key = t.replace(/[。！]/g, "");
+    return { kind: "count", cls: "hold", label: "キープ", count: numMap[key] || key };
+  }
+
   if (t.includes("ハッ")) return { kind: "exhale", cls: "exhale", label: "咳" };
   if (t.includes("脱力")) return { kind: "rest", cls: "rest", label: "脱力" };
-  if (/(です|ね|よ)[。！]?$/.test(t)) return { kind: "info", cls: "", label: "案内中" };
-  if (t.includes("「")) return { kind: "move", cls: "exhale", label: "声を出す" };
-  if (t.includes("息を出") || t.includes("吐")) return { kind: "exhale", cls: "exhale", label: "吐く" };
-  if (t.includes("吸って") || t.includes("吸い")) return { kind: "inhale", cls: "inhale", label: "吸う" };
-  if (t.includes("抜") || t.includes("お休み") || t.includes("楽に")) return { kind: "rest", cls: "rest", label: "脱力" };
   if (t.includes("止め") || t.includes("保ち") || t.includes("キープ") || t.includes("そのまま")) return { kind: "hold", cls: "hold", label: "キープ" };
+  if (t.includes("息を出") || t.includes("吐") || t.includes("ぜんぶ")) return { kind: "exhale", cls: "exhale", label: "吐く" };
+  if (t.includes("吸って") || t.includes("吸い") || t.includes("吸う")) return { kind: "inhale", cls: "inhale", label: "吸う" };
+  if (t.includes("抜") || t.includes("お休み") || t.includes("楽に")) return { kind: "rest", cls: "rest", label: "脱力" };
+  if (t.includes("「")) return { kind: "move", cls: "exhale", label: "声を出す" };
+  if (/(です|ね|よ)[。！]?$/.test(t)) return { kind: "info", cls: "", label: "案内中" };
   if (/ます[。]?$/.test(t) && !/(握ります|伸ばします|戻します|落とします|開きます|揺らします)[。]?$/.test(t)) return { kind: "info", cls: "", label: "案内中" };
   return { kind: "move", cls: "", label: "ゆっくり動かす" };
 }

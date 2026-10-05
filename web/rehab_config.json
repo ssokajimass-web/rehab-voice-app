@@ -3,12 +3,12 @@
     "breathing": {
       "id": "breathing",
       "title": "呼吸と咳の練習",
-      "subtitle": "息を吐いてから吸い重ね、お腹を押す咳で痰を出しやすく",
+      "subtitle": "息を吐いてから吸い重ね、咳払いで痰を出しやすく",
       "icon": "🫁",
       "audioSrc": "audio/breathing.mp3",
       "timelineSrc": "audio/breathing_timeline.json",
-      "duration": 245,
-      "durationLabel": "約4分"
+      "duration": 304,
+      "durationLabel": "約5分"
     },
     "voice": {
       "id": "voice",
@@ -45,7 +45,7 @@
     {
       "id": "daily_main",
       "name": "まいにち基本コース（呼吸・声・手腕肩・足）",
-      "timeLabel": "約21分半",
+      "timeLabel": "約22分半",
       "description": "呼吸と咳、声、手足の関節をひと通り行います。疲れやすい日は、下の「朝」と「夕」に分けて行ってください。",
       "icon": "🌟",
       "tracks": [
@@ -58,7 +58,7 @@
     {
       "id": "morning",
       "name": "朝コース（呼吸＋声）",
-      "timeLabel": "約7分半",
+      "timeLabel": "約8分半",
       "description": "朝の痰を出しやすくし、声を出す準備をします。",
       "icon": "🌅",
       "tracks": [
@@ -80,7 +80,7 @@
     {
       "id": "breath_only",
       "name": "呼吸と咳だけ",
-      "timeLabel": "約4分",
+      "timeLabel": "約5分",
       "description": "痰がからむ時や、短く済ませたい日に。",
       "icon": "🫁",
       "tracks": [
